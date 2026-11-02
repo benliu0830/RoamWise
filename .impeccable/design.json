@@ -1,0 +1,374 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-01T00:21:07.777Z",
+  "title": "Design System: Roamwise",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "Charcoal Ink",
+        "canonical": "#202d2c",
+        "tonalRamp": [
+          "oklch(15% 0.0177 190.34)",
+          "oklch(27% 0.0177 190.34)",
+          "oklch(39% 0.0177 190.34)",
+          "oklch(51% 0.0177 190.34)",
+          "oklch(63% 0.0177 190.34)",
+          "oklch(75% 0.0177 190.34)",
+          "oklch(87% 0.0177 190.34)",
+          "oklch(95% 0.0177 190.34)"
+        ],
+        "rampSource": "Synthesized OKLCH preview metadata; not application colors."
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Soft Muted Ink",
+        "canonical": "#5c6b68",
+        "tonalRamp": [
+          "oklch(15% 0.0187 182.16)",
+          "oklch(27% 0.0187 182.16)",
+          "oklch(39% 0.0187 182.16)",
+          "oklch(51% 0.0187 182.16)",
+          "oklch(63% 0.0187 182.16)",
+          "oklch(75% 0.0187 182.16)",
+          "oklch(87% 0.0187 182.16)",
+          "oklch(95% 0.0187 182.16)"
+        ],
+        "rampSource": "Synthesized OKLCH preview metadata; not application colors."
+      },
+      "teal": {
+        "role": "primary",
+        "displayName": "Muted Teal",
+        "canonical": "#246b64",
+        "tonalRamp": [
+          "oklch(15% 0.0705 185.97)",
+          "oklch(27% 0.0705 185.97)",
+          "oklch(39% 0.0705 185.97)",
+          "oklch(51% 0.0705 185.97)",
+          "oklch(63% 0.0705 185.97)",
+          "oklch(75% 0.0705 185.97)",
+          "oklch(87% 0.0705 185.97)",
+          "oklch(95% 0.0705 185.97)"
+        ],
+        "rampSource": "Synthesized OKLCH preview metadata; not application colors."
+      },
+      "teal-dark": {
+        "role": "primary",
+        "displayName": "Deep Teal",
+        "canonical": "#1b514c",
+        "tonalRamp": [
+          "oklch(15% 0.0569 186.65)",
+          "oklch(27% 0.0569 186.65)",
+          "oklch(39% 0.0569 186.65)",
+          "oklch(51% 0.0569 186.65)",
+          "oklch(63% 0.0569 186.65)",
+          "oklch(75% 0.0569 186.65)",
+          "oklch(87% 0.0569 186.65)",
+          "oklch(95% 0.0569 186.65)"
+        ],
+        "rampSource": "Synthesized OKLCH preview metadata; not application colors."
+      },
+      "mint": {
+        "role": "neutral",
+        "displayName": "Mint Surface",
+        "canonical": "#eaf2ef",
+        "tonalRamp": [
+          "oklch(15% 0.0094 171.80)",
+          "oklch(27% 0.0094 171.80)",
+          "oklch(39% 0.0094 171.80)",
+          "oklch(51% 0.0094 171.80)",
+          "oklch(63% 0.0094 171.80)",
+          "oklch(75% 0.0094 171.80)",
+          "oklch(87% 0.0094 171.80)",
+          "oklch(95% 0.0094 171.80)"
+        ],
+        "rampSource": "Synthesized OKLCH preview metadata; not application colors."
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Off-white Paper",
+        "canonical": "#fafbf8",
+        "tonalRamp": [
+          "oklch(15% 0.0041 121.56)",
+          "oklch(27% 0.0041 121.56)",
+          "oklch(39% 0.0041 121.56)",
+          "oklch(51% 0.0041 121.56)",
+          "oklch(63% 0.0041 121.56)",
+          "oklch(75% 0.0041 121.56)",
+          "oklch(87% 0.0041 121.56)",
+          "oklch(95% 0.0041 121.56)"
+        ],
+        "rampSource": "Synthesized OKLCH preview metadata; not application colors."
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Quiet Line",
+        "canonical": "#dde4df",
+        "tonalRamp": [
+          "oklch(15% 0.0101 155.08)",
+          "oklch(27% 0.0101 155.08)",
+          "oklch(39% 0.0101 155.08)",
+          "oklch(51% 0.0101 155.08)",
+          "oklch(63% 0.0101 155.08)",
+          "oklch(75% 0.0101 155.08)",
+          "oklch(87% 0.0101 155.08)",
+          "oklch(95% 0.0101 155.08)"
+        ],
+        "rampSource": "Synthesized OKLCH preview metadata; not application colors."
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White Surface",
+        "canonical": "#fff",
+        "tonalRamp": [
+          "oklch(15% 0.0000 89.88)",
+          "oklch(27% 0.0000 89.88)",
+          "oklch(39% 0.0000 89.88)",
+          "oklch(51% 0.0000 89.88)",
+          "oklch(63% 0.0000 89.88)",
+          "oklch(75% 0.0000 89.88)",
+          "oklch(87% 0.0000 89.88)",
+          "oklch(95% 0.0000 89.88)"
+        ],
+        "rampSource": "Synthesized OKLCH preview metadata; not application colors."
+      },
+      "danger": {
+        "role": "error",
+        "displayName": "Error Ink",
+        "canonical": "#9d3428",
+        "tonalRamp": [
+          "oklch(15% 0.1419 29.73)",
+          "oklch(27% 0.1419 29.73)",
+          "oklch(39% 0.1419 29.73)",
+          "oklch(51% 0.1419 29.73)",
+          "oklch(63% 0.1419 29.73)",
+          "oklch(75% 0.1419 29.73)",
+          "oklch(87% 0.1419 29.73)",
+          "oklch(95% 0.1419 29.73)"
+        ],
+        "rampSource": "Synthesized OKLCH preview metadata; not application colors."
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "display",
+        "purpose": "Source role documented in DESIGN.md; contextual overrides remain in CSS."
+      },
+      "headline": {
+        "displayName": "headline",
+        "purpose": "Source role documented in DESIGN.md; contextual overrides remain in CSS."
+      },
+      "title": {
+        "displayName": "title",
+        "purpose": "Source role documented in DESIGN.md; contextual overrides remain in CSS."
+      },
+      "body": {
+        "displayName": "body",
+        "purpose": "Source role documented in DESIGN.md; contextual overrides remain in CSS."
+      },
+      "label": {
+        "displayName": "label",
+        "purpose": "Source role documented in DESIGN.md; contextual overrides remain in CSS."
+      }
+    },
+    "shadows": [
+      {
+        "name": "surface",
+        "value": "0 8px 28px #203d2d0b",
+        "purpose": "Shared search, form, place, saved-plan shadow."
+      },
+      {
+        "name": "view-active",
+        "value": "0 2px 5px #182b1c08",
+        "purpose": "View toggle."
+      },
+      {
+        "name": "favorite",
+        "value": "0 2px 7px #152b241a",
+        "purpose": "Photo favorite control."
+      },
+      {
+        "name": "marker",
+        "value": "0 3px 10px #173b3440",
+        "purpose": "Map pin."
+      },
+      {
+        "name": "toast",
+        "value": "0 6px 30px #0002",
+        "purpose": "Status toast."
+      },
+      {
+        "name": "mobile-nav",
+        "value": "0 14px 22px #19392a10",
+        "purpose": "Expanded navigation."
+      },
+      {
+        "name": "map-message",
+        "value": "0 3px 12px #163d3020",
+        "purpose": "Tile failure message."
+      }
+    ],
+    "motion": [
+      {
+        "name": "button-transition",
+        "value": "background 0.18s, transform 0.18s",
+        "purpose": "Button hover."
+      },
+      {
+        "name": "card-transition",
+        "value": "transform 0.2s",
+        "purpose": "Card hover."
+      },
+      {
+        "name": "photo-transition",
+        "value": "transform 0.6s",
+        "purpose": "Photo hover."
+      },
+      {
+        "name": "landscape-entrance",
+        "value": "landscape 1.2s cubic-bezier(0.16, 1, 0.3, 1) both",
+        "purpose": "Hero entrance."
+      },
+      {
+        "name": "spinner",
+        "value": "spin 1s linear infinite",
+        "purpose": "Loading."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "phone",
+        "value": "540px",
+        "query": "(max-width: 540px)"
+      },
+      {
+        "name": "tablet",
+        "value": "780px",
+        "query": "(max-width: 780px)"
+      },
+      {
+        "name": "compact-desktop",
+        "value": "1100px",
+        "query": "(max-width: 1100px)"
+      },
+      {
+        "name": "large-desktop",
+        "value": "1500px",
+        "query": "(min-width: 1500px)"
+      }
+    ],
+    "accessibility": {
+      "focusRing": "3px solid #3d8880",
+      "focusOffset": "4px",
+      "reducedMotion": "Disable animations/transitions and smooth scrolling at prefers-reduced-motion: reduce."
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Source variant, including inherited hover and global focus.",
+      "html": "<button class=\"ds-button-primary\">Find my places</button>",
+      "css": ".ds-button-primary{font-family:Manrope,'Segoe UI',sans-serif;font-size:15px;font-weight:650;line-height:1.6;border:0;border-radius:8px;padding:13px 22px;display:inline-flex;align-items:center;justify-content:center;gap:11px;cursor:pointer;text-decoration:none;transition:background .18s,transform .18s;background:var(--teal,#246b64);color:white;}.ds-button-primary:hover{background:var(--teal-dark,#1b514c);transform:translateY(-1px)}.ds-button-primary:focus-visible{outline:3px solid #3d8880;outline-offset:4px}.ds-button-primary:disabled{cursor:wait;opacity:.65}@media(prefers-reduced-motion:reduce){.ds-button-primary{transition:none}}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Source variant, including inherited hover and global focus.",
+      "html": "<button class=\"ds-button-secondary\">View details</button>",
+      "css": ".ds-button-secondary{font-family:Manrope,'Segoe UI',sans-serif;font-size:15px;font-weight:650;line-height:1.6;border:0;border-radius:8px;padding:13px 22px;display:inline-flex;align-items:center;justify-content:center;gap:11px;cursor:pointer;text-decoration:none;transition:background .18s,transform .18s;background:white;color:var(--ink,#202d2c);border:1px solid var(--line,#dde4df);}.ds-button-secondary:hover{background:var(--mint,#eaf2ef);transform:translateY(-1px)}.ds-button-secondary:focus-visible{outline:3px solid #3d8880;outline-offset:4px}.ds-button-secondary:disabled{cursor:wait;opacity:.65}@media(prefers-reduced-motion:reduce){.ds-button-secondary{transition:none}}"
+    },
+    {
+      "name": "Quiet Button",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Source quiet variant: the later .btn.quiet rule keeps its background transparent on hover; hover lift and global focus still apply.",
+      "html": "<button class=\"ds-button-quiet\">Explore more</button>",
+      "css": ".ds-button-quiet{font-family:Manrope,'Segoe UI',sans-serif;font-size:15px;font-weight:650;line-height:1.6;border:0;border-radius:8px;padding:13px 22px;display:inline-flex;align-items:center;justify-content:center;gap:11px;cursor:pointer;text-decoration:none;transition:background .18s,transform .18s;background:transparent;color:var(--teal,#246b64);padding-left:0;padding-right:0;}.ds-button-quiet:hover{background:transparent;transform:translateY(-1px)}.ds-button-quiet:focus-visible{outline:3px solid #3d8880;outline-offset:4px}.ds-button-quiet:disabled{cursor:wait;opacity:.65}@media(prefers-reduced-motion:reduce){.ds-button-quiet{transition:none}}"
+    },
+    {
+      "name": "Travel Field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Labeled travel input with source field and focus styles.",
+      "html": "<label class=\"ds-field\">Destination<input placeholder=\"Where would you like to go?\"><small>Search by city or region.</small></label>",
+      "css": ".ds-field{font-family:Manrope,'Segoe UI',sans-serif;display:flex;flex-direction:column;gap:7px;font-size:12px;font-weight:650;color:var(--ink,#202d2c)}.ds-field input{font-family:Manrope,'Segoe UI',sans-serif;background:#fcfdfb;border:1px solid #d5ded7;border-radius:7px;padding:11px 12px;color:var(--ink,#202d2c);font-size:14px;min-height:46px;min-width:0;caret-color:var(--teal,#246b64)}.ds-field input::placeholder{color:#6a7770}.ds-field input:focus-visible{outline:3px solid #3d8880;outline-offset:4px}.ds-field small{font-size:11px;font-weight:400;color:var(--muted,#5c6b68)}"
+    },
+    {
+      "name": "Interest Choice",
+      "kind": "chip",
+      "refersTo": "choice",
+      "description": "Native checkbox selection uses the implemented mint treatment.",
+      "html": "<label class=\"ds-choice\"><input type=\"checkbox\" checked>Nature</label>",
+      "css": ".ds-choice{font-family:Manrope,'Segoe UI',sans-serif;display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line,#dde4df);border-radius:7px;padding:9px 12px;cursor:pointer;font-size:12px;background:white;color:var(--ink,#202d2c)}.ds-choice:has(input:checked){background:var(--mint,#eaf2ef);border-color:#89aaa0;color:var(--teal-dark,#1b514c)}.ds-choice input{margin:0;width:13px;height:13px;accent-color:var(--teal,#246b64)}.ds-choice input:focus-visible{outline:3px solid #3d8880;outline-offset:4px}"
+    },
+    {
+      "name": "Place Tag",
+      "kind": "chip",
+      "refersTo": "tag",
+      "description": "Compact indoor-alternative link.",
+      "html": "<a class=\"ds-tag\" href=\"#museum\">Museum alternative</a>",
+      "css": ".ds-tag{font-family:Manrope,'Segoe UI',sans-serif;display:inline-block;background:var(--mint,#eaf2ef);border-radius:5px;padding:4px 9px;font-size:11px;color:var(--teal-dark,#1b514c);text-underline-offset:4px}.ds-tag:focus-visible{outline:3px solid #3d8880;outline-offset:4px}"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "navigation",
+      "description": "Active route and outlined saved control with a count.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Example navigation\"><a class=\"ds-active\" href=\"#tourist\">Tourist mode</a><a href=\"#local\">Local mode</a><a class=\"ds-saved\" href=\"#saved\">Saved <span class=\"ds-count\">2</span></a></nav>",
+      "css": ".ds-nav{font-family:Manrope,'Segoe UI',sans-serif;display:flex;gap:30px;align-items:center;flex-wrap:wrap}.ds-nav a{text-decoration:none;font-size:14px;font-weight:600;color:var(--muted,#5c6b68);padding:9px 0;white-space:nowrap}.ds-nav a.ds-active{color:var(--teal,#246b64)}.ds-nav .ds-saved{border:1px solid var(--line,#dde4df);padding:10px 17px;border-radius:9px;display:flex;gap:9px;align-items:center}.ds-count{font-size:11px;background:var(--mint,#eaf2ef);color:var(--teal-dark,#1b514c);padding:0 6px;min-width:19px;border-radius:20px;text-align:center}.ds-nav a:focus-visible{outline:3px solid #3d8880;outline-offset:4px}"
+    },
+    {
+      "name": "Place Card",
+      "kind": "card",
+      "refersTo": "place-card",
+      "description": "Source surface, facts, and disclosure with its mint photo placeholder.",
+      "html": "<article class=\"ds-card\"><div class=\"ds-photo\"><span class=\"ds-image-note\">Category inspiration photo ? not this place</span></div><div class=\"ds-card-body\"><div class=\"ds-category\">Nature ? outdoor</div><h3><a href=\"#place\">A place to explore</a></h3><p class=\"ds-description\">Discover a retrieved place and check its source details.</p><div class=\"ds-meta\"><strong>Entry cost: Not available</strong><span>Hours: Not available</span></div></div></article>",
+      "css": ".ds-card{font-family:Manrope,'Segoe UI',sans-serif;max-width:340px;min-width:0;background:white;border-radius:var(--radius,14px);overflow:hidden;box-shadow:var(--shadow,0 8px 28px #203d2d0b);transition:transform .2s;color:var(--ink,#202d2c)}.ds-card:hover{transform:translateY(-3px)}.ds-photo{height:190px;position:relative;background:var(--mint,#eaf2ef)}.ds-image-note{position:absolute;bottom:0;left:0;right:0;padding:4px 10px;background:#142d23b8;color:#fff;font-size:11px}.ds-card-body{padding:19px}.ds-category{font-size:11px;color:var(--teal,#246b64);font-weight:700;margin-bottom:7px}.ds-card h3{margin:0;font-size:16px;font-weight:600;letter-spacing:-.02em;line-height:1.45;min-height:46px}.ds-card h3 a{color:inherit;text-decoration:none}.ds-description{font-size:11px;color:var(--muted,#5c6b68);margin:9px 0 0;line-height:1.8;min-height:40px}.ds-meta{margin-top:13px;padding-top:12px;border-top:1px solid var(--line,#dde4df);font-size:11px;display:flex;flex-direction:column;gap:5px;color:var(--muted,#5c6b68)}.ds-meta strong{color:var(--ink,#202d2c);font-weight:600}.ds-card a:focus-visible{outline:3px solid #3d8880;outline-offset:4px}@media(prefers-reduced-motion:reduce){.ds-card{transition:none}}"
+    },
+    {
+      "name": "Itinerary Stop",
+      "kind": "custom",
+      "refersTo": "itinerary-stop",
+      "description": "Tabular time and the source teal timeline point.",
+      "html": "<div class=\"ds-schedule\"><div class=\"ds-time\">09:00</div><div class=\"ds-stop\"><h3><a href=\"#place\">First stop</a></h3><p>60 min suggested visit ? until 10:00</p><p class=\"ds-travel\">12 min estimated walk ? 0.8 km straight line</p></div></div>",
+      "css": ".ds-schedule{font-family:Manrope,'Segoe UI',sans-serif;display:grid;grid-template-columns:55px 1fr;gap:14px;color:var(--ink,#202d2c)}.ds-time{font-size:12px;font-weight:700;padding-top:19px;font-variant-numeric:tabular-nums}.ds-stop{padding:18px 0 20px 20px;border-left:1px solid #bdd0c4;position:relative}.ds-stop:before{content:\"\";width:9px;height:9px;background:var(--teal,#246b64);border:4px solid var(--paper,#fafbf8);border-radius:50%;position:absolute;top:20px;left:-9px}.ds-stop h3{margin:0;font-size:17px;font-weight:600;letter-spacing:-.035em;line-height:1.12}.ds-stop h3 a{color:inherit;text-decoration:none}.ds-stop p{font-size:11px;color:var(--muted,#5c6b68);margin:8px 0 0}.ds-stop .ds-travel{color:var(--teal,#246b64);margin-top:12px}.ds-stop a:focus-visible{outline:3px solid #3d8880;outline-offset:4px}"
+    }
+  ],
+  "narrative": {
+    "northStar": "User-pinned premium light travel",
+    "overview": "Roamwise follows the user's established white/off-white, charcoal, muted-teal travel direction. Airbnb and Google Travel are quality references: generous whitespace, elegant headings, destination photography, rounded cards, and restrained motion. The North Star above describes that established direction; it is not a new creative decision.\n\nLandscape imagery and quiet surfaces invite exploration, while structured labels keep search, place discovery, and itinerary planning understandable. The interface shares one restrained typography and component vocabulary across those tasks.",
+    "keyCharacteristics": [
+      "Light paper and white surfaces with charcoal text.",
+      "Muted teal for actions, selection, and geographic cues.",
+      "Self-hosted Manrope throughout.",
+      "Photographic cards, subtle depth, and responsive grids.",
+      "Explicit labels for inspiration imagery, missing facts, and estimates."
+    ],
+    "rules": [
+      {
+        "name": "The Meaningful Accent Rule",
+        "body": "Use teal to identify actions, selection, and geographic cues while keeping reading surfaces light.",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "**Do** retain the user's light surfaces, charcoal type, muted teal, destination imagery, and Manrope.",
+      "**Do** reuse the existing card, control, spacing, and focus treatments when adding screens.",
+      "**Do** keep inspiration-photo disclosures, unknown facts, and scheduling estimates visible.",
+      "**Do** preserve responsive stacking and reduced-motion support."
+    ],
+    "donts": [
+      "**Don't** introduce a different visual identity without user direction.",
+      "**Don't** present category inspiration imagery as a photo of a retrieved place.",
+      "**Don't** treat source/DOM checks as screenshot or real-device visual approval."
+    ]
+  },
+  "verification": {
+    "evidence": "CSS, HTML shell, and component markup inspected; source/DOM and live API passes reported by the implementation session.",
+    "visual": "Not approved: browser automation bridge failed; no screenshots or real-device checks exist.",
+    "previewLimitation": "Card snippet uses source mint placeholder without external imagery."
+  }
+}

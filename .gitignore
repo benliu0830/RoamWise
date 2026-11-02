@@ -1,0 +1,19 @@
+# Secrets: only the safe template may be committed.
+.env
+.env.*
+!.env.example
+
+# Installed dependencies and generated assets
+node_modules/
+public/vendor/
+dist/
+coverage/
+
+# Machine-specific files and deployment metadata
+.vercel/
+.DS_Store
+Thumbs.db
+*.log
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json

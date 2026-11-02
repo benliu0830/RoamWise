@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#246b64" />
+    <meta
+      name="description"
+      content="Discover real places, find your kind of adventure, and build a smarter travel itinerary with Roamwise."
+    />
+    <title>Roamwise — Discover more. Explore smarter.</title>
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/vendor/leaflet/leaflet.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <script src="/vendor/leaflet/leaflet.js" defer></script>
+    <script type="module" src="/js/app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header" id="header"></header>
+    <main id="main" tabindex="-1"></main>
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <a class="brand" href="#home">roamwise<span class="brand-dot">.</span></a>
+        <p>A little curiosity goes a long way.</p>
+        <a href="#about">About & data sources</a>
+      </div>
+      <div class="footer-bottom">
+        <span>Made for the way you explore.</span
+        ><span
+          >Places:
+          <a href="https://www.geoapify.com/" target="_blank" rel="noopener noreferrer">Geoapify</a>
+          /
+          <a
+            href="https://www.openstreetmap.org/copyright"
+            target="_blank"
+            rel="noopener noreferrer"
+            >OpenStreetMap</a
+          >
+          · Weather:
+          <a href="https://open-meteo.com/" target="_blank" rel="noopener noreferrer"
+            >Open-Meteo</a
+          ></span
+        >
+      </div>
+    </footer>
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
