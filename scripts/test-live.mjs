@@ -21,14 +21,12 @@ async function call(path, body, expected = 200) {
 const health = await call('health');
 assert.equal(health.status, 'ok');
 for (const [query, prefs] of [
-  ['Paris, France', { mode: 'tourist', days: 2, hours: 8, currency: 'EUR', dailyBudget: 100 }],
+  ['Paris, France', { mode: 'tourist', days: 2, hours: 8 }],
   [
     'Ottawa, Canada',
     {
       mode: 'local',
       hours: 3,
-      currency: 'CAD',
-      dailyBudget: 30,
       interests: ['nature', 'food', 'museums']
     }
   ]

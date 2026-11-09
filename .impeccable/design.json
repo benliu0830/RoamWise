@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-01T00:21:07.777Z",
+  "generatedAt": "2026-11-09T05:08:23.063Z",
   "title": "Design System: Roamwise",
   "extensions": {
     "colorMeta": {
@@ -23,18 +23,8 @@
       "muted": {
         "role": "neutral",
         "displayName": "Soft Muted Ink",
-        "canonical": "#5c6b68",
-        "tonalRamp": [
-          "oklch(15% 0.0187 182.16)",
-          "oklch(27% 0.0187 182.16)",
-          "oklch(39% 0.0187 182.16)",
-          "oklch(51% 0.0187 182.16)",
-          "oklch(63% 0.0187 182.16)",
-          "oklch(75% 0.0187 182.16)",
-          "oklch(87% 0.0187 182.16)",
-          "oklch(95% 0.0187 182.16)"
-        ],
-        "rampSource": "Synthesized OKLCH preview metadata; not application colors."
+        "canonical": "#586963",
+        "rampSource": "Canonical source value updated in November 6 refinement; no derived ramp is used by the app."
       },
       "teal": {
         "role": "primary",
@@ -87,34 +77,14 @@
       "paper": {
         "role": "neutral",
         "displayName": "Off-white Paper",
-        "canonical": "#fafbf8",
-        "tonalRamp": [
-          "oklch(15% 0.0041 121.56)",
-          "oklch(27% 0.0041 121.56)",
-          "oklch(39% 0.0041 121.56)",
-          "oklch(51% 0.0041 121.56)",
-          "oklch(63% 0.0041 121.56)",
-          "oklch(75% 0.0041 121.56)",
-          "oklch(87% 0.0041 121.56)",
-          "oklch(95% 0.0041 121.56)"
-        ],
-        "rampSource": "Synthesized OKLCH preview metadata; not application colors."
+        "canonical": "#f7f9f5",
+        "rampSource": "Canonical source value updated in November 6 refinement; no derived ramp is used by the app."
       },
       "line": {
         "role": "neutral",
         "displayName": "Quiet Line",
-        "canonical": "#dde4df",
-        "tonalRamp": [
-          "oklch(15% 0.0101 155.08)",
-          "oklch(27% 0.0101 155.08)",
-          "oklch(39% 0.0101 155.08)",
-          "oklch(51% 0.0101 155.08)",
-          "oklch(63% 0.0101 155.08)",
-          "oklch(75% 0.0101 155.08)",
-          "oklch(87% 0.0101 155.08)",
-          "oklch(95% 0.0101 155.08)"
-        ],
-        "rampSource": "Synthesized OKLCH preview metadata; not application colors."
+        "canonical": "#dce4dd",
+        "rampSource": "Canonical source value updated in November 6 refinement; no derived ramp is used by the app."
       },
       "white": {
         "role": "neutral",
@@ -147,6 +117,90 @@
           "oklch(95% 0.1419 29.73)"
         ],
         "rampSource": "Synthesized OKLCH preview metadata; not application colors."
+      },
+      "category-food": {
+        "role": "category",
+        "displayName": "Food and Cafe Coral",
+        "canonical": "#ba4b2b",
+        "rampSource": "Paired source category accent and tint; no derived ramp is used by the app."
+      },
+      "category-food-tint": {
+        "role": "category-tint",
+        "displayName": "Food and Cafe Coral Tint",
+        "canonical": "#fff0e9",
+        "rampSource": "Paired source category accent and tint; no derived ramp is used by the app."
+      },
+      "category-museums": {
+        "role": "category",
+        "displayName": "Museum and History Purple",
+        "canonical": "#7434ca",
+        "rampSource": "Paired source category accent and tint; no derived ramp is used by the app."
+      },
+      "category-museums-tint": {
+        "role": "category-tint",
+        "displayName": "Museum and History Purple Tint",
+        "canonical": "#f3edff",
+        "rampSource": "Paired source category accent and tint; no derived ramp is used by the app."
+      },
+      "category-landmarks": {
+        "role": "category",
+        "displayName": "Landmark Blue",
+        "canonical": "#2563c9",
+        "rampSource": "Paired source category accent and tint; no derived ramp is used by the app."
+      },
+      "category-landmarks-tint": {
+        "role": "category-tint",
+        "displayName": "Landmark Blue Tint",
+        "canonical": "#edf3ff",
+        "rampSource": "Paired source category accent and tint; no derived ramp is used by the app."
+      },
+      "category-nature": {
+        "role": "category",
+        "displayName": "Nature Green",
+        "canonical": "#247941",
+        "rampSource": "Paired source category accent and tint; no derived ramp is used by the app."
+      },
+      "category-nature-tint": {
+        "role": "category-tint",
+        "displayName": "Nature Green Tint",
+        "canonical": "#eaf5ed",
+        "rampSource": "Paired source category accent and tint; no derived ramp is used by the app."
+      },
+      "category-entertainment": {
+        "role": "category",
+        "displayName": "Entertainment Rose",
+        "canonical": "#bc2369",
+        "rampSource": "Paired source category accent and tint; no derived ramp is used by the app."
+      },
+      "category-entertainment-tint": {
+        "role": "category-tint",
+        "displayName": "Entertainment Rose Tint",
+        "canonical": "#fff0f6",
+        "rampSource": "Paired source category accent and tint; no derived ramp is used by the app."
+      },
+      "category-shopping": {
+        "role": "category",
+        "displayName": "Shopping Amber",
+        "canonical": "#975900",
+        "rampSource": "Paired source category accent and tint; no derived ramp is used by the app."
+      },
+      "category-shopping-tint": {
+        "role": "category-tint",
+        "displayName": "Shopping Amber Tint",
+        "canonical": "#fff5e2",
+        "rampSource": "Paired source category accent and tint; no derived ramp is used by the app."
+      },
+      "category-hidden": {
+        "role": "category",
+        "displayName": "Hidden Gem Teal",
+        "canonical": "#0b7971",
+        "rampSource": "Paired source category accent and tint; no derived ramp is used by the app."
+      },
+      "category-hidden-tint": {
+        "role": "category-tint",
+        "displayName": "Hidden Gem Teal Tint",
+        "canonical": "#e7f5f2",
+        "rampSource": "Paired source category accent and tint; no derived ramp is used by the app."
       }
     },
     "typographyMeta": {
@@ -174,7 +228,7 @@
     "shadows": [
       {
         "name": "surface",
-        "value": "0 8px 28px #203d2d0b",
+        "value": "0 12px 36px #203d2d0c",
         "purpose": "Shared search, form, place, saved-plan shadow."
       },
       {
@@ -184,7 +238,7 @@
       },
       {
         "name": "favorite",
-        "value": "0 2px 7px #152b241a",
+        "value": "0 3px 9px #152b2420",
         "purpose": "Photo favorite control."
       },
       {
@@ -199,13 +253,23 @@
       },
       {
         "name": "mobile-nav",
-        "value": "0 14px 22px #19392a10",
+        "value": "0 12px 24px #19392a12",
         "purpose": "Expanded navigation."
       },
       {
         "name": "map-message",
         "value": "0 3px 12px #163d3020",
         "purpose": "Tile failure message."
+      },
+      {
+        "name": "destination-search",
+        "value": "0 8px 26px #203d2d0d",
+        "purpose": "Home destination search at rest."
+      },
+      {
+        "name": "destination-search-focus",
+        "value": "0 8px 26px #203d2d18",
+        "purpose": "Home destination search with focus within."
       }
     ],
     "motion": [
@@ -237,9 +301,14 @@
     ],
     "breakpoints": [
       {
+        "name": "narrow-phone",
+        "value": "360px",
+        "query": "(max-width: 360px)"
+      },
+      {
         "name": "phone",
-        "value": "540px",
-        "query": "(max-width: 540px)"
+        "value": "600px",
+        "query": "(max-width: 600px)"
       },
       {
         "name": "tablet",
@@ -250,17 +319,47 @@
         "name": "compact-desktop",
         "value": "1100px",
         "query": "(max-width: 1100px)"
-      },
-      {
-        "name": "large-desktop",
-        "value": "1500px",
-        "query": "(min-width: 1500px)"
       }
     ],
     "accessibility": {
       "focusRing": "3px solid #3d8880",
       "focusOffset": "4px",
       "reducedMotion": "Disable animations/transitions and smooth scrolling at prefers-reduced-motion: reduce."
+    },
+    "sourceTokens": {
+      "palette": {
+        "ink": "#202d2c",
+        "muted": "#586963",
+        "teal": "#246b64",
+        "teal-dark": "#1b514c",
+        "mint": "#eaf2ef",
+        "paper": "#f7f9f5",
+        "line": "#dce4dd",
+        "white": "#fff",
+        "danger": "#9d3428",
+        "category-food": "#ba4b2b",
+        "category-food-tint": "#fff0e9",
+        "category-museums": "#7434ca",
+        "category-museums-tint": "#f3edff",
+        "category-landmarks": "#2563c9",
+        "category-landmarks-tint": "#edf3ff",
+        "category-nature": "#247941",
+        "category-nature-tint": "#eaf5ed",
+        "category-entertainment": "#bc2369",
+        "category-entertainment-tint": "#fff0f6",
+        "category-shopping": "#975900",
+        "category-shopping-tint": "#fff5e2",
+        "category-hidden": "#0b7971",
+        "category-hidden-tint": "#e7f5f2"
+      },
+      "radius": "16px",
+      "controlRadius": "10px",
+      "headerHeight": "80px desktop / 72px compact",
+      "display": "clamp(42px, 4.8vw, 66px)",
+      "formFieldHeight": "52px",
+      "placeTitle": "19px desktop / 21px phone",
+      "destinationSearch": "820px max width / 64px desktop / 62px phone",
+      "branchRow": "12px radius / 20px desktop inset / 18px phone inset"
     }
   },
   "components": [
@@ -268,47 +367,47 @@
       "name": "Primary Button",
       "kind": "button",
       "refersTo": "button-primary",
-      "description": "Source variant, including inherited hover and global focus.",
+      "description": "Source-derived component example; final responsive behavior is defined in public/css/styles.css.",
       "html": "<button class=\"ds-button-primary\">Find my places</button>",
-      "css": ".ds-button-primary{font-family:Manrope,'Segoe UI',sans-serif;font-size:15px;font-weight:650;line-height:1.6;border:0;border-radius:8px;padding:13px 22px;display:inline-flex;align-items:center;justify-content:center;gap:11px;cursor:pointer;text-decoration:none;transition:background .18s,transform .18s;background:var(--teal,#246b64);color:white;}.ds-button-primary:hover{background:var(--teal-dark,#1b514c);transform:translateY(-1px)}.ds-button-primary:focus-visible{outline:3px solid #3d8880;outline-offset:4px}.ds-button-primary:disabled{cursor:wait;opacity:.65}@media(prefers-reduced-motion:reduce){.ds-button-primary{transition:none}}"
+      "css": ".ds-button-primary{font-family:Manrope,'Segoe UI',sans-serif;font-size:15px;font-weight:650;line-height:1.6;border:0;border-radius:10px;padding:13px 22px;min-height:48px;display:inline-flex;align-items:center;justify-content:center;gap:11px;cursor:pointer;text-decoration:none;transition:background .18s,transform .18s;background:var(--teal,#246b64);color:white;}.ds-button-primary:hover{background:var(--teal-dark,#1b514c);transform:translateY(-1px)}.ds-button-primary:focus-visible{outline:3px solid #3d8880;outline-offset:4px}.ds-button-primary:disabled{cursor:wait;opacity:.65}@media(prefers-reduced-motion:reduce){.ds-button-primary{transition:none}}"
     },
     {
       "name": "Secondary Button",
       "kind": "button",
       "refersTo": "button-secondary",
-      "description": "Source variant, including inherited hover and global focus.",
+      "description": "Source-derived component example; final responsive behavior is defined in public/css/styles.css.",
       "html": "<button class=\"ds-button-secondary\">View details</button>",
-      "css": ".ds-button-secondary{font-family:Manrope,'Segoe UI',sans-serif;font-size:15px;font-weight:650;line-height:1.6;border:0;border-radius:8px;padding:13px 22px;display:inline-flex;align-items:center;justify-content:center;gap:11px;cursor:pointer;text-decoration:none;transition:background .18s,transform .18s;background:white;color:var(--ink,#202d2c);border:1px solid var(--line,#dde4df);}.ds-button-secondary:hover{background:var(--mint,#eaf2ef);transform:translateY(-1px)}.ds-button-secondary:focus-visible{outline:3px solid #3d8880;outline-offset:4px}.ds-button-secondary:disabled{cursor:wait;opacity:.65}@media(prefers-reduced-motion:reduce){.ds-button-secondary{transition:none}}"
+      "css": ".ds-button-secondary{font-family:Manrope,'Segoe UI',sans-serif;font-size:15px;font-weight:650;line-height:1.6;border:0;border-radius:10px;padding:13px 22px;min-height:48px;display:inline-flex;align-items:center;justify-content:center;gap:11px;cursor:pointer;text-decoration:none;transition:background .18s,transform .18s;background:white;color:var(--ink,#202d2c);border:1px solid var(--line,#dce4dd);}.ds-button-secondary:hover{background:var(--mint,#eaf2ef);transform:translateY(-1px)}.ds-button-secondary:focus-visible{outline:3px solid #3d8880;outline-offset:4px}.ds-button-secondary:disabled{cursor:wait;opacity:.65}@media(prefers-reduced-motion:reduce){.ds-button-secondary{transition:none}}"
     },
     {
       "name": "Quiet Button",
       "kind": "button",
       "refersTo": "button-quiet",
-      "description": "Source quiet variant: the later .btn.quiet rule keeps its background transparent on hover; hover lift and global focus still apply.",
+      "description": "Source-derived component example; final responsive behavior is defined in public/css/styles.css.",
       "html": "<button class=\"ds-button-quiet\">Explore more</button>",
-      "css": ".ds-button-quiet{font-family:Manrope,'Segoe UI',sans-serif;font-size:15px;font-weight:650;line-height:1.6;border:0;border-radius:8px;padding:13px 22px;display:inline-flex;align-items:center;justify-content:center;gap:11px;cursor:pointer;text-decoration:none;transition:background .18s,transform .18s;background:transparent;color:var(--teal,#246b64);padding-left:0;padding-right:0;}.ds-button-quiet:hover{background:transparent;transform:translateY(-1px)}.ds-button-quiet:focus-visible{outline:3px solid #3d8880;outline-offset:4px}.ds-button-quiet:disabled{cursor:wait;opacity:.65}@media(prefers-reduced-motion:reduce){.ds-button-quiet{transition:none}}"
+      "css": ".ds-button-quiet{font-family:Manrope,'Segoe UI',sans-serif;font-size:15px;font-weight:650;line-height:1.6;border:0;border-radius:10px;padding:13px 22px;min-height:48px;display:inline-flex;align-items:center;justify-content:center;gap:11px;cursor:pointer;text-decoration:none;transition:background .18s,transform .18s;background:transparent;color:var(--teal,#246b64);padding-left:0;padding-right:0;}.ds-button-quiet:hover{background:transparent;transform:translateY(-1px)}.ds-button-quiet:focus-visible{outline:3px solid #3d8880;outline-offset:4px}.ds-button-quiet:disabled{cursor:wait;opacity:.65}@media(prefers-reduced-motion:reduce){.ds-button-quiet{transition:none}}"
     },
     {
       "name": "Travel Field",
       "kind": "input",
       "refersTo": "field",
-      "description": "Labeled travel input with source field and focus styles.",
+      "description": "Source-derived component example; final responsive behavior is defined in public/css/styles.css.",
       "html": "<label class=\"ds-field\">Destination<input placeholder=\"Where would you like to go?\"><small>Search by city or region.</small></label>",
-      "css": ".ds-field{font-family:Manrope,'Segoe UI',sans-serif;display:flex;flex-direction:column;gap:7px;font-size:12px;font-weight:650;color:var(--ink,#202d2c)}.ds-field input{font-family:Manrope,'Segoe UI',sans-serif;background:#fcfdfb;border:1px solid #d5ded7;border-radius:7px;padding:11px 12px;color:var(--ink,#202d2c);font-size:14px;min-height:46px;min-width:0;caret-color:var(--teal,#246b64)}.ds-field input::placeholder{color:#6a7770}.ds-field input:focus-visible{outline:3px solid #3d8880;outline-offset:4px}.ds-field small{font-size:11px;font-weight:400;color:var(--muted,#5c6b68)}"
+      "css": ".ds-field{font-family:Manrope,'Segoe UI',sans-serif;display:flex;flex-direction:column;gap:7px;font-size:13px;font-weight:650;color:var(--ink,#202d2c)}.ds-field input{font-family:Manrope,'Segoe UI',sans-serif;background:#fcfdfb;border:1px solid #d5ded7;border-radius:9px;padding:13px 14px;color:var(--ink,#202d2c);font-size:15px;min-height:52px;min-width:0;caret-color:var(--teal,#246b64)}.ds-field input::placeholder{color:#6a7770}.ds-field input:focus-visible{outline:3px solid #3d8880;outline-offset:4px}.ds-field small{font-size:11px;font-weight:400;color:var(--muted,#586963)}"
     },
     {
       "name": "Interest Choice",
       "kind": "chip",
       "refersTo": "choice",
-      "description": "Native checkbox selection uses the implemented mint treatment.",
+      "description": "Source-derived component example; final responsive behavior is defined in public/css/styles.css.",
       "html": "<label class=\"ds-choice\"><input type=\"checkbox\" checked>Nature</label>",
-      "css": ".ds-choice{font-family:Manrope,'Segoe UI',sans-serif;display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line,#dde4df);border-radius:7px;padding:9px 12px;cursor:pointer;font-size:12px;background:white;color:var(--ink,#202d2c)}.ds-choice:has(input:checked){background:var(--mint,#eaf2ef);border-color:#89aaa0;color:var(--teal-dark,#1b514c)}.ds-choice input{margin:0;width:13px;height:13px;accent-color:var(--teal,#246b64)}.ds-choice input:focus-visible{outline:3px solid #3d8880;outline-offset:4px}"
+      "css": ".ds-choice{font-family:Manrope,'Segoe UI',sans-serif;display:inline-flex;align-items:center;gap:7px;border:1px solid var(--line,#dce4dd);border-radius:7px;padding:9px 12px;cursor:pointer;font-size:12px;background:white;color:var(--ink,#202d2c)}.ds-choice:has(input:checked){background:var(--mint,#eaf2ef);border-color:#89aaa0;color:var(--teal-dark,#1b514c)}.ds-choice input{margin:0;width:13px;height:13px;accent-color:var(--teal,#246b64)}.ds-choice input:focus-visible{outline:3px solid #3d8880;outline-offset:4px}"
     },
     {
       "name": "Place Tag",
       "kind": "chip",
       "refersTo": "tag",
-      "description": "Compact indoor-alternative link.",
+      "description": "Source-derived component example; final responsive behavior is defined in public/css/styles.css.",
       "html": "<a class=\"ds-tag\" href=\"#museum\">Museum alternative</a>",
       "css": ".ds-tag{font-family:Manrope,'Segoe UI',sans-serif;display:inline-block;background:var(--mint,#eaf2ef);border-radius:5px;padding:4px 9px;font-size:11px;color:var(--teal-dark,#1b514c);text-underline-offset:4px}.ds-tag:focus-visible{outline:3px solid #3d8880;outline-offset:4px}"
     },
@@ -316,59 +415,84 @@
       "name": "Navigation",
       "kind": "nav",
       "refersTo": "navigation",
-      "description": "Active route and outlined saved control with a count.",
+      "description": "Source-derived component example; final responsive behavior is defined in public/css/styles.css.",
       "html": "<nav class=\"ds-nav\" aria-label=\"Example navigation\"><a class=\"ds-active\" href=\"#tourist\">Tourist mode</a><a href=\"#local\">Local mode</a><a class=\"ds-saved\" href=\"#saved\">Saved <span class=\"ds-count\">2</span></a></nav>",
-      "css": ".ds-nav{font-family:Manrope,'Segoe UI',sans-serif;display:flex;gap:30px;align-items:center;flex-wrap:wrap}.ds-nav a{text-decoration:none;font-size:14px;font-weight:600;color:var(--muted,#5c6b68);padding:9px 0;white-space:nowrap}.ds-nav a.ds-active{color:var(--teal,#246b64)}.ds-nav .ds-saved{border:1px solid var(--line,#dde4df);padding:10px 17px;border-radius:9px;display:flex;gap:9px;align-items:center}.ds-count{font-size:11px;background:var(--mint,#eaf2ef);color:var(--teal-dark,#1b514c);padding:0 6px;min-width:19px;border-radius:20px;text-align:center}.ds-nav a:focus-visible{outline:3px solid #3d8880;outline-offset:4px}"
+      "css": ".ds-nav{font-family:Manrope,'Segoe UI',sans-serif;display:flex;gap:30px;align-items:center;flex-wrap:wrap}.ds-nav a{text-decoration:none;font-size:14px;font-weight:600;color:var(--muted,#586963);padding:9px 0;white-space:nowrap}.ds-nav a.ds-active{color:var(--teal,#246b64)}.ds-nav .ds-saved{border:1px solid var(--line,#dce4dd);padding:10px 17px;border-radius:9px;display:flex;gap:9px;align-items:center}.ds-count{font-size:11px;background:var(--mint,#eaf2ef);color:var(--teal-dark,#1b514c);padding:0 6px;min-width:19px;border-radius:20px;text-align:center}.ds-nav a:focus-visible{outline:3px solid #3d8880;outline-offset:4px}"
     },
     {
       "name": "Place Card",
       "kind": "card",
       "refersTo": "place-card",
-      "description": "Source surface, facts, and disclosure with its mint photo placeholder.",
-      "html": "<article class=\"ds-card\"><div class=\"ds-photo\"><span class=\"ds-image-note\">Category inspiration photo ? not this place</span></div><div class=\"ds-card-body\"><div class=\"ds-category\">Nature ? outdoor</div><h3><a href=\"#place\">A place to explore</a></h3><p class=\"ds-description\">Discover a retrieved place and check its source details.</p><div class=\"ds-meta\"><strong>Entry cost: Not available</strong><span>Hours: Not available</span></div></div></article>",
-      "css": ".ds-card{font-family:Manrope,'Segoe UI',sans-serif;max-width:340px;min-width:0;background:white;border-radius:var(--radius,14px);overflow:hidden;box-shadow:var(--shadow,0 8px 28px #203d2d0b);transition:transform .2s;color:var(--ink,#202d2c)}.ds-card:hover{transform:translateY(-3px)}.ds-photo{height:190px;position:relative;background:var(--mint,#eaf2ef)}.ds-image-note{position:absolute;bottom:0;left:0;right:0;padding:4px 10px;background:#142d23b8;color:#fff;font-size:11px}.ds-card-body{padding:19px}.ds-category{font-size:11px;color:var(--teal,#246b64);font-weight:700;margin-bottom:7px}.ds-card h3{margin:0;font-size:16px;font-weight:600;letter-spacing:-.02em;line-height:1.45;min-height:46px}.ds-card h3 a{color:inherit;text-decoration:none}.ds-description{font-size:11px;color:var(--muted,#5c6b68);margin:9px 0 0;line-height:1.8;min-height:40px}.ds-meta{margin-top:13px;padding-top:12px;border-top:1px solid var(--line,#dde4df);font-size:11px;display:flex;flex-direction:column;gap:5px;color:var(--muted,#5c6b68)}.ds-meta strong{color:var(--ink,#202d2c);font-weight:600}.ds-card a:focus-visible{outline:3px solid #3d8880;outline-offset:4px}@media(prefers-reduced-motion:reduce){.ds-card{transition:none}}"
+      "description": "Discovery card with category identity, image provenance, opening status, and detail action; no monetary fields.",
+      "html": "<article class=\"ds-card\"><div class=\"ds-photo\"><span class=\"ds-image-note\">Category inspiration photo · not this place</span></div><div class=\"ds-card-body\"><span class=\"ds-category\">Nature &amp; parks</span><h3><a href=\"#place\">A place to explore</a></h3><p class=\"ds-description\">Discover a retrieved place and check its source details.</p><div class=\"ds-meta\"><span>Hours: Not available</span><span>0.8 km from your search center</span></div></div></article>",
+      "css": ".ds-card{font-family:Manrope,'Segoe UI',sans-serif;max-width:340px;min-width:0;background:white;border-radius:var(--radius,16px);overflow:hidden;box-shadow:var(--shadow,0 12px 36px #203d2d0c);transition:transform .2s;color:var(--ink,#202d2c)}.ds-card:hover{transform:translateY(-2px)}.ds-photo{aspect-ratio:16/10;position:relative;background:var(--mint,#eaf2ef)}.ds-image-note{position:absolute;bottom:0;left:0;right:0;padding:4px 10px;background:#142d23b8;color:#fff;font-size:12px}.ds-card-body{padding:22px}.ds-category{display:inline-flex;padding:5px 9px;border-radius:6px;background:var(--category-nature-tint,#eaf5ed);color:var(--category-nature,#247941);font-size:11px;font-weight:700;line-height:1.5;margin-bottom:12px}.ds-card h3{margin:0;font-size:19px;font-weight:700;letter-spacing:-.025em;line-height:1.35}.ds-card h3 a{color:inherit;text-decoration:none}.ds-description{font-size:13px;color:var(--muted,#586963);margin:11px 0 0;line-height:1.7;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.ds-meta{margin-top:13px;padding-top:12px;border-top:1px solid var(--line,#dce4dd);font-size:12px;display:flex;flex-direction:column;gap:5px;color:var(--muted,#586963)}.ds-meta strong{color:var(--ink,#202d2c);font-weight:600}.ds-card a:focus-visible{outline:3px solid #3d8880;outline-offset:4px}@media(prefers-reduced-motion:reduce){.ds-card{transition:none}}"
     },
     {
       "name": "Itinerary Stop",
       "kind": "custom",
       "refersTo": "itinerary-stop",
-      "description": "Tabular time and the source teal timeline point.",
+      "description": "Source-derived component example; final responsive behavior is defined in public/css/styles.css.",
       "html": "<div class=\"ds-schedule\"><div class=\"ds-time\">09:00</div><div class=\"ds-stop\"><h3><a href=\"#place\">First stop</a></h3><p>60 min suggested visit ? until 10:00</p><p class=\"ds-travel\">12 min estimated walk ? 0.8 km straight line</p></div></div>",
-      "css": ".ds-schedule{font-family:Manrope,'Segoe UI',sans-serif;display:grid;grid-template-columns:55px 1fr;gap:14px;color:var(--ink,#202d2c)}.ds-time{font-size:12px;font-weight:700;padding-top:19px;font-variant-numeric:tabular-nums}.ds-stop{padding:18px 0 20px 20px;border-left:1px solid #bdd0c4;position:relative}.ds-stop:before{content:\"\";width:9px;height:9px;background:var(--teal,#246b64);border:4px solid var(--paper,#fafbf8);border-radius:50%;position:absolute;top:20px;left:-9px}.ds-stop h3{margin:0;font-size:17px;font-weight:600;letter-spacing:-.035em;line-height:1.12}.ds-stop h3 a{color:inherit;text-decoration:none}.ds-stop p{font-size:11px;color:var(--muted,#5c6b68);margin:8px 0 0}.ds-stop .ds-travel{color:var(--teal,#246b64);margin-top:12px}.ds-stop a:focus-visible{outline:3px solid #3d8880;outline-offset:4px}"
+      "css": ".ds-schedule{font-family:Manrope,'Segoe UI',sans-serif;display:grid;grid-template-columns:55px 1fr;gap:14px;color:var(--ink,#202d2c)}.ds-time{font-size:12px;font-weight:700;padding-top:19px;font-variant-numeric:tabular-nums}.ds-stop{padding:18px 0 20px 20px;border-left:1px solid #bdd0c4;position:relative}.ds-stop:before{content:\"\";width:9px;height:9px;background:var(--teal,#246b64);border:4px solid var(--paper,#f7f9f5);border-radius:50%;position:absolute;top:20px;left:-9px}.ds-stop h3{margin:0;font-size:17px;font-weight:600;letter-spacing:-.035em;line-height:1.12}.ds-stop h3 a{color:inherit;text-decoration:none}.ds-stop p{font-size:11px;color:var(--muted,#586963);margin:8px 0 0}.ds-stop .ds-travel{color:var(--teal,#246b64);margin-top:12px}.ds-stop a:focus-visible{outline:3px solid #3d8880;outline-offset:4px}"
+    },
+    {
+      "name": "Category Chip",
+      "kind": "chip",
+      "refersTo": "category-chip",
+      "description": "Visible discovery filter with a labeled category cue and pressed state.",
+      "html": "<button class=\"ds-category-chip\" aria-pressed=\"true\"><svg viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.7\" aria-hidden=\"true\"><path d=\"M20 4c-7-1-13 2-13 8a5 5 0 0 0 5 5c6 0 9-6 8-13Z\"/><path d=\"M4 21 16 9\"/></svg>Nature &amp; parks</button>",
+      "css": ".ds-category-chip{display:inline-flex;align-items:center;gap:7px;min-height:44px;padding:10px 15px;border:1px solid var(--line,#dce4dd);border-radius:24px;background:white;font:650 12px/1.65 Manrope,sans-serif;color:var(--muted,#586963);cursor:pointer;transition:border-color 180ms,background-color 180ms,color 180ms}.ds-category-chip svg{width:16px;height:16px;color:var(--category-nature,#247941)}.ds-category-chip:hover,.ds-category-chip[aria-pressed=true]{border-color:var(--category-nature,#247941);background:var(--category-nature-tint,#eaf5ed);color:var(--category-nature,#247941)}.ds-category-chip[aria-pressed=true]{box-shadow:inset 0 0 0 1px var(--category-nature,#247941)}.ds-category-chip:focus-visible{outline:3px solid #3d8880;outline-offset:4px}@media(prefers-reduced-motion:reduce){.ds-category-chip{transition:none}}"
+    },
+    {
+      "name": "Branch Row",
+      "kind": "card",
+      "refersTo": "branch-row",
+      "description": "Address-led branch comparison; source photos appear only when supplied for that venue.",
+      "html": "<article class=\"ds-branch-row\"><p class=\"ds-business\">Business name</p><h3>123 Example Street</h3><div class=\"ds-branch-meta\"><strong>0.8 km away</strong><span>Hours not available</span></div><a class=\"ds-branch-link\" href=\"#place\">View details</a></article>",
+      "css": ".ds-branch-row{font-family:Manrope,sans-serif;display:flex;flex-direction:column;padding:20px;border:1px solid var(--line,#dce4dd);border-radius:12px;background:white;color:var(--ink,#202d2c);transition:transform .2s}.ds-branch-row:hover{transform:translateY(-2px)}.ds-business{font-size:11px;color:var(--muted,#586963);margin:0 0 5px}.ds-branch-row h3{font-size:17px;font-weight:650;line-height:1.5;margin:0;overflow-wrap:anywhere}.ds-branch-meta{display:flex;flex-wrap:wrap;gap:8px 16px;margin-top:12px;font-size:12px}.ds-branch-meta strong{font-weight:650;color:var(--teal,#246b64)}.ds-branch-link{display:inline-flex;align-self:flex-start;margin-top:16px;min-height:44px;align-items:center;color:var(--teal,#246b64);font-size:12px;font-weight:650;text-underline-offset:4px}.ds-branch-link:hover{color:var(--teal-dark,#1b514c)}.ds-branch-link:focus-visible{outline:3px solid #3d8880;outline-offset:4px}@media(max-width:600px){.ds-branch-row{padding:18px}.ds-branch-row h3{font-size:16px}}@media(prefers-reduced-motion:reduce){.ds-branch-row{transition:none}}"
     }
   ],
   "narrative": {
     "northStar": "User-pinned premium light travel",
-    "overview": "Roamwise follows the user's established white/off-white, charcoal, muted-teal travel direction. Airbnb and Google Travel are quality references: generous whitespace, elegant headings, destination photography, rounded cards, and restrained motion. The North Star above describes that established direction; it is not a new creative decision.\n\nLandscape imagery and quiet surfaces invite exploration, while structured labels keep search, place discovery, and itinerary planning understandable. The interface shares one restrained typography and component vocabulary across those tasks.",
+    "overview": "Retain the user's white/off-white surfaces, charcoal typography, muted teal, generous whitespace, destination photography, and rounded cards. Airbnb and Google Travel remain quality references. The November 6 refinement improves the existing visual system rather than introducing a different identity.\n\nA centered destination search leads into panoramic landscape photography and a direct Local Mode link. The two modes remain photographic choices. Working screens prioritize readable information, comfortable controls, and clear current navigation. The November 9 extension carries category identity into discovery, maps, and itineraries while keeping detailed information progressively disclosed.",
     "keyCharacteristics": [
-      "Light paper and white surfaces with charcoal text.",
-      "Muted teal for actions, selection, and geographic cues.",
-      "Self-hosted Manrope throughout.",
-      "Photographic cards, subtle depth, and responsive grids.",
-      "Explicit labels for inspiration imagery, missing facts, and estimates."
+      "Light paper and white surfaces with charcoal and muted teal.",
+      "Prominent destination search and direct Local Mode handoff.",
+      "Self-hosted Manrope with comfortable cards and controls.",
+      "Destination photography with explicit image provenance.",
+      "Category cues paired with labels and stroke icons.",
+      "Compact branch comparisons and accessible native disclosures."
     ],
     "rules": [
       {
         "name": "The Meaningful Accent Rule",
-        "body": "Use teal to identify actions, selection, and geographic cues while keeping reading surfaces light.",
+        "body": "Use teal to identify actions and selection while category colors identify place type; keep reading surfaces light.",
         "section": "colors"
+      },
+      {
+        "name": "The Facts Before Detail Rule",
+        "body": "Keep comparison facts readable in results and branch rows; disclose secondary controls and use the venue page for longer sourced content.",
+        "section": "components"
       }
     ],
     "dos": [
-      "**Do** retain the user's light surfaces, charcoal type, muted teal, destination imagery, and Manrope.",
-      "**Do** reuse the existing card, control, spacing, and focus treatments when adding screens.",
-      "**Do** keep inspiration-photo disclosures, unknown facts, and scheduling estimates visible.",
-      "**Do** preserve responsive stacking and reduced-motion support."
+      "**Do** keep the user's light travel identity and use photography with clear provenance.",
+      "**Do** make primary tasks easy to locate; preserve the real data and working routes.",
+      "**Do** keep every destination choice available on mobile.",
+      "**Do** keep controls comfortable, focus visible, and reduced motion supported.",
+      "**Do** pair category colors with readable labels and icons across discovery, maps, and itineraries.",
+      "**Do** keep branch collections focused on address, distance, hours, and usable actions."
     ],
     "donts": [
-      "**Don't** introduce a different visual identity without user direction.",
-      "**Don't** present category inspiration imagery as a photo of a retrieved place.",
-      "**Don't** treat source/DOM checks as screenshot or real-device visual approval."
+      "**Don't** disguise category photography as a photo of the retrieved venue.",
+      "**Don't** treat source, DOM, or contrast calculations as visual browser approval.",
+      "**Don't** add monetary preferences, admission information, prices, or spending constraints to cards, forms, or itineraries."
     ]
   },
   "verification": {
-    "evidence": "CSS, HTML shell, and component markup inspected; source/DOM and live API passes reported by the implementation session.",
-    "visual": "Not approved: browser automation bridge failed; no screenshots or real-device checks exist.",
-    "previewLimitation": "Card snippet uses source mint placeholder without external imagery."
+    "evidence": "November 6 UI refinement: existing 11 automated tests passed; syntax checks passed; main text/button contrast pairs meet 4.5:1.",
+    "visual": "Not approved: browser access host unavailable; no screenshot or real-device verification.",
+    "previewLimitation": "Component examples are illustrative source-derived snippets; public/css/styles.css owns final responsive rules.",
+    "sourceMerge": "November 9 incumbent extension merged from final CSS and JavaScript; older verification entries describe the November 6 pass only. No new visual approval is asserted by this documentation merge."
   }
 }

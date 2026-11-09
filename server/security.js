@@ -29,6 +29,10 @@ export function verifiedPlaces(places) {
       throw new ApiError('Place data changed. Search again before planning.', 400);
     if (ids.has(place.id)) throw new ApiError('Duplicate places in request.', 400);
     ids.add(place.id);
+    if ('price' in place || 'website' in place) {
+      const { price, website, signature: legacySignature, ...current } = place;
+      return signPlace(current);
+    }
     return place;
   });
 }

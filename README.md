@@ -23,10 +23,10 @@ Use `npm.cmd` if PowerShell blocks `npm.ps1`. No execution-policy change is need
 
 ## Working features
 
-- Homepage, Tourist and Local forms, city geocoding/disambiguation, manual search fallback, and explicit geolocation request.
-- Real Geoapify discovery, interests, radius, search/category/setting/free-entry filters, sorting, details, preserved Back navigation, and map markers.
+- Homepage, Tourist and Personal (local) forms, city geocoding/disambiguation, manual search fallback, and explicit geolocation request.
+- Real Geoapify discovery, interests, radius, live place-name search, branch groups, category/distance/opening-hours/setting filters, sorting, details, preserved Back navigation, and map markers.
 - Gemini personalization restricted to signed retrieved candidates, with structured response validation and deterministic fallback.
-- Local and up to 14-day tourist plans from selected or automatic recommendations. Geographic nearest-neighbor ordering, suggested durations, time constraints, supported simple opening-hour checks, and known-entry-price budget limits.
+- Local and up to 14-day tourist plans from selected or automatic recommendations. Geographic nearest-neighbor ordering, suggested durations, time constraints, supported simple opening-hour checks, without monetary constraints.
 - Leaflet maps, Geoapify walking/driving routes, individual/day directions, and external actual transit directions.
 - Open-Meteo forecasts with date-range handling and rain-aware indoor matching.
 - Persistent favorites and saved plans, removable stops, regeneration, preserved filters, and saved drafts.
@@ -34,13 +34,15 @@ Use `npm.cmd` if PowerShell blocks `npm.ps1`. No execution-policy change is need
 
 ## Honest data and practical limits
 
-Provider records supply place facts. Gemini cannot introduce places or replace addresses, names, prices, or hours. Normalized records have server-generated HMAC signatures, checked by AI, details, routing, and planning endpoints.
+Provider records supply place facts. Gemini cannot introduce places or replace addresses, names, or hours. Normalized records have server-generated HMAC signatures, checked by AI, details, routing, and planning endpoints.
 
-OpenStreetMap entry costs are source-reported, not independently verified. Unknown prices remain unknown. Only known costs in the chosen currency contribute to entry subtotals; no exchange rates are invented. Meals, transport, and accommodation are excluded, so an exact complete trip cost is not claimed.
+Place details use retrieved provider facts and, when linked by the provider, Wikipedia summaries. Gemini organizes source sentences; it cannot add factual prose. Brief source information stays brief rather than being padded with invented facts.
 
-Schedules and activity durations are estimates. A separate Geoapify route follows actual paths between selected stops. Transit uses a labeled 30-minute scheduling buffer and external directions, never invented transit times. Only simple opening-hour rules are checked when a date is supplied; confirm complex rules and holidays with venues. Suggested schedules start at 09:00, rather than claiming live venue availability.
+Schedules and activity durations are estimates. A separate Geoapify route follows actual paths between selected stops. Transit uses a labeled 30-minute scheduling buffer and external directions, never invented transit times. Only supported opening-hour rules are checked when a date is supplied; confirm complex rules and holidays with venues. Suggested schedules start at 09:00, rather than claiming live venue availability.
 
 Category photos are labeled and do not depict each recommended venue. Provider-linked images appear when available. Favorites persist in this browser's localStorage; search state uses sessionStorage. Clearing browser data removes saved items. Provider caches and rate guards are instance-local.
+
+Opening status uses the destination time zone. Irregular schedules remain unverified; hours filters exclude them. Branch counts cover discovered records inside the selected radius, not a complete directory. Recommended ordering uses query relevance, source completeness, proximity, and editorial landmark retrieval; no visitor ratings or popularity scores are inferred.
 
 ## Structure
 

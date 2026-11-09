@@ -22,7 +22,8 @@ export function preferences(input = {}) {
           'entertainment',
           'shopping',
           'hidden',
-          'free'
+          'cafes',
+          'history'
         ].includes(x)
       )
     : [];
@@ -38,14 +39,7 @@ export function preferences(input = {}) {
     days: input.mode === 'local' ? 1 : Math.floor(number(input.days, 1, 14, 2)),
     hours: number(input.hours, 1, 12, input.mode === 'local' ? 3 : 8),
     radius: number(input.radius, 500, 30000, input.mode === 'local' ? 5000 : 10000),
-    dailyBudget: number(input.dailyBudget, 0, 100000, 100),
-    totalBudget:
-      input.totalBudget === '' || input.totalBudget == null
-        ? null
-        : number(input.totalBudget, 0, 1000000),
-    currency: ['CAD', 'USD', 'EUR', 'GBP', 'JPY', 'AUD'].includes(input.currency)
-      ? input.currency
-      : 'CAD',
+    query: typeof input.query === 'string' ? input.query.trim().slice(0, 120) : '',
     transport: ['walk', 'drive', 'transit'].includes(input.transport) ? input.transport : 'walk',
     pace: ['relaxed', 'balanced', 'packed'].includes(input.pace) ? input.pace : 'balanced',
     setting: ['any', 'indoor', 'outdoor'].includes(input.setting) ? input.setting : 'any',

@@ -1,4 +1,4 @@
-import test from 'node:test';
+﻿import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { JSDOM } from 'jsdom';
@@ -102,9 +102,20 @@ test('DOM flow: search, filter, details/back, favorites, map, two-day plan, save
     } else if (path === '/api/search')
       data = {
         places:
-          body.preferences.mode === 'local'
-            ? places.map((p) => ({ ...p, name: `Local ${p.name}` }))
-            : places,
+          body.preferences.query === 'Starbucks'
+            ? places.slice(0, 3).map((p, i) => ({
+                ...p,
+                name: 'Starbucks',
+                category: 'cafes',
+                brand: 'Starbucks',
+                brandId: 'Q37158',
+                address: ['A Street', 'B Street', 'C Street'][i]
+              }))
+            : body.preferences.query === 'Atelier Brancusi'
+              ? [{ ...places[0], name: "Brancusi's Studio", matchedQuery: 'Atelier Brancusi' }]
+              : body.preferences.mode === 'local'
+                ? places.map((p) => ({ ...p, name: `Local ${p.name}` }))
+                : places,
         weather: null,
         preferences: preferences(body.preferences)
       };
@@ -184,7 +195,7 @@ test('DOM flow: search, filter, details/back, favorites, map, two-day plan, save
     change('#category-filter', 'museums');
     click('.place-card h3 a');
     await until(() => document.querySelector('#details-facts'));
-    assert.match(document.querySelector('#details-facts').textContent, /Not available/);
+    assert.match(document.querySelector('#details-facts').textContent, /Hours unavailable/);
     click('main .back-link');
     await until(() => document.querySelector('#category-filter'));
     assert.equal(document.querySelector('#category-filter').value, 'museums');
@@ -224,7 +235,6 @@ test('DOM flow: search, filter, details/back, favorites, map, two-day plan, save
       document.querySelector('#form-message')?.textContent.includes('No destination')
     );
     change('[name=destination]', 'Ottawa, Canada');
-    change('[name=dailyBudget]', '30');
     change('[name=hours]', '3');
     document
       .querySelector('#travel-form')
@@ -248,6 +258,52 @@ test('DOM flow: search, filter, details/back, favorites, map, two-day plan, save
       JSON.parse(localStorage.getItem('roamwise:v1:favorites')).length,
       1,
       'Favorites survive navigation and plan generation'
+    );
+    await navigate('results');
+    change('#result-search', 'Starbucks');
+    document
+      .querySelector('#place-name-search')
+      .dispatchEvent(new win.Event('submit', { bubbles: true, cancelable: true }));
+    await until(() => document.querySelector('.branch-group-card'));
+    assert.equal(document.querySelectorAll('.place-card').length, 1);
+    click('.branch-group-card h3 a');
+    await until(() => document.querySelector('#branches-map'));
+    assert.equal(document.querySelectorAll('.place-card').length, 3);
+    assert.equal(document.querySelectorAll('.leaflet-marker-icon').length, 3);
+    click('[data-action=origin-locate]');
+    await until(() => document.querySelector('#origin-status').textContent.includes('denied'));
+    change('#origin-input', '45.424, -75.69');
+    document
+      .querySelector('#origin-form')
+      .dispatchEvent(new win.Event('submit', { bubbles: true, cancelable: true }));
+    await until(() =>
+      document.querySelector('.origin-settings summary').textContent.includes('chosen coordinates')
+    );
+    assert.equal(document.querySelector('.place-card').dataset.place, 'fixture-cafe');
+    click('.place-card h3 a');
+    await until(() => document.querySelector('#details-facts'));
+    assert.equal(document.querySelectorAll('a').length > 0, true);
+    assert(
+      !document
+        .querySelector('main')
+        .textContent.match(/budget|entry cost|ticket price|official website/i)
+    );
+    assert(
+      document.querySelector('main .back-link').getAttribute('href').startsWith('#locations/')
+    );
+    click('main .back-link');
+    await until(() => document.querySelector('#branches-map'));
+    assert.equal(document.querySelectorAll('.place-card').length, 3);
+    await navigate('results');
+    change('#result-search', 'Atelier Brancusi');
+    document
+      .querySelector('#place-name-search')
+      .dispatchEvent(new win.Event('submit', { bubbles: true, cancelable: true }));
+    await until(() => document.querySelector('.place-card h3')?.textContent.includes('Brancusi'));
+    assert.equal(
+      document.querySelectorAll('.place-card').length,
+      1,
+      'Provider-translated place names remain visible for their matched query'
     );
     const snapshots = {
       favorites: localStorage.getItem('roamwise:v1:favorites'),

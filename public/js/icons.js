@@ -1,4 +1,12 @@
 const paths = {
+  coffee: '<path d="M4 8h12v6a6 6 0 0 1-12 0V8Zm12 1h2a3 3 0 0 1 0 6h-2M3 21h16M7 3v2m5-2v2"/>',
+  landmark: '<path d="m3 10 9-7 9 7H3Zm2 0v10m5-10v10m4-10v10m5-10v10M3 21h18"/>',
+  museum: '<path d="m3 8 9-5 9 5H3Zm2 3v7m7-7v7m7-7v7M3 21h18M3 18h18"/>',
+  food: '<path d="M5 3v6m3-6v6M2 3v6a3 3 0 0 0 6 0M5 12v9M19 3c-4 3-4 9 0 9V3Zm0 9v9"/>',
+  leaf: '<path d="M20 3C9 2 2 7 5 15c3 8 15 3 15-12ZM4 21 16 8"/>',
+  ticket: '<path d="M3 5h18v5a2 2 0 0 0 0 4v5H3v-5a2 2 0 0 0 0-4V5Zm12 0v3m0 3v2m0 3v3"/>',
+  bag: '<path d="M4 7h16l1 14H3L4 7Zm4 0V5a4 4 0 0 1 8 0v2M8 10v1m8-1v1"/>',
+  gem: '<path d="m3 8 4-5h10l4 5-9 13L3 8Zm0 0h18M8 3l-1 5 5 13 5-13-1-5"/>',
   compass: '<circle cx="12" cy="12" r="9"/><path d="m16 8-2.5 5.5L8 16l2.5-5.5L16 8Z"/>',
   arrow: '<path d="M4 12h16m-6-6 6 6-6 6"/>',
   back: '<path d="M20 12H4m6-6-6 6 6 6"/>',

@@ -1,217 +1,243 @@
-﻿---
+---
 name: Roamwise
-description: Premium light travel discovery with real destination photography and restrained teal accents.
+description: Light travel discovery with landscape photography, readable place cards, and restrained teal actions.
 colors:
-  ink: "#202d2c"
-  muted: "#5c6b68"
-  teal: "#246b64"
-  teal-dark: "#1b514c"
-  mint: "#eaf2ef"
-  paper: "#fafbf8"
-  line: "#dde4df"
-  white: "#fff"
-  danger: "#9d3428"
+  ink: '#202d2c'
+  muted: '#586963'
+  teal: '#246b64'
+  teal-dark: '#1b514c'
+  mint: '#eaf2ef'
+  paper: '#f7f9f5'
+  line: '#dce4dd'
+  white: '#fff'
+  danger: '#9d3428'
+  category-food: '#ba4b2b'
+  category-food-tint: '#fff0e9'
+  category-museums: '#7434ca'
+  category-museums-tint: '#f3edff'
+  category-landmarks: '#2563c9'
+  category-landmarks-tint: '#edf3ff'
+  category-nature: '#247941'
+  category-nature-tint: '#eaf5ed'
+  category-entertainment: '#bc2369'
+  category-entertainment-tint: '#fff0f6'
+  category-shopping: '#975900'
+  category-shopping-tint: '#fff5e2'
+  category-hidden: '#0b7971'
+  category-hidden-tint: '#e7f5f2'
 typography:
   display:
     fontFamily: "Manrope, 'Segoe UI', sans-serif"
-    fontSize: "clamp(45px, 5.2vw, 73px)"
-    fontWeight: 600
-    lineHeight: 1.09
-    letterSpacing: "-0.04em"
+    fontSize: 'clamp(42px, 4.8vw, 66px)'
+    fontWeight: 650
+    lineHeight: 1.08
+    letterSpacing: '-0.04em'
   headline:
     fontFamily: "Manrope, 'Segoe UI', sans-serif"
-    fontSize: "clamp(27px, 3vw, 40px)"
+    fontSize: 'clamp(27px, 3vw, 40px)'
     fontWeight: 600
     lineHeight: 1.12
-    letterSpacing: "-0.035em"
+    letterSpacing: '-0.035em'
   title:
     fontFamily: "Manrope, 'Segoe UI', sans-serif"
-    fontSize: "21px"
+    fontSize: '21px'
     fontWeight: 600
     lineHeight: 1.3
-    letterSpacing: "-0.035em"
   body:
     fontFamily: "Manrope, 'Segoe UI', sans-serif"
-    fontSize: "15px"
+    fontSize: '15px'
     lineHeight: 1.65
   label:
     fontFamily: "Manrope, 'Segoe UI', sans-serif"
-    fontSize: "12px"
+    fontSize: '13px'
     fontWeight: 650
 rounded:
-  card: "14px"
-  button: "8px"
-  field: "7px"
-  notice: "9px"
-  tag: "5px"
+  card: '16px'
+  button: '10px'
+  field: '9px'
+  notice: '10px'
+  tag: '5px'
+  small-control: '8px'
+  search: '12px'
+  category-badge: '6px'
+  category-chip: '24px'
+  branch-row: '12px'
 spacing:
-  page-gutter: "48px"
-  medium-gutter: "30px"
-  compact-gutter: "22px"
-  section: "68px"
-  section-compact: "45px"
-  section-mobile: "35px"
-  grid: "25px"
-  grid-compact: "18px"
-  card-inset: "19px"
-  form-inset: "30px"
+  page-gutter: '48px'
+  medium-gutter: '30px'
+  compact-gutter: '24px'
+  phone-gutter: '20px'
+  section: '76px'
+  section-compact: '50px'
+  section-mobile: '40px'
+  grid: '25px'
+  grid-compact: '20px'
+  card-inset: '22px'
+  form-inset: '36px'
 components:
   button-primary:
-    backgroundColor: "{colors.teal}"
-    textColor: "{colors.white}"
-    rounded: "{rounded.button}"
-    padding: "13px 22px"
+    backgroundColor: '{colors.teal}'
+    textColor: '{colors.white}'
+    rounded: '{rounded.button}'
+    padding: '13px 22px'
   button-primary-hover:
-    backgroundColor: "{colors.teal-dark}"
+    backgroundColor: '{colors.teal-dark}'
   button-secondary:
-    backgroundColor: "{colors.white}"
-    textColor: "{colors.ink}"
-    rounded: "{rounded.button}"
-    padding: "13px 22px"
+    backgroundColor: '{colors.white}'
+    textColor: '{colors.ink}'
+    rounded: '{rounded.button}'
+    padding: '13px 22px'
   button-secondary-hover:
-    backgroundColor: "{colors.mint}"
+    backgroundColor: '{colors.mint}'
   button-quiet:
-    backgroundColor: "transparent"
-    textColor: "{colors.teal}"
-    rounded: "{rounded.button}"
-    padding: "13px 0"
+    backgroundColor: 'transparent'
+    textColor: '{colors.teal}'
+    rounded: '{rounded.button}'
+    padding: '13px 0'
   field:
-    backgroundColor: "#fcfdfb"
-    textColor: "{colors.ink}"
-    rounded: "{rounded.field}"
-    padding: "11px 12px"
+    backgroundColor: '#fcfdfb'
+    textColor: '{colors.ink}'
+    rounded: '{rounded.field}'
+    padding: '13px 14px'
   choice:
-    backgroundColor: "{colors.white}"
-    rounded: "{rounded.field}"
-    padding: "9px 12px"
+    backgroundColor: '{colors.white}'
+    rounded: '{rounded.small-control}'
+    padding: '11px 13px'
   choice-selected:
-    backgroundColor: "{colors.mint}"
-    textColor: "{colors.teal-dark}"
+    backgroundColor: '{colors.mint}'
+    textColor: '{colors.teal-dark}'
   tag:
-    backgroundColor: "{colors.mint}"
-    textColor: "{colors.teal-dark}"
-    rounded: "{rounded.tag}"
-    padding: "4px 9px"
+    backgroundColor: '{colors.mint}'
+    textColor: '{colors.teal-dark}'
+    rounded: '{rounded.tag}'
+    padding: '7px 11px'
   place-card:
-    backgroundColor: "{colors.white}"
-    rounded: "{rounded.card}"
+    backgroundColor: '{colors.white}'
+    rounded: '{rounded.card}'
   navigation:
-    textColor: "{colors.muted}"
-    padding: "9px 0"
+    textColor: '{colors.muted}'
+    padding: '11px 15px'
   itinerary-stop:
-    padding: "18px 0 20px 20px"
+    padding: '20px 0 26px 25px'
+  destination-search:
+    backgroundColor: '{colors.white}'
+    rounded: '{rounded.search}'
+    height: '64px'
+    width: '820px'
+    padding: '6px'
+  category-chip:
+    backgroundColor: '{colors.white}'
+    textColor: '{colors.muted}'
+    rounded: '{rounded.category-chip}'
+    padding: '10px 15px'
+  category-badge:
+    rounded: '{rounded.category-badge}'
+    padding: '5px 9px'
+  branch-row:
+    backgroundColor: '{colors.white}'
+    rounded: '{rounded.branch-row}'
+    padding: '20px'
 ---
 
 # Design System: Roamwise
 
 ## Overview
 
-**Creative North Star: "User-pinned premium light travel"**
+**Creative North Star: User-pinned premium light travel.**
 
-Roamwise follows the user's established white/off-white, charcoal, muted-teal travel direction. Airbnb and Google Travel are quality references: generous whitespace, elegant headings, destination photography, rounded cards, and restrained motion. The North Star above describes that established direction; it is not a new creative decision.
+Retain the user's white/off-white surfaces, charcoal typography, muted teal, generous whitespace, destination photography, and rounded cards. Airbnb and Google Travel remain quality references. The November 6 refinement improves the existing visual system rather than introducing a different identity.
 
-Landscape imagery and quiet surfaces invite exploration, while structured labels keep search, place discovery, and itinerary planning understandable. The interface shares one restrained typography and component vocabulary across those tasks.
+A centered destination search leads into panoramic landscape photography and a direct Local Mode link. The two modes remain photographic choices. Working screens prioritize readable information, comfortable controls, and clear current navigation. The November 9 extension carries category identity into discovery, maps, and itineraries while keeping detailed information progressively disclosed.
 
 **Key Characteristics:**
-- Light paper and white surfaces with charcoal text.
-- Muted teal for actions, selection, and geographic cues.
-- Self-hosted Manrope throughout.
-- Photographic cards, subtle depth, and responsive grids.
-- Explicit labels for inspiration imagery, missing facts, and estimates.
 
-Extracted from `public/css/styles.css`, `public/index.html`, and `public/js/app.js`. Source/DOM workflows and live APIs were reported as passing in this session. The browser automation bridge failed to attach: no screenshot, rendered visual approval, or real-device visual verification exists. Desktop and mobile visual QA remain outstanding.
+- Light paper and white surfaces with charcoal and muted teal.
+- Prominent destination search and direct Local Mode handoff.
+- Self-hosted Manrope with comfortable cards and controls.
+- Destination photography with explicit image provenance.
+- Category cues paired with labels and stroke icons.
+- Compact branch comparisons and accessible native disclosures.
 
 ## Colors
 
-The frontmatter preserves the CSS custom-property values. The palette uses one restrained teal accent family and warm light neutrals.
+Use the frontmatter's exact source values. Teal identifies primary actions and selections and provides a fallback geographic accent; category colors carry place-specific map pins and timeline points. Ink carries the main content; muted ink supports it on paper, white, mint, and warm mode-card surfaces. The text pairs checked during refinement meet at least 4.5:1 contrast (the lowest checked pair is muted copy on the warm mode card at 4.84:1).
 
-### Primary
-- **Muted Teal** (`teal`): primary actions, active navigation, categories, map markers, and timeline points.
-- **Deep Teal** (`teal-dark`): primary hover and text on mint notices or selected choices.
+Category accents use coral for food and cafes, purple for museums and history, blue for landmarks, green for nature, rose for entertainment, amber for shopping, and teal for hidden gems. Their paired pale tints support badges and selected chips. The same primary category follows a place through cards, map pins and legends, popups, and itinerary stops. Opening status adds labeled green, rust, or muted text; color is accompanied by words.
 
-### Neutral
-- **Charcoal Ink** (`ink`): headings, body text, and toast backgrounds.
-- **Soft Muted Ink** (`muted`): supporting copy, facts, addresses, and resting navigation.
-- **Mint Surface** (`mint`): selected interests, notices, tags, and image placeholders.
-- **Off-white Paper** (`paper`): page background and timeline-point borders.
-- **White Surface** (`white`): cards, forms, secondary controls, and navigation.
-- **Quiet Line** (`line`): dividers and control borders.
+**The Meaningful Accent Rule.** Use teal to identify actions and selection while category colors identify place type; keep reading surfaces light.
 
-Error text uses `danger` on a pale warm notice surface. Focus rings use the implemented medium teal (`#3d8880`). Selection, scrollbars, image overlays, and supporting panels have contextual local CSS colors rather than additional global palette roles.
-
-**The Meaningful Accent Rule.** Use teal to identify actions, selection, and geographic cues while keeping reading surfaces light.
+Focus remains a 3px ring in #3d8880 with a 4px offset. Selection uses #cce4db with #163e37 text. Contextual map, imagery, error, and placeholder surfaces remain source-defined. An image disclosure uses an opaque dark-green overlay so white text stays readable over photography.
 
 ## Typography
 
-**Display Font:** Manrope with Segoe UI and sans-serif fallbacks.
-**Body Font:** The same stack. The local variable font supports weights (200-800) with `font-display: swap`.
+Self-hosted Manrope supports weights 200-800. Keep the source font stack and visible fallback. The home heading uses the frontmatter display scale; tablet uses clamp(40px, 7vw, 56px), and phone uses clamp(34px, 9.6vw, 54px) with 1.13 line height. Other page headings use clamp(32px, 3.5vw, 45px); the compact phone results heading uses 30px.
 
-The type is clear and softly geometric. Headings use tight tracking and balanced wrapping; supporting copy uses generous leading. Paragraphs have a global maximum measure (70ch), with narrower contextual limits.
-
-### Hierarchy
-- **Display:** the frontmatter describes the home hero. Overrides set its size to (58px) at 1100px and below, (43px) at 780px and below, and (51px) with line-height (1.1) at 540px and below.
-- **Headline:** the frontmatter describes default section headings. Page-level headings use a separate base scale with contextual page/detail overrides.
-- **Title:** the frontmatter describes default third-level headings. Place titles use (16px), increasing to (18px) on small screens; timeline titles use (17px), reducing to (15px) on small screens.
-- **Body:** the default role supports normal reading. Supporting interface text commonly uses (11-14px); the hero introduction uses (16px) before responsive overrides.
-- **Label:** the label role describes form labels; desktop navigation uses (14px, weight 600). Metadata uses the same font family.
+Place titles use 19px on desktop and 21px on phones, with 700 weight and 1.35 line height; compact map grids retain contextual sizes. Branch address headings use 17px, 650 weight and 1.5 line height, reducing to 16px on phones. Discovery descriptions use 13px with 1.7 line height and a two-line clamp; badges use 11px and metadata generally 12px. Primary body copy stays 15px, introductions 14-16px. Legal/image disclosures can use 11px; functional controls generally use 12-16px. Mobile text-entry fields use 16px where focus zoom is a concern.
 
 ## Layout
 
-Containers and navigation are capped at (1320px), including horizontal padding. Gutters follow the frontmatter scale: desktop, medium at 1100px and below, compact at 780px and below. Standard section spacing reduces at 780px and again at 540px. Pages use top/bottom padding (42px/80px), reducing to (25px/45px) on small screens.
+Containers stay 1320px wide including padding. Gutters are 48px desktop, 30px at 1100px, 24px at 780px, and 20px at 600px. Section spacing is 76px desktop, 50px tablet, and 40px phone. The header is sticky, 80px desktop / 72px compact. Sticky maps and detail panels use a 104px top offset on desktop.
 
-Desktop discovery uses three card columns. Map view uses two card columns beside a map, reduces its card area to one column at 1100px, and stacks the map above two card columns at 780px. All place grids become single columns at 540px. Forms, details, builder, and itinerary sidebars stack at 780px; the form's photographic aside is hidden there.
+The home hero is a centered vertical composition with a 30px gap: heading and search above a full-width 275px panoramic photograph. At 780px its gap is 24px and photograph 260px high; on phones the copy aligns left and photograph is 235px high. Its white caption panel stays within the photograph. Mode choices use a two-column outer grid and split text/photo interiors; the outer grid stacks at 780px.
 
-The home hero remains split through tablet widths and stacks at 540px. Mode cards retain their internal split while their outer grid stacks at 780px. The destination grid becomes one column at 540px and shows its first destination only. Navigation becomes an expandable vertical panel at 540px. A large-screen breakpoint (min-width 1500px) increases hero-photo height.
+Destination photography has a separate white caption area. Three columns reduce to two at 780px, with the third spanning the row, then one column at 600px. All destinations remain visible on phones.
+
+Discovery has three card columns, reducing to two at 1100px. Map view uses a compact two-column card grid and map; its card grid becomes one column at 1100px. At 780px the map stacks above two columns of cards. At 600px every place grid becomes a single column. Branch collections use two columns with a 16px gap, stacking at 780px. Forms, details, builder, and itinerary panels stack at 780px. Phone results compress heading, origin summary, actions, and control spacing so places appear sooner. Additional narrow-phone adjustments apply at 360px.
 
 ## Elevation & Depth
 
-Depth comes from tonal surfaces, photography, thin dividers, and ambient shadows. The shared surface shadow is `0 8px 28px #203d2d0b` on search, forms, place cards, and saved-plan cards. Map markers, floating controls, navigation, toasts, and map messages have contextual shadows in the sidecar. Cards lift on hover (3px); primary and secondary buttons lift (1px).
+The shared ambient shadow is 0 12px 36px #203d2d0c. Forms and discovery place cards use it to stand off the light paper. The destination search uses its own softer 0 8px 26px #203d2d0d shadow, deepening to #203d2d18 on focus. Branch rows use a fine border without a resting shadow. Avoid adding a decorative border underneath that shadow. Selected place cards use a semantic teal selection ring. Cards lift 2px; buttons lift 1px. Mode and destination imagery retains subtle scale transitions.
 
-The landscape entrance lasts (1.2s) with `cubic-bezier(0.16, 1, 0.3, 1)`. Photo hover scales run over (0.6s), buttons transition over (0.18s), and cards over (0.2s). Reduced-motion preferences disable animations/transitions and smooth scrolling.
+The single landscape entrance lasts 1.2s with cubic-bezier(0.16, 1, 0.3, 1). Reduced-motion preferences disable animations, transitions, and smooth scrolling.
 
 ## Shapes
 
-Cards, major photographs, and maps share the card radius. Buttons, fields, notices, and tags use the smaller frontmatter radii. Favorite buttons, timeline points, and numbered markers are circular. Place markers use a rotated pin silhouette. Fine borders keep surfaces quiet while geographic and chronological cues carry stronger teal.
+Cards and major imagery share a 16px radius. Primary controls use 10px, fields 9px, compact controls 8px, and tags 5px. Category badges use 6px corners, category chips a 24px radius, and compact branch rows 12px corners. Circular favorite actions are 44px; circular map markers remain geographic signifiers. Keep the compass, pins, and stroke icons consistent.
 
 ## Components
 
-### Buttons
+### Buttons and navigation
 
-Primary buttons use teal and white; secondary buttons use white, ink, and a line border. Both share the button radius/inset, weight (650), gap (11px), and line-height (1.6). Primary hover deepens the background; secondary hover uses mint. Small buttons use padding (9px 14px) and type (13px), with contextual card variants. Quiet buttons use transparent backgrounds and teal text. Disabled buttons use wait cursors and opacity (0.65). All inherit the global focus ring.
+Teal primary buttons and white secondary buttons share 48px minimum height (44px for small buttons). Quiet buttons keep transparent backgrounds and teal copy. Hover, focus, selected, disabled, and loading states remain clear. Active navigation has a mint surface and aria-current; the mobile toggle identifies its controlled navigation and updates its accessible name when open.
 
-### Chips
+### Search and forms
 
-Interest choices are bordered checkbox labels. Selection changes the surface to mint, text to deep teal, and border to (`#89aaa0`). Tags use mint and deep teal. Day tabs use white at rest and teal with white text when active. Keep checked and active semantics in markup.
+The home destination search is a single white surface, at most 820px wide and 64px high, with a location icon, accessible field label, clear control, and strong Explore button. On phones it is 62px high with a compact icon submit button that retains its accessible text. Destination suggestions use a keyboard-operable listbox, visible active choice, and loading, empty, and error feedback. A nearby link opens Local Mode directly. Form fields are at least 52px on desktop, with 13px labels, 15px values, and generous grouping. Interest checkboxes use 44px minimum choices. Native validation and all API form behavior are preserved.
 
-### Cards / Containers
+### Place cards
 
-Place cards use white, the card radius, clipped photography, the shared ambient shadow, and the card inset. Photo height is (190px), increasing to (220px) on small screens. Category, title, description, address, known/missing facts, selection, and details remain distinct. Inspiration images carry a visible disclosure overlay. Mode cards use tinted split-photography surfaces; saved plans share the core card vocabulary.
+Discovery photography uses a 16:10 ratio. Card bodies are flexible columns with 22px padding, keeping actions anchored after the facts. Category badges pair a stroke icon and text on their pale tint. Titles, descriptions, addresses, distance, opening status, selection, and details have distinct weights and spacing. Descriptions are clamped to two lines; detailed content belongs on the venue page. Category-photo disclosures remain visible and missing facts stay explicit.
 
-### Inputs / Fields
+### Discovery controls and disclosures
 
-Fields use a lightly tinted surface, ink text, a thin border (`#d5ded7`), the field radius, and minimum height (46px). Labels have a (7px) gap; helper text uses muted ink. The global focus ring is (3px) with a (4px) offset. Errors use a warm notice with explicit text; a separate invalid-field border style is not defined.
+Category chips and place-name search remain directly available. Chips have a 44px minimum height, category-colored icons, and a category tint plus inset ring when aria-pressed is true. Advanced filters and destination weather use native details/summary disclosures; opening their summaries reveals the existing controls and context. Search-origin settings retain their own disclosure. Keep names, labels, keyboard behavior, and expanded state accessible.
 
-### Navigation
+### Branch collections and venue details
 
-Desktop navigation is a horizontal row of muted semibold links; the active route uses teal. Saved items have an outlined control and mint count badge. The header is nearly opaque white with a bottom line. At 540px and below, a button toggles the vertical panel and its expanded state.
+Business collections compare compact, address-led branch rows: business name, address, distance, opening status, favorite, plan selection, and detail actions. Rows use 20px padding (18px on phones), a quiet border, and no resting shadow. Repeated category inspiration photos are omitted here; available provider photos appear as 96-by-72px thumbnails. The collection map lives inside an expandable native disclosure.
 
-### Itinerary Timeline
+Venue details hold the sourced description, weekly opening schedule, address, map, directions, favorite, and plan actions. Descriptions use 14px copy, 1.9 line height, and at most 68ch. Missing or uncertain hours remain labeled; no business website button is presented.
 
-Tabular times occupy a narrow left column. Stop content follows a vertical line (`#bdd0c4`) with teal circular points, headings, assumptions, travel estimates, and directions. Desktop columns are (55px / remaining width), reducing to (45px / remaining width) on small screens. The adjacent map has numbered markers and stacks above the timeline at tablet widths.
+**The Facts Before Detail Rule.** Keep comparison facts readable in results and branch rows; disclose secondary controls and use the venue page for longer sourced content.
 
-### Feedback
+### Maps and itineraries
 
-Notices and weather strips use muted tinted surfaces. Loading uses a teal spinner; empty states use a quiet rounded panel. Toasts use charcoal, white text, and a short opacity/position transition. Provider failures, missing facts, permission failures, and persistence failures remain legible text.
+Maps remain interactive Leaflet surfaces with attribution. Itinerary schedules use readable tabular times, a fine route line, larger stop names, 12-13px supporting information, and individual directions links. Detail/map sidebars clear the sticky navigation; stacked panels return to normal positioning on tablet and phone.
+
+### Feedback and saved items
+
+Loading, empty, error, successful saves, AI fallback, geolocation-denied, and blocked-storage states retain their functional copy. Notices and weather strips use comfortable 13px text on tinted surfaces. Favorites and plans use the shared card and control vocabulary. Source notes remain available below results and plans.
 
 ## Do's and Don'ts
 
-### Do:
-- **Do** retain the user's light surfaces, charcoal type, muted teal, destination imagery, and Manrope.
-- **Do** reuse the existing card, control, spacing, and focus treatments when adding screens.
-- **Do** keep inspiration-photo disclosures, unknown facts, and scheduling estimates visible.
-- **Do** preserve responsive stacking and reduced-motion support.
+- **Do** keep the user's light travel identity and use photography with clear provenance.
+- **Do** make primary tasks easy to locate; preserve the real data and working routes.
+- **Do** keep every destination choice available on mobile.
+- **Do** keep controls comfortable, focus visible, and reduced motion supported.
+- **Don't** disguise category photography as a photo of the retrieved venue.
+- **Don't** treat source, DOM, or contrast calculations as visual browser approval.
+- **Do** pair category colors with readable labels and icons across discovery, maps, and itineraries.
+- **Do** keep branch collections focused on address, distance, hours, and usable actions.
+- **Don't** add monetary preferences, admission information, prices, or spending constraints to cards, forms, or itineraries.
 
-### Don't:
-- **Don't** introduce a different visual identity without user direction.
-- **Don't** present category inspiration imagery as a photo of a retrieved place.
-- **Don't** treat source/DOM checks as screenshot or real-device visual approval.
+The November 6 pass passed the existing 11 automated tests and syntax checks. Main text/button contrast pairs were calculated. Browser access was unavailable in that earlier pass. This historical record is not approval of the November 9 extension; its source merge does not claim real-device or screen-reader verification.

@@ -15,9 +15,12 @@ Roamwise. White/off-white surfaces, charcoal type, muted teal/blue, large elegan
 
 ## Product principles
 - Actual retrieved places only; AI cannot add places or facts.
-- Missing prices, hours, photos, and forecasts stay explicit.
+- Missing hours, photos, and forecasts stay explicit.
 - Planning works when Gemini fails.
 - Secrets stay on the backend; no publication without approval.
 
 ## Capabilities
-Tourist/local search, manual/geolocation inputs, interests, budget, pace, weather, details, maps, favorites, selected or automatic multi-day itineraries, saved plans, and directions.
+Tourist/Personal (local) search, manual/geolocation inputs, interests, pace, weather, details, maps, branch grouping, local-time opening status, favorites, selected or automatic multi-day itineraries, saved plans, and directions.
+
+## Current scope
+No monetary preferences, prices, admission information, or spending optimization. Itineraries prioritize time, distance, opening hours, interests, transport, and weather. Source-linked descriptions remain evidence grounded; source completeness limits their length.

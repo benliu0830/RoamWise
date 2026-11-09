@@ -7,6 +7,7 @@ import personalize from '../api/personalize.js';
 import details from '../api/details.js';
 import plan from '../api/plan.js';
 import route from '../api/route.js';
+import migrate from '../api/migrate.js';
 
 const app = express();
 const publicDirectory = fileURLToPath(new URL('../public/', import.meta.url));
@@ -27,7 +28,8 @@ for (const [name, handler] of Object.entries({
   personalize,
   details,
   plan,
-  route
+  route,
+  migrate
 }))
   app.all(`/api/${name}`, handler);
 

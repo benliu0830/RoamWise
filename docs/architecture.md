@@ -2,7 +2,7 @@
 
 ## Current status
 
-The essential application is implemented and runs locally. Live Paris and Ottawa searches, Gemini candidate selection, details, routes, and forecasts passed integration checks. Automated DOM and server tests cover main flows and failure cases. Browser automation was unavailable; visual and real-device QA remains a manual deployment check.
+The essential application is implemented and runs locally. Live Paris and Ottawa searches, Gemini candidate selection, details, routes, and forecasts passed integration checks. Automated DOM and server tests cover main flows and failure cases. Automated browser QA uses an isolated headless Chrome context; real-device checks remain a deployment step.
 
 ## Application
 
@@ -17,7 +17,7 @@ The essential application is implemented and runs locally. Live Paris and Ottawa
 
 1. A visitor chooses tourist or local mode and supplies preferences.
 2. A backend function geocodes a destination and fetches real candidate places from Geoapify.
-3. Server code normalizes provider records and preserves missing prices/hours as unknown.
+3. Server code normalizes provider records and preserves unavailable hours as unknown.
 4. Gemini receives a bounded set of real place identifiers and structured preferences. Server validation rejects unknown identifiers and invalid output.
 5. A deterministic geographic planner groups nearby stops and orders them while respecting time limits; it also works without Gemini.
 6. The browser renders recommendations, details, maps, and plans. Favorites and saved itineraries persist in localStorage.
@@ -28,7 +28,16 @@ Open-Meteo provides forecasts within its available date range. Routing uses supp
 
 1. Essential views, destination search, real places, details, and navigation.
 2. Gemini personalization, Leaflet maps, and geographic itinerary generation.
-3. Weather, explicit budget uncertainty, favorites, and responsive visual polish.
+3. Weather, reliable hours status, favorites, and responsive visual polish.
 4. API and browser QA, presentation notes, GitHub preparation, and Vercel deployment preparation.
 
 Each phase must leave the application runnable. Publishing requires the user's approval.
+
+## Discovery and details
+`server/ranking.js` orders retrieved records using name relevance, documented source links, detail completeness, proximity, and editorial landmark retrieval. Category-balanced sampling keeps the 80-place pool diverse. Explicit name queries retrieve independently of this pool.
+
+`public/js/place-utils.js` groups commercial branches using brand identity or exact name/domain evidence and computes Haversine distances. `public/js/hours.js` shares a conservative weekly-hours parser between UI and planner. Unknown time zones, holidays, seasonal clauses, or unsupported rules never produce an open/closed claim.
+
+`server/descriptions.js` follows only provider-linked Wikipedia articles and permits Gemini to return sentence indices. Validation rejects unknown/duplicate indices; rendered descriptions contain only retrieved facts. Caches and in-flight deduplication reduce requests.
+
+`api/migrate.js` verifies legacy signed records before removing retired fields and issuing new signatures. Saved plans and favorites are retained; records that cannot be refreshed are flagged for a fresh search. No secrets or business website links are delivered to place-detail actions.

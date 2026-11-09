@@ -1,19 +1,15 @@
 import { relevantForecast } from './weather.js';
+import { windowsForDate } from '../public/js/hours.js';
+export { distanceKm } from '../public/js/place-utils.js';
+import { distanceKm } from '../public/js/place-utils.js';
 
-export function distanceKm(a, b) {
-  const radians = (n) => (n * Math.PI) / 180;
-  const dlat = radians(b.lat - a.lat),
-    dlon = radians(b.lon - a.lon);
-  const h =
-    Math.sin(dlat / 2) ** 2 +
-    Math.cos(radians(a.lat)) * Math.cos(radians(b.lat)) * Math.sin(dlon / 2) ** 2;
-  return 6371 * 2 * Math.atan2(Math.sqrt(h), Math.sqrt(Math.max(0, 1 - h)));
-}
 export function duration(place, pace) {
   const base =
     {
       landmarks: 60,
       food: 60,
+      cafes: 35,
+      history: 60,
       museums: 100,
       nature: 60,
       entertainment: 100,
@@ -42,39 +38,7 @@ export function travelEstimate(a, b, transport) {
     kind: 'estimate'
   };
 }
-const weekdays = ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'];
-// Interpret a deliberately small, unambiguous subset of OSM hours. Unsupported
-// holiday rules, seasonal clauses, or complex syntax stay unverified.
-export function openingWindow(hours, date) {
-  if (!hours || !date) return null;
-  if (hours === '24/7') return [[0, 1440]];
-  const day = weekdays[new Date(`${date}T12:00:00Z`).getUTCDay()];
-  const windows = [];
-  for (const clause of hours.split(';').map((x) => x.trim())) {
-    const match = clause.match(
-      /^(?:(Mo|Tu|We|Th|Fr|Sa|Su)(?:-(Mo|Tu|We|Th|Fr|Sa|Su))?\s+)?(off|\d{2}:\d{2}-\d{2}:\d{2})$/
-    );
-    if (!match) return null;
-    let applies = true;
-    if (match[1]) {
-      const start = weekdays.indexOf(match[1]),
-        end = weekdays.indexOf(match[2] || match[1]),
-        n = weekdays.indexOf(day);
-      applies = start <= end ? n >= start && n <= end : n >= start || n <= end;
-    }
-    if (!applies) continue;
-    // A matching explicit closure must override an earlier general rule.
-    if (match[3] === 'off') return [];
-    if (match[3].split('-').some((t) => Number(t.slice(3)) > 59 || Number(t.slice(0, 2)) > 24))
-      return null;
-    const [start, end] = match[3]
-      .split('-')
-      .map((t) => Number(t.slice(0, 2)) * 60 + Number(t.slice(3)));
-    if (start >= end || end > 1440) return null;
-    windows.push([start, end]);
-  }
-  return windows.sort((a, b) => a[0] - b[0]);
-}
+export const openingWindow = windowsForDate;
 function dateAt(start, index) {
   if (!start) return null;
   const d = new Date(`${start}T12:00:00Z`);
@@ -86,10 +50,6 @@ export function buildPlan(places, prefs, center, weather) {
     days = [];
   const limit = Math.min(prefs.hours * 60, 720),
     startMinute = 9 * 60;
-  const budget =
-    prefs.totalBudget == null
-      ? prefs.dailyBudget
-      : Math.min(prefs.dailyBudget, prefs.totalBudget / prefs.days);
   for (let i = 0; i < prefs.days; i++) {
     const date = dateAt(prefs.startDate, i),
       forecast = date || i === 0 ? relevantForecast(weather, date) : null;
@@ -98,10 +58,7 @@ export function buildPlan(places, prefs, center, weather) {
       date,
       stops: [],
       minutes: 0,
-      forecast: date || i === 0 ? forecast : null,
-      knownCost: 0,
-      currency: prefs.currency,
-      unknownCosts: 0
+      forecast: date || i === 0 ? forecast : null
     };
     let current = center,
       elapsed = 0;
@@ -118,12 +75,6 @@ export function buildPlan(places, prefs, center, weather) {
       let choice = null;
       for (const item of options) {
         const p = item.p;
-        if (
-          (p.price.amount ?? 0) > 0 &&
-          p.price.currency === prefs.currency &&
-          day.knownCost + p.price.amount > budget
-        )
-          continue;
         const activity = duration(p, prefs.pace),
           travel = travelEstimate(current, p, prefs.transport);
         const buffer = travel.minutes ?? travel.reserve;
@@ -153,12 +104,6 @@ export function buildPlan(places, prefs, center, weather) {
         hoursChecked: choice.hoursChecked
       });
       elapsed = choice.start + choice.activity - startMinute;
-      if (
-        p.price.amount === 0 ||
-        (p.price.kind === 'reported' && p.price.currency === prefs.currency)
-      )
-        day.knownCost += p.price.amount;
-      else day.unknownCosts++;
       remaining.splice(choice.index, 1);
       current = p;
     }
@@ -177,7 +122,6 @@ export function buildPlan(places, prefs, center, weather) {
     unscheduled: remaining.length,
     notes: [
       'Visit durations and travel schedule times are planning estimates. Check live directions before leaving.',
-      'Source-reported entry prices can change. Unknown costs, meals, fares, fuel, and accommodation prevent an exact trip total.',
       prefs.transport === 'transit'
         ? 'Transit has a 30-minute scheduling buffer per leg, not a transit-time prediction. Open transit directions for actual service.'
         : 'Open a day to load a Geoapify walking or driving route when available.',

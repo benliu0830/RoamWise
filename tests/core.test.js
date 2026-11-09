@@ -38,7 +38,8 @@ test('normalization preserves missing facts and rejects unsafe links', () => {
     }
   });
   assert.equal(p.hours, null);
-  assert.equal(p.price.amount, null);
+  assert.equal('price' in p, false);
+  assert.equal('website' in p, false);
   assert.equal(p.address, null);
   assert.equal(p.category, 'museums');
   assert.equal(safeUrl('javascript:alert(1)'), null);
@@ -48,6 +49,7 @@ test('normalization preserves missing facts and rejects unsafe links', () => {
 test('signed candidates reject modified, invented, and duplicate places', () => {
   const p = place('one', 45.42, -75.69);
   assert.equal(verifiedPlaces([p]).length, 1);
+  assert.equal('price' in verifiedPlaces([p])[0], false);
   assert.throws(() => verifiedPlaces([{ ...p, name: 'Fabricated' }]));
   assert.throws(() => verifiedPlaces([{ id: 'invented' }]));
   assert.throws(() => verifiedPlaces([p, p]));
@@ -120,34 +122,32 @@ test('nearest-neighbor plan has unique stops, coherent order, multiple days, and
   assert.equal(distanceKm(center, center), 0);
   assert(distanceKm(center, places[2]) < 2);
 });
-test('local plans, budgets, closure checks, and unknown costs remain honest', () => {
-  const free = { kind: 'reported', amount: 0, currency: null, text: 'Reported free entry' };
+test('local plans use time and opening hours regardless of legacy monetary preferences', () => {
   const places = [
     place('closed', 45.4201, -75.69, { hours: 'Mo-Su off' }),
-    place('expensive', 45.4202, -75.69, {
-      price: { kind: 'reported', amount: 50, currency: 'CAD' }
-    }),
-    place('unknown', 45.4203, -75.69),
-    place('free', 45.4204, -75.69, { price: free })
+    place('open', 45.4202, -75.69, { hours: 'Mo-Su 09:00-18:00' }),
+    place('unknown', 45.4203, -75.69)
   ];
-  const plan = buildPlan(
-    places,
-    preferences({ mode: 'local', hours: 3, dailyBudget: 30, startDate: '2026-11-05' }),
-    center,
-    null
-  );
-  const stops = plan.days[0].stops;
-  assert(stops.length > 0);
+  const prefs = preferences({
+    mode: 'local',
+    hours: 3,
+    dailyBudget: 0,
+    totalBudget: 0,
+    currency: 'CAD',
+    startDate: '2026-11-05'
+  });
+  assert.equal('dailyBudget' in prefs, false);
+  const plan = buildPlan(places, prefs, center, null);
+  assert(plan.days[0].stops.some((stop) => stop.place.id === 'open'));
+  assert(!plan.days[0].stops.some((stop) => stop.place.id === 'closed'));
   assert(plan.days[0].minutes <= 180);
-  assert(!stops.some((s) => ['closed', 'expensive'].includes(s.place.id)));
-  assert.equal(plan.days[0].unknownCosts, 1);
-  assert.equal(plan.days[0].knownCost, 0);
+  assert.equal('knownCost' in plan.days[0], false);
   assert.deepEqual(openingWindow('Mo-Su 10:00-18:00', '2026-11-05'), [[600, 1080]]);
   assert.equal(openingWindow('Mo-Fr 10:00-18:00; PH off', '2026-11-05'), null);
   assert.deepEqual(openingWindow('Mo-Su 09:00-17:00; Su off', '2026-11-08'), []);
   assert.equal(openingWindow('Mo-Su 09:90-17:00', '2026-11-05'), null);
   const transit = buildPlan(
-    [places[3]],
+    [places[2]],
     preferences({ mode: 'local', transport: 'transit' }),
     center,
     null

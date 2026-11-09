@@ -21,9 +21,9 @@ The backend is a set of Node.js functions in `api/`. Vercel runs these functions
 
 The server retrieves candidate places first and signs each normalized record with an HMAC signature. This tamper check prevents a browser from changing a name or supplying a fictional recommendation to the AI and planning endpoints.
 
-Gemini receives compact references to known candidates, with categories, known prices, setting, hours, and preferences. Its output must use unique existing references and allowed reason codes. The server maps those references back to actual Geoapify identifiers. Category-based descriptions keep unverified AI facts out of the interface.
+Gemini receives compact references to known candidates, with categories, setting, hours, and preferences. Its output must use unique existing references and allowed reason codes. The server maps those references back to actual Geoapify identifiers. Descriptions use retrieved provider facts and linked Wikipedia summaries. Gemini organizes sentence indices; validation prevents new claims.
 
-If Gemini fails, deterministic matching uses interests, distance, budget information, and available weather. The application remains useful without AI.
+If Gemini fails, deterministic matching uses interests, distance and available weather. The application remains useful without AI.
 
 ## Itinerary algorithm
 
@@ -32,7 +32,7 @@ Each place has coordinates and a suggested activity duration. The planner works 
 1. Start at the search center.
 2. Consider nearby remaining places, penalizing poor weather fit and repeated restaurant stops.
 3. Estimate travel time and add the suggested visit duration.
-4. Check the day's time limit, source-reported entry prices in the budget currency, and simple opening hours when a date is set.
+4. Check the day's time limit and supported opening hours when a date is set.
 5. Choose a suitable nearby place, remove it from the remaining candidates, and repeat.
 6. Continue with the next day. Leave places unscheduled when they do not fit.
 
@@ -52,18 +52,18 @@ Filtering uses `filter`; ordering uses `sort`; cards and schedules use `map`. UR
 
 Favorites and saved plans use localStorage and persist after refreshing in the same browser. Search results, drafts, filters, and selected places use sessionStorage. No database or login is required. Storage failures show a clear message.
 
-## Budgets and missing facts
+## Opening hours and missing facts
 
-OpenStreetMap prices are source-reported, not independently verified. Missing numeric prices and currencies stay unknown. The planner counts known entry costs in the chosen currency without inventing exchange rates. Meals, fares, and accommodation are not included, so the app does not claim an exact trip total. Only simple hours are checked automatically; complex and holiday rules need venue confirmation.
+Missing hours and descriptions remain explicit. Opening status uses the destination time zone and a conservative parser for weekly schedules, split shifts, and overnight hours. Complex and holiday rules need venue confirmation. Monetary inputs and constraints have been removed.
 
 ## Challenges and testing
 
 Live testing found outdated Gemini model names and invalid Geoapify category paths. Compact AI references reduced token usage and response delays. Another challenge was preserving filters between results, details, and plans.
 
-Automated tests cover algorithms, unknown costs, closures, AI failures, candidate tampering, navigation, filtering, details, map markers, saved data, and denied location. Separate live tests search Paris and Ottawa and validate Gemini, forecasts, routes, and plans. Browser-based visual QA remains manual because the automation bridge could not attach during development.
+Automated tests cover algorithms, unavailable hours, closures, AI failures, candidate tampering, navigation, filtering, details, map markers, saved data, and denied location. Separate live tests search Paris and Ottawa and validate Gemini, forecasts, routes, and plans. An isolated headless Chrome test checks desktop, tablet, mobile, live branch discovery, details, saved items, and layout overflow.
 
 ## Demonstration
 
 Search Paris, France for two days. Filter museums, open details, return to the same filter, and save a favorite. Personalize with Gemini, reset filters, build a two-day plan, open Day 2, show directions, and save it.
 
-Then search Ottawa, Canada in Local Mode for three hours with a CAD 30 budget. Generate an outing and point out the time limit, nearby stop order, forecast, and explicit unknown prices.
+Then search Ottawa, Canada in Personal Mode for three hours. Generate an outing and point out the time limit, nearby stop order, forecast, and clearly unavailable hours.
