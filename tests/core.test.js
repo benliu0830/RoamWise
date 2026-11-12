@@ -122,7 +122,7 @@ test('nearest-neighbor plan has unique stops, coherent order, multiple days, and
   assert.equal(distanceKm(center, center), 0);
   assert(distanceKm(center, places[2]) < 2);
 });
-test('local plans use time and opening hours regardless of legacy monetary preferences', () => {
+test('local plans include every selected place and label opening-hour uncertainty', () => {
   const places = [
     place('closed', 45.4201, -75.69, { hours: 'Mo-Su off' }),
     place('open', 45.4202, -75.69, { hours: 'Mo-Su 09:00-18:00' }),
@@ -139,8 +139,10 @@ test('local plans use time and opening hours regardless of legacy monetary prefe
   assert.equal('dailyBudget' in prefs, false);
   const plan = buildPlan(places, prefs, center, null);
   assert(plan.days[0].stops.some((stop) => stop.place.id === 'open'));
-  assert(!plan.days[0].stops.some((stop) => stop.place.id === 'closed'));
-  assert(plan.days[0].minutes <= 180);
+  assert.equal(plan.days.flatMap((day) => day.stops).length, 3);
+  assert.equal(plan.days.flatMap((day) => day.stops).find((stop) => stop.place.id === 'closed').hoursChecked, false);
+  assert.equal(plan.unscheduled, 0);
+  assert(plan.notes.some((note) => note.includes('All selected places')));
   assert.equal('knownCost' in plan.days[0], false);
   assert.deepEqual(openingWindow('Mo-Su 10:00-18:00', '2026-11-05'), [[600, 1080]]);
   assert.equal(openingWindow('Mo-Fr 10:00-18:00; PH off', '2026-11-05'), null);
@@ -154,6 +156,19 @@ test('local plans use time and opening hours regardless of legacy monetary prefe
   );
   assert.equal(transit.days[0].stops[0].travel.minutes, null);
   assert.equal(transit.days[0].stops[0].travel.reserve, 30);
+});
+test('plans schedule every distinct selected place exactly once despite tight hours', () => {
+  const places = Array.from({ length: 12 }, (_, index) =>
+    place(`chosen-${index}`, 45.42 + index * 0.001, -75.69, { hours: 'Mo-Su off' })
+  );
+  const plan = buildPlan(places, preferences({ days: 3, hours: 1 }), center, null);
+  const ids = plan.days.flatMap((day) => day.stops.map((stop) => stop.place.id));
+  assert.deepEqual(new Set(ids), new Set(places.map((item) => item.id)));
+  assert.equal(ids.length, places.length);
+  assert.equal(new Set(ids).size, ids.length);
+  assert.equal(plan.alternatives.length, 0);
+  assert.equal(plan.unscheduled, 0);
+  assert(plan.days.some((day) => day.minutes > 60));
 });
 test('out-of-range weather is not projected onto a trip', () => {
   const places = [place('out', 45.42, -75.69), place('in', 45.42, -75.69, { setting: 'indoor' })];

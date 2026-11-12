@@ -1,3 +1,4 @@
+import { completeTrip, isCompleted } from './trips.js';
 const prefix = 'roamwise:v1:';
 let storageWarning = false;
 const retired = new Set([
@@ -113,11 +114,30 @@ export const saved = {
     return write('favorites', this.favorites);
   },
   savePlan(plan) {
-    this.plans = [plan, ...this.plans.filter((p) => p.id !== plan.id)].slice(0, 30);
-    return write('plans', this.plans);
+    const previous = this.plans.find((p) => p.id === plan.id);
+    if (isCompleted(previous) && !isCompleted(plan)) return false;
+    const next = [plan, ...this.plans.filter((p) => p.id !== plan.id)];
+    if (!write('plans', next)) return false;
+    this.plans = next;
+    return true;
+  },
+  completePlan(plan) {
+    const current = read('plans', this.plans);
+    const existing = current.find((p) => p.id === plan.id && isCompleted(p));
+    if (existing) {
+      this.plans = current;
+      return existing;
+    }
+    const completed = completeTrip(plan),
+      next = [completed, ...current.filter((p) => p.id !== plan.id)];
+    if (!write('plans', next)) return null;
+    this.plans = next;
+    return completed;
   },
   removePlan(id) {
-    this.plans = this.plans.filter((p) => p.id !== id);
-    return write('plans', this.plans);
+    const next = this.plans.filter((p) => p.id !== id);
+    if (!write('plans', next)) return false;
+    this.plans = next;
+    return true;
   }
 };

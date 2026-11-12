@@ -27,6 +27,7 @@ test('DOM flow: search, filter, details/back, favorites, map, two-day plan, save
     global[name] = name === 'window' ? win : win[name];
   Object.defineProperty(global, 'navigator', { value: win.navigator, configurable: true });
   win.scrollTo = () => {};
+  win.confirm = () => true;
   Object.defineProperty(win.navigator, 'geolocation', {
     value: {
       getCurrentPosition(_success, failure) {
@@ -176,7 +177,13 @@ test('DOM flow: search, filter, details/back, favorites, map, two-day plan, save
   };
   try {
     await import('../public/js/app.js');
-    assert.match(document.querySelector('h1').textContent, /Discover more/);
+    assert.equal(document.querySelector('h1').textContent, 'Where will you explore next?');
+    assert.equal(
+      document.querySelector('#home-destination').placeholder,
+      'Search cities or destinations...'
+    );
+    assert.equal(document.querySelectorAll('.home-modes .mode-option').length, 2);
+    assert.equal(document.querySelectorAll('.home-destinations .destination').length, 4);
     await navigate('tourist');
     change('[name=destination]', 'Paris, France');
     change('[name=days]', '2');
@@ -184,6 +191,15 @@ test('DOM flow: search, filter, details/back, favorites, map, two-day plan, save
       .querySelector('#travel-form')
       .dispatchEvent(new win.Event('submit', { bubbles: true, cancelable: true }));
     await until(() => document.querySelectorAll('.place-card').length === 4);
+    const credit = document.createElement('details');
+    credit.className = 'photo-credit';
+    credit.innerHTML = '<summary>Photo credits</summary><p>Required attribution</p>';
+    document.querySelector('.place-card').append(credit);
+    const beforeCredits = location.hash;
+    credit.querySelector('summary').click();
+    await new Promise((resolve) => setTimeout(resolve, 10));
+    assert.equal(location.hash, beforeCredits, 'Photo credits expand without opening the place');
+    credit.remove();
     change('#category-filter', 'museums');
     assert.equal(document.querySelectorAll('.place-card').length, 1);
     change('#result-search', 'does not exist');
@@ -209,17 +225,94 @@ test('DOM flow: search, filter, details/back, favorites, map, two-day plan, save
       document.querySelector('.results-info').textContent.includes('Test matching')
     );
     await navigate('builder');
+    assert(
+      document.querySelector('[data-action=continue-planning]').disabled,
+      'Itinerary generation requires selected stops'
+    );
+    click('[data-action=select-all]');
+    assert.equal(
+      document.querySelectorAll('[data-select]:checked').length,
+      1,
+      'Only saved places are offered initially'
+    );
+    click('[data-action=clear-selection]');
+    await navigate('results');
+    document.querySelectorAll('[data-action=favorite]').forEach((button) => {
+      if (button.getAttribute('aria-pressed') !== 'true') button.click();
+    });
+    await navigate('builder');
+    assert.equal(document.querySelectorAll('[data-select]').length, 4);
+    click('[data-action=select-all]');
+    assert.equal(document.querySelectorAll('[data-select]:checked').length, 4);
+    await navigate('results');
+    await navigate('builder');
+    assert.equal(
+      document.querySelectorAll('[data-select]:checked').length,
+      4,
+      'Place choices survive going back and returning'
+    );
+    click('[data-action=clear-selection]');
+    assert(document.querySelector('[data-action=continue-planning]').disabled);
+    click('[data-action=select-all]');
+    assert.equal(document.querySelectorAll('[data-select]:checked').length, 4);
+    click('[data-action=continue-planning]');
+    await until(() => Boolean(document.querySelector('#builder-options')));
+    assert.equal(
+      document.querySelector('.itinerary-step[aria-current="step"]').textContent.trim(),
+      '2Generate Plan'
+    );
+    const drive = document.querySelector('[name=transport][value=drive]');
+    drive.checked = true;
+    drive.dispatchEvent(new win.Event('change', { bubbles: true }));
+    assert.equal(document.querySelector('[name=transport][value=drive]').checked, true);
     click('[data-action=generate]');
     await until(() => document.querySelectorAll('.day-tab').length === 2);
+    await until(() => Boolean(document.querySelector('#trip-map')));
     assert.equal(document.querySelectorAll('.schedule li').length, 2);
+    assert.equal(document.querySelectorAll('[data-action=toggle-plan-edit]').length, 0);
+    assert.equal(
+      document.querySelectorAll(
+        '[data-drag-index], [data-action=remove-stop], [data-action=add-stop]'
+      ).length,
+      0
+    );
+    click('[data-action=route-leg][data-index="1"]');
+    await until(() =>
+      /Highlighted segment|route segment is unavailable/i.test(
+        document.querySelector('#trip-route-status')?.textContent || ''
+      )
+    );
+    assert.match(document.querySelector('#trip-route-status').textContent, /Highlighted segment/);
+    assert(document.querySelector('#trip-map'), 'Trip screen displays the interactive route map');
+    click('[data-action=toggle-visited]');
+    assert(
+      JSON.parse(localStorage.getItem('roamwise:v1:activePlan')).days.some((day) =>
+        day.stops.some((stop) => stop.visited)
+      ),
+      'Visited progress is persisted'
+    );
+    assert(document.querySelector('.schedule li.is-up-next'), 'Next unvisited stop is highlighted');
+    click('[data-action=day][data-day="0"]');
+    click('[data-action=toggle-visited]');
+    assert.equal(
+      JSON.parse(localStorage.getItem('roamwise:v1:activePlan')).days[0].stops[0].visited,
+      false,
+      'Visited status can be undone'
+    );
+    click('[data-action=toggle-visited]');
+    assert.equal(
+      document.querySelectorAll('[data-action=day]').length,
+      2,
+      'Days remain selectable'
+    );
     click('[data-action=save-plan]');
     assert.equal(JSON.parse(localStorage.getItem('roamwise:v1:plans')).length, 1);
-    click('[data-action=remove-stop]');
-    assert.equal(document.querySelectorAll('.schedule li').length, 1);
     await navigate('saved');
-    assert.equal(document.querySelectorAll('.place-card').length, 1);
+    assert.equal(document.querySelectorAll('.place-card').length, 4);
     click('[data-action=saved-tab][data-tab=plans]');
     assert.equal(document.querySelectorAll('.saved-plan').length, 1);
+    click('[data-action=open-plan]');
+    await until(() => Boolean(document.querySelector('#trip-map')));
     await navigate('results');
     delayPersonalization = true;
     click('[data-action=personalize]');
@@ -248,15 +341,17 @@ test('DOM flow: search, filter, details/back, favorites, map, two-day plan, save
       ),
       'A stale AI response must not replace a newer city search'
     );
-    assert.equal(JSON.parse(sessionStorage.getItem('roamwise:v1:selection')).length, 0);
+    assert.equal(JSON.parse(localStorage.getItem('roamwise:v1:selection')).length, 0);
     click('[data-select="fixture-park"]');
     await navigate('builder');
+    click('[data-action=continue-planning]');
+    await until(() => Boolean(document.querySelector('#builder-options')));
     click('[data-action=generate]');
     await until(() => document.querySelectorAll('.day-tab').length === 1);
     assert.equal(document.querySelectorAll('.schedule li').length, 1);
     assert.equal(
       JSON.parse(localStorage.getItem('roamwise:v1:favorites')).length,
-      1,
+      4,
       'Favorites survive navigation and plan generation'
     );
     await navigate('results');
@@ -307,15 +402,25 @@ test('DOM flow: search, filter, details/back, favorites, map, two-day plan, save
     );
     const snapshots = {
       favorites: localStorage.getItem('roamwise:v1:favorites'),
-      plans: localStorage.getItem('roamwise:v1:plans')
+      plans: localStorage.getItem('roamwise:v1:plans'),
+      activePlan: localStorage.getItem('roamwise:v1:activePlan'),
+      selection: localStorage.getItem('roamwise:v1:selection')
     };
     const refreshed = new JSDOM('<!doctype html>', { url: 'http://localhost:3000' });
     global.localStorage = refreshed.window.localStorage;
     for (const [key, value] of Object.entries(snapshots))
       global.localStorage.setItem(`roamwise:v1:${key}`, value);
     const freshStore = await import('../public/js/store.js?refresh-test');
-    assert.equal(freshStore.saved.favorites.length, 1);
-    assert.equal(freshStore.saved.plans.length, 1);
+    assert.equal(freshStore.saved.favorites.length, 4);
+    assert.equal(
+      freshStore.saved.plans.length,
+      2,
+      'Both the earlier saved trip and the new active outing survive refresh'
+    );
+    assert(
+      JSON.parse(global.localStorage.getItem('roamwise:v1:activePlan'))?.days,
+      'Active trip state survives a refresh'
+    );
     refreshed.window.close();
   } finally {
     global.fetch = originalFetch;

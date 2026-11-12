@@ -1,0 +1,343 @@
+{
+  "checkedAt": "2026-11-12T01:21:04.081Z",
+  "checked": 92,
+  "matched": 44,
+  "missing": [
+    {
+      "name": "Canadian Police Memorial",
+      "address": "Parliament Road, Ottawa, ON K1A 0E7, Canada",
+      "lat": 45.4250345,
+      "lon": -75.7014182,
+      "category": "history"
+    },
+    {
+      "name": "Sir John A. Macdonald",
+      "address": "Parliament Road, Ottawa, ON K1A 0E7, Canada",
+      "lat": 45.4254571,
+      "lon": -75.7011018,
+      "category": "history"
+    },
+    {
+      "name": "Billings Bridge Shopping Centre",
+      "address": "2277 Riverside Drive, Ottawa, ON K1A 0P5, Canada",
+      "lat": 45.3857837,
+      "lon": -75.6768855,
+      "category": "shopping"
+    },
+    {
+      "name": "Lord Stanley Cup Monument",
+      "address": "Sparks Street, Ottawa, ON K1P 5C7, Canada",
+      "lat": 45.4234759,
+      "lon": -75.6960589,
+      "category": "hidden"
+    },
+    {
+      "name": "Bytowne Cinema",
+      "address": "325 Rideau Street, Ottawa, ON K1N 5Y4, Canada",
+      "lat": 45.4296081,
+      "lon": -75.6847753,
+      "category": "entertainment"
+    },
+    {
+      "name": "John R. Booth Residence",
+      "address": "252 Metcalfe Street, Ottawa, ON K2P 0T1, Canada",
+      "lat": 45.416441,
+      "lon": -75.692245,
+      "category": "landmarks"
+    },
+    {
+      "name": "Ottawa Family Cinema",
+      "address": "815 St-Laurent Boulevard, Ottawa, ON K1K 3A7, Canada",
+      "lat": 45.4344699,
+      "lon": -75.6423836,
+      "category": "entertainment"
+    },
+    {
+      "name": "Cineplex Odeon South Keys Cinemas",
+      "address": "2214 Bank Street, Ottawa, ON K1V 1J6, Canada",
+      "lat": 45.3524472,
+      "lon": -75.6537917,
+      "category": "entertainment"
+    },
+    {
+      "name": "Southam Hall",
+      "address": "1 Elgin Street, Ottawa, ON K1P 5W1, Canada",
+      "lat": 45.4231581,
+      "lon": -75.6938293,
+      "category": "entertainment"
+    },
+    {
+      "name": "Fourth Stage",
+      "address": "1 Elgin Street, Ottawa, ON K1P 5W1, Canada",
+      "lat": 45.4234119,
+      "lon": -75.6935599,
+      "category": "entertainment"
+    },
+    {
+      "name": "Babs Asper Theatre",
+      "address": "53 Elgin Street, Ottawa, ON K1P 5K7, Canada",
+      "lat": 45.4231597,
+      "lon": -75.6930502,
+      "category": "entertainment"
+    },
+    {
+      "name": "Ottawa Little Theatre",
+      "address": "400 King Edward Avenue, Ottawa, ON K1N 7M7, Canada",
+      "lat": 45.4281464,
+      "lon": -75.6857603,
+      "category": "entertainment"
+    },
+    {
+      "name": "Terry Fox Memorial Sculpture",
+      "address": "Wellington Street, Ottawa, ON K1P 5A1, Canada",
+      "lat": 45.4232528,
+      "lon": -75.6981256,
+      "category": "hidden"
+    },
+    {
+      "name": "V.I.P.",
+      "address": "Marion Dewar Plaza, Ottawa, ON K2P 2K1, Canada",
+      "lat": 45.4210742,
+      "lon": -75.691072,
+      "category": "hidden"
+    },
+    {
+      "name": "The Living Room",
+      "address": "Marion Dewar Plaza, Ottawa, ON K2P 2K1, Canada",
+      "lat": 45.4202759,
+      "lon": -75.6908387,
+      "category": "hidden"
+    },
+    {
+      "name": "The Lost Child",
+      "address": "Marion Dewar Plaza, Ottawa, ON K2P 2K1, Canada",
+      "lat": 45.4203832,
+      "lon": -75.6904819,
+      "category": "hidden"
+    },
+    {
+      "name": "On Top of the world",
+      "address": "110 Laurier Avenue West, Ottawa, ON K1P 1H7, Canada",
+      "lat": 45.4207165,
+      "lon": -75.6901521,
+      "category": "hidden"
+    },
+    {
+      "name": "Nautilus",
+      "address": "110 Laurier Avenue West, Ottawa, ON K1P 1H7, Canada",
+      "lat": 45.4207805,
+      "lon": -75.689857,
+      "category": "hidden"
+    },
+    {
+      "name": "Steam Mill Ruin",
+      "address": "Ottawa River Pathway, Ottawa, ON K1A 0E7, Canada",
+      "lat": 45.4263884,
+      "lon": -75.7006623,
+      "category": "landmarks"
+    },
+    {
+      "name": "John By House",
+      "address": "Ottawa River Pathway, Ottawa, ON K1N 1G8, Canada",
+      "lat": 45.4276791,
+      "lon": -75.697912,
+      "category": "landmarks"
+    },
+    {
+      "name": "Happy Goat Coffee Co.",
+      "address": "100 Queen Street, Ottawa, ON K1P 0A1, Canada",
+      "lat": 45.4218458,
+      "lon": -75.6974459,
+      "category": "cafes"
+    },
+    {
+      "name": "Bridgehead",
+      "address": "96 Sparks Street, Ottawa, ON K1P 5C7, Canada",
+      "lat": 45.4226533,
+      "lon": -75.6973938,
+      "category": "cafes"
+    },
+    {
+      "name": "Paninaro",
+      "address": "82 O'Connor Street, Ottawa, ON K1P 5M6, Canada",
+      "lat": 45.4204246,
+      "lon": -75.6981649,
+      "category": "food"
+    },
+    {
+      "name": "Smash Daddy",
+      "address": "84 O'Connor Street, Ottawa, ON K1P 5M7, Canada",
+      "lat": 45.4203853,
+      "lon": -75.6981386,
+      "category": "food"
+    },
+    {
+      "name": "Edoko Japanese Steak House",
+      "address": "64 Queen Street, Ottawa, ON K1P 5C6, Canada",
+      "lat": 45.4225196,
+      "lon": -75.6958566,
+      "category": "food"
+    },
+    {
+      "name": "Bar Robo",
+      "address": "50 O'Connor Street, Ottawa, ON K1P 6L2, Canada",
+      "lat": 45.4209829,
+      "lon": -75.6990811,
+      "category": "cafes"
+    },
+    {
+      "name": "Nate's Deli",
+      "address": "152 Sparks Street, Ottawa, ON K1P 5M4, Canada",
+      "lat": 45.4219867,
+      "lon": -75.6991305,
+      "category": "food"
+    },
+    {
+      "name": "Ottawa Bike Cafe",
+      "address": "79 Sparks Street, Ottawa, ON K1P 5A5, Canada",
+      "lat": 45.4231506,
+      "lon": -75.6969957,
+      "category": "cafes"
+    },
+    {
+      "name": "Olly Fresco's",
+      "address": "50 O'Connor Street, Ottawa, ON K1P 6L2, Canada",
+      "lat": 45.4206267,
+      "lon": -75.6992224,
+      "category": "food"
+    },
+    {
+      "name": "Bridgehead",
+      "address": "151 O'Connor Street, Ottawa, ON K1P 1H1, Canada",
+      "lat": 45.4198115,
+      "lon": -75.6972355,
+      "category": "cafes"
+    },
+    {
+      "name": "Riviera",
+      "address": "62 Sparks Street, Ottawa, ON K1P 5A5, Canada",
+      "lat": 45.4230811,
+      "lon": -75.6963403,
+      "category": "food"
+    },
+    {
+      "name": "Kalinga Indian Cuisine",
+      "address": "251 Laurier Avenue West, Ottawa, ON K1P 5J6, Canada",
+      "lat": 45.4196089,
+      "lon": -75.6968344,
+      "category": "food"
+    },
+    {
+      "name": "Presse Café",
+      "address": "181 Queen Street, Ottawa, ON K1P 1K9, Canada",
+      "lat": 45.4210513,
+      "lon": -75.6999585,
+      "category": "cafes"
+    },
+    {
+      "name": "Manhattan's Coffee Co.",
+      "address": "200 Laurier Avenue West, Ottawa, ON K1P 6M7, Canada",
+      "lat": 45.4198039,
+      "lon": -75.6956781,
+      "category": "cafes"
+    },
+    {
+      "name": "Lounge Alt Ottawa",
+      "address": "185 Slater Street, Ottawa, ON K0C 0C8, Canada",
+      "lat": 45.4198468,
+      "lon": -75.6989859,
+      "category": "cafes"
+    },
+    {
+      "name": "Little Victories Coffee",
+      "address": "44 Elgin Street, Ottawa, ON K1P 5K6, Canada",
+      "lat": 45.423333,
+      "lon": -75.6956236,
+      "category": "cafes"
+    },
+    {
+      "name": "Japanese Village Steak House",
+      "address": "168 Laurier Avenue West, Ottawa, ON K2P 1N8, Canada",
+      "lat": 45.420203,
+      "lon": -75.6946166,
+      "category": "food"
+    },
+    {
+      "name": "Main Street Farmers' Market",
+      "address": "Grande Allée, Ottawa, ON K1S 1C3, Canada",
+      "lat": 45.4094906,
+      "lon": -75.6771354,
+      "category": "shopping"
+    },
+    {
+      "name": "The Dancer",
+      "address": "111 Albert Street, Ottawa, ON K1P 1B1, Canada",
+      "lat": 45.4218692,
+      "lon": -75.6968823,
+      "category": "hidden"
+    },
+    {
+      "name": "Diefenbunker",
+      "address": "3911 Carp Road, Ottawa, ON K0A 0E3, Canada",
+      "lat": 45.3516641,
+      "lon": -76.0477194,
+      "category": "museums"
+    },
+    {
+      "name": "Nepean Museum",
+      "address": "16 Rowley Avenue, Ottawa, ON K2G 2N2, Canada",
+      "lat": 45.349153,
+      "lon": -75.7414766,
+      "category": "museums"
+    },
+    {
+      "name": "Britannia Park",
+      "address": "2805, Ottawa, ON, Canada",
+      "lat": 45.3611414,
+      "lon": -75.7980097,
+      "category": "nature"
+    },
+    {
+      "name": "The Ministry of Coffee",
+      "address": "141 Laurier Avenue West, Ottawa, ON K1P 5J2, Canada",
+      "lat": 45.4208326,
+      "lon": -75.693883,
+      "category": "cafes"
+    },
+    {
+      "name": "Elgin Street Diner",
+      "address": "374 Elgin Street, Ottawa, ON K2P 1N1, Canada",
+      "lat": 45.4149134,
+      "lon": -75.6880264,
+      "category": "food"
+    },
+    {
+      "name": "Chateau Lafayette",
+      "address": "42 York Street, Ottawa, ON K1N 5S6, Canada",
+      "lat": 45.4277697,
+      "lon": -75.6932149,
+      "category": "food"
+    },
+    {
+      "name": "Fairouz Cafe",
+      "address": "15 Clarence Street, Ottawa, ON K1N 5P9, Canada",
+      "lat": 45.4283892,
+      "lon": -75.6951079,
+      "category": "food"
+    },
+    {
+      "name": "Wilf & Ada's",
+      "address": "510 Bank Street, Ottawa, ON K2P 1Z4, Canada",
+      "lat": 45.4102144,
+      "lon": -75.6926325,
+      "category": "food"
+    },
+    {
+      "name": "Art Is In Bakery",
+      "address": "250 City Centre Avenue, Ottawa, ON K1R 7R7, Canada",
+      "lat": 45.4079395,
+      "lon": -75.7186197,
+      "category": "shopping"
+    }
+  ]
+}

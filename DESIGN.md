@@ -141,13 +141,15 @@ components:
 
 # Design System: Roamwise
 
+The map and trip-history extension retains this visual identity: cream reading surfaces, Manrope, teal actions, white-edged category pins and a 35/65 timeline/map layout. Cafes use amber (`#99601c`, tint `#fff3df`); the other existing category colours remain unchanged. Maps use compact floating controls, collapsible legends and source-attributed previews. Trip completion uses a native confirmation dialog, active/completed collection tabs and restrained teal completion indicators. See `docs/maps-and-trip-history.md` for functional states and verification.
+
 ## Overview
 
 **Creative North Star: User-pinned premium light travel.**
 
 Retain the user's white/off-white surfaces, charcoal typography, muted teal, generous whitespace, destination photography, and rounded cards. Airbnb and Google Travel remain quality references. The November 6 refinement improves the existing visual system rather than introducing a different identity.
 
-A centered destination search leads into panoramic landscape photography and a direct Local Mode link. The two modes remain photographic choices. Working screens prioritize readable information, comfortable controls, and clear current navigation. The November 9 extension carries category identity into discovery, maps, and itineraries while keeping detailed information progressively disclosed.
+A focused destination search leads into two direct exploration choices and a compact set of popular destination cards. The homepage keeps search first and removes the long explanatory sections. Working screens prioritize readable information, comfortable controls, and clear current navigation. The November 9 extension carries category identity into discovery, maps, and itineraries while keeping detailed information progressively disclosed.
 
 **Key Characteristics:**
 
@@ -178,7 +180,7 @@ Place titles use 19px on desktop and 21px on phones, with 700 weight and 1.35 li
 
 Containers stay 1320px wide including padding. Gutters are 48px desktop, 30px at 1100px, 24px at 780px, and 20px at 600px. Section spacing is 76px desktop, 50px tablet, and 40px phone. The header is sticky, 80px desktop / 72px compact. Sticky maps and detail panels use a 104px top offset on desktop.
 
-The home hero is a centered vertical composition with a 30px gap: heading and search above a full-width 275px panoramic photograph. At 780px its gap is 24px and photograph 260px high; on phones the copy aligns left and photograph is 235px high. Its white caption panel stays within the photograph. Mode choices use a two-column outer grid and split text/photo interiors; the outer grid stacks at 780px.
+The homepage centers the display heading, supporting line, and destination search, with the search capped at 820px. Two side-by-side exploration links follow, then a four-card destination inspiration grid. The mode choices stack at 600px; destination cards move from four columns to two, then one below 380px. Photographs keep an explicit inspiration label when they are not specific to a city.
 
 Destination photography has a separate white caption area. Three columns reduce to two at 780px, with the third spanning the row, then one column at 600px. All destinations remain visible on phones.
 
@@ -202,7 +204,7 @@ Teal primary buttons and white secondary buttons share 48px minimum height (44px
 
 ### Search and forms
 
-The home destination search is a single white surface, at most 820px wide and 64px high, with a location icon, accessible field label, clear control, and strong Explore button. On phones it is 62px high with a compact icon submit button that retains its accessible text. Destination suggestions use a keyboard-operable listbox, visible active choice, and loading, empty, and error feedback. A nearby link opens Local Mode directly. Form fields are at least 52px on desktop, with 13px labels, 15px values, and generous grouping. Interest checkboxes use 44px minimum choices. Native validation and all API form behavior are preserved.
+The home destination search is a single white surface, at most 820px wide and 68px high, with a location icon, accessible field label, clear control, and strong Explore button. On phones it is 62px high with a compact icon submit button that retains its accessible text. Destination suggestions use a keyboard-operable listbox, visible active choice, and loading, empty, and error feedback. A Nearby link opens Local Mode and requests location after that deliberate choice; manual city entry stays available when permission is denied. Form fields are at least 52px on desktop, with 13px labels, 15px values, and generous grouping. Interest checkboxes use 44px minimum choices. Native validation and all API form behavior are preserved.
 
 ### Place cards
 

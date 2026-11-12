@@ -8,6 +8,7 @@ import details from '../api/details.js';
 import plan from '../api/plan.js';
 import route from '../api/route.js';
 import migrate from '../api/migrate.js';
+import photo from '../api/photo.js';
 
 const app = express();
 const publicDirectory = fileURLToPath(new URL('../public/', import.meta.url));
@@ -23,6 +24,7 @@ app.use((_request, response, next) => {
 });
 app.all('/api/health', health);
 for (const [name, handler] of Object.entries({
+  photo,
   geocode,
   search,
   personalize,

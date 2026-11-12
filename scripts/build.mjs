@@ -9,3 +9,10 @@ for (const name of ['leaflet.js', 'leaflet.css', 'images']) {
 }
 await cp(new URL('../node_modules/leaflet/LICENSE', import.meta.url), new URL('LICENSE', target));
 console.log('Leaflet browser assets prepared in public/vendor/leaflet.');
+
+const clusterSource = new URL('../node_modules/leaflet.markercluster/', import.meta.url);
+const clusterTarget = new URL('../public/vendor/leaflet-markercluster/', import.meta.url);
+await mkdir(clusterTarget, { recursive: true });
+for (const name of ['leaflet.markercluster.js', 'MarkerCluster.css'])
+  await cp(new URL('dist/' + name, clusterSource), new URL(name, clusterTarget));
+await cp(new URL('MIT-LICENCE.txt', clusterSource), new URL('LICENSE', clusterTarget));

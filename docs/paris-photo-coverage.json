@@ -1,0 +1,301 @@
+{
+  "checkedAt": "2026-11-12T01:41:02.145Z",
+  "checked": 105,
+  "matched": 63,
+  "missing": [
+    {
+      "name": "Centre Georges Pompidou",
+      "address": "19 Rue Beaubourg, 75004 Paris, France",
+      "lat": 48.8604964,
+      "lon": 2.3524221,
+      "category": "museums"
+    },
+    {
+      "name": "Hôtel de Breteuil",
+      "address": "Rue des Francs Bourgeois, 75004 Paris, France",
+      "lat": 48.8597242,
+      "lon": 2.3577274,
+      "category": "landmarks"
+    },
+    {
+      "name": "Jardin Albert-Schweitzer",
+      "address": "75004 Paris, France",
+      "lat": 48.8538951,
+      "lon": 2.357919,
+      "category": "nature"
+    },
+    {
+      "name": "Mémorial Gilbert Baker",
+      "address": "Place des Émeutes de Stonewall, 75004 Paris, France",
+      "lat": 48.8580964,
+      "lon": 2.3545058,
+      "category": "history"
+    },
+    {
+      "name": "Mur des Justes",
+      "address": "Allée des Justes parmi les Nations, 75004 Paris, France",
+      "lat": 48.854949,
+      "lon": 2.3562576,
+      "category": "history"
+    },
+    {
+      "name": "Daniel Defert",
+      "address": "Rue Michel le Comte, 75003 Paris, France",
+      "lat": 48.8624913,
+      "lon": 2.355041,
+      "category": "history"
+    },
+    {
+      "name": "L'Art",
+      "address": "City Hall Plaza, 75004 Paris, France",
+      "lat": 48.8565387,
+      "lon": 2.3518054,
+      "category": "hidden"
+    },
+    {
+      "name": "Étienne Marcel, prévôt des marchands",
+      "address": "Quai de l'Hôtel de Ville, 75004 Paris, France",
+      "lat": 48.8556731,
+      "lon": 2.3521197,
+      "category": "hidden"
+    },
+    {
+      "name": "Le Céleste Gourmand",
+      "address": "Rue de la Tacherie, 75004 Paris, France",
+      "lat": 48.8575655,
+      "lon": 2.3501491,
+      "category": "food"
+    },
+    {
+      "name": "Le président du conseil ministre de la guerre cite à l'ordre de l'armée la Ville de Paris",
+      "address": "City Hall Plaza, 75004 Paris, France",
+      "lat": 48.8566921,
+      "lon": 2.3518912,
+      "category": "history"
+    },
+    {
+      "name": "Le gouvernement provisoire de la République Française décerne la Croix de la Libération à la Ville de Paris",
+      "address": "City Hall Plaza, 75004 Paris, France",
+      "lat": 48.8564954,
+      "lon": 2.3517812,
+      "category": "history"
+    },
+    {
+      "name": "Eugène Labiche",
+      "address": "Rue de la Verrerie, 75004 Paris, France",
+      "lat": 48.8581833,
+      "lon": 2.3522153,
+      "category": "history"
+    },
+    {
+      "name": "Aux Républicains espagnols",
+      "address": "Quai de l'Hôtel de Ville, 75004 Paris, France",
+      "lat": 48.8551427,
+      "lon": 2.3533603,
+      "category": "history"
+    },
+    {
+      "name": "PA_1485",
+      "address": "Rue Saint-Bon, 75004 Paris, France",
+      "lat": 48.8585127,
+      "lon": 2.3506294,
+      "category": "hidden"
+    },
+    {
+      "name": "Marlette",
+      "address": "Rue de Rivoli, 75004 Paris, France",
+      "lat": 48.8574019,
+      "lon": 2.3526636,
+      "category": "cafes"
+    },
+    {
+      "name": "Starbucks",
+      "address": "4 Rue du Renard, 75004 Paris, France",
+      "lat": 48.8578501,
+      "lon": 2.3518366,
+      "category": "cafes"
+    },
+    {
+      "name": "Pastasuta",
+      "address": "2 Rue de la Coutellerie, 75004 Paris, France",
+      "lat": 48.8574938,
+      "lon": 2.3505431,
+      "category": "food"
+    },
+    {
+      "name": "Le Coupe Gorge",
+      "address": "Rue de la Coutellerie, 75004 Paris, France",
+      "lat": 48.8574811,
+      "lon": 2.3504511,
+      "category": "food"
+    },
+    {
+      "name": "Cartel comedy club",
+      "address": "6 Rue de la Tacherie, 75004 Paris, France",
+      "lat": 48.857508,
+      "lon": 2.3501091,
+      "category": "food"
+    },
+    {
+      "name": "Restaurant Bayan",
+      "address": "Rue de Rivoli, 75004 Paris, France",
+      "lat": 48.8577035,
+      "lon": 2.3502326,
+      "category": "food"
+    },
+    {
+      "name": "Manhattan burgers",
+      "address": "13 Rue du Renard, 75004 Paris, France",
+      "lat": 48.858324,
+      "lon": 2.3517241,
+      "category": "food"
+    },
+    {
+      "name": "La Baguette du Relais",
+      "address": "10 Rue des Archives, 75004 Paris, France",
+      "lat": 48.8575782,
+      "lon": 2.3545438,
+      "category": "food"
+    },
+    {
+      "name": "Big Bang",
+      "address": "Rue de la Verrerie, 75004 Paris, France",
+      "lat": 48.8573789,
+      "lon": 2.3547664,
+      "category": "food"
+    },
+    {
+      "name": "Caffé Vito",
+      "address": "12 Rue des Archives, 75004 Paris, France",
+      "lat": 48.8576092,
+      "lon": 2.3546532,
+      "category": "food"
+    },
+    {
+      "name": "Le P'tit Bistrot",
+      "address": "8 Rue Saint-Martin, 75004 Paris, France",
+      "lat": 48.8575081,
+      "lon": 2.3495606,
+      "category": "cafes"
+    },
+    {
+      "name": "Brown",
+      "address": "Rue de la Verrerie, 75004 Paris, France",
+      "lat": 48.8570692,
+      "lon": 2.3551281,
+      "category": "cafes"
+    },
+    {
+      "name": "Les Marronniers",
+      "address": "18 Rue des Archives, 75004 Paris, France",
+      "lat": 48.8577814,
+      "lon": 2.3548606,
+      "category": "cafes"
+    },
+    {
+      "name": "Bagel Baget Café",
+      "address": "Rue de la Verrerie, 75004 Paris, France",
+      "lat": 48.8587529,
+      "lon": 2.350792,
+      "category": "cafes"
+    },
+    {
+      "name": "L'Étincelle",
+      "address": "42 Bis Rue de Rivoli, 75004 Paris, France",
+      "lat": 48.8566166,
+      "lon": 2.3557792,
+      "category": "cafes"
+    },
+    {
+      "name": "Hoct&loca",
+      "address": "Rue Saint-Martin, 75004 Paris, France",
+      "lat": 48.858831,
+      "lon": 2.3502973,
+      "category": "cafes"
+    },
+    {
+      "name": "PA_1570",
+      "address": "Rue de la Verrerie, 75004 Paris, France",
+      "lat": 48.8581553,
+      "lon": 2.3526027,
+      "category": "hidden"
+    },
+    {
+      "name": "PA_230",
+      "address": "Rue François Miron, 75004 Paris, France",
+      "lat": 48.8558023,
+      "lon": 2.3543879,
+      "category": "hidden"
+    },
+    {
+      "name": "PA_1249",
+      "address": "Rue de la Verrerie, 75004 Paris, France",
+      "lat": 48.8574911,
+      "lon": 2.3544066,
+      "category": "hidden"
+    },
+    {
+      "name": "PA_815",
+      "address": "Rue du Renard, 75004 Paris, France",
+      "lat": 48.8585953,
+      "lon": 2.3519394,
+      "category": "hidden"
+    },
+    {
+      "name": "PA_612",
+      "address": "Rue du Renard, 75004 Paris, France",
+      "lat": 48.8589122,
+      "lon": 2.3523707,
+      "category": "hidden"
+    },
+    {
+      "name": "Virgin of Paris",
+      "address": "Notre-Dame Forecourt - John Paul II Square, 75004 Paris, France",
+      "lat": 48.8532677,
+      "lon": 2.3478864,
+      "category": "hidden"
+    },
+    {
+      "name": "Café de Flore",
+      "address": "Rue Saint-Benoît, 75006 Paris, France",
+      "lat": 48.8541444,
+      "lon": 2.3326307,
+      "category": "cafes"
+    },
+    {
+      "name": "Le Procope",
+      "address": "Rue de l'Ancienne Comédie, 75006 Paris, France",
+      "lat": 48.8530584,
+      "lon": 2.3387505,
+      "category": "food"
+    },
+    {
+      "name": "Shakespeare and Company",
+      "address": "37 Rue de la Bûcherie, 75005 Paris, France",
+      "lat": 48.8525747,
+      "lon": 2.3471123,
+      "category": "shopping"
+    },
+    {
+      "name": "La Maison Rose",
+      "address": "Rue de l'Abreuvoir, 75018 Paris, France",
+      "lat": 48.8879853,
+      "lon": 2.3396455,
+      "category": "cafes"
+    },
+    {
+      "name": "Le Train Bleu",
+      "address": "4 Place Louis Armand, 75012 Paris, France",
+      "lat": 48.8450448,
+      "lon": 2.3734811,
+      "category": "food"
+    },
+    {
+      "name": "Père Lachaise Cemetery",
+      "address": "8, 75020 Paris, France",
+      "lat": 48.8611296,
+      "lon": 2.3940087,
+      "category": "hidden"
+    }
+  ]
+}

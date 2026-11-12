@@ -46,7 +46,9 @@ function dateAt(start, index) {
   return d.toISOString().slice(0, 10);
 }
 export function buildPlan(places, prefs, center, weather) {
-  const remaining = [...places],
+  // A generated plan is an itinerary of exactly the places the traveler chose.
+  // Deduplicate provider results defensively before scheduling.
+  const remaining = [...new Map(places.map((place) => [place.id, place])).values()],
     days = [];
   const limit = Math.min(prefs.hours * 60, 720),
     startMinute = 9 * 60;
@@ -64,10 +66,7 @@ export function buildPlan(places, prefs, center, weather) {
       elapsed = 0;
     // Seed each day near the best remaining recommendation, then use nearest
     // neighbors. A growing distance penalty keeps each day's visits clustered.
-    const target = Math.min(
-      prefs.pace === 'packed' ? 7 : prefs.pace === 'relaxed' ? 4 : 5,
-      Math.max(1, Math.ceil(remaining.length / (prefs.days - i)))
-    );
+    const target = Math.max(1, Math.ceil(remaining.length / (prefs.days - i)));
     while (remaining.length && day.stops.length < target) {
       const options = remaining
         .map((p, index) => ({ p, index, km: distanceKm(current, p) }))
@@ -80,18 +79,20 @@ export function buildPlan(places, prefs, center, weather) {
         const buffer = travel.minutes ?? travel.reserve;
         const windows = openingWindow(p.hours, date);
         let start = startMinute + elapsed + buffer;
+        let hoursChecked = Boolean(windows);
         if (windows) {
           const slot = windows.find(([a, b]) => Math.max(a, start) + activity <= b);
-          if (!slot) continue;
-          start = Math.max(start, slot[0]);
+          if (slot) start = Math.max(start, slot[0]);
+          else hoursChecked = false;
         }
-        if (start + activity > startMinute + limit) continue;
+        // Opening hours and day length guide the schedule, but never remove a
+        // selected destination. Overflow stays visible and is explained below.
         const weatherPenalty = forecast && forecast.rain >= 50 && p.setting === 'outdoor' ? 5 : 0;
         const mealPenalty =
           p.category === 'food' && day.stops.some((s) => s.place.category === 'food') ? 4 : 0;
         const score = item.km + weatherPenalty + mealPenalty + item.index * 0.015;
         if (!choice || score < choice.score)
-          choice = { ...item, score, activity, travel, start, hoursChecked: Boolean(windows) };
+          choice = { ...item, score, activity, travel, start, hoursChecked };
       }
       if (!choice) break;
       const p = choice.p;
@@ -110,7 +111,7 @@ export function buildPlan(places, prefs, center, weather) {
     day.minutes = elapsed;
     days.push(day);
   }
-  const alternatives = remaining.filter((p) => p.setting === 'indoor').slice(0, 4);
+  const overCapacity = days.some((day) => day.minutes > limit);
   return {
     id: crypto.randomUUID(),
     createdAt: new Date().toISOString(),
@@ -118,14 +119,15 @@ export function buildPlan(places, prefs, center, weather) {
     center,
     preferences: prefs,
     days,
-    alternatives,
-    unscheduled: remaining.length,
+    alternatives: [],
+    unscheduled: 0,
     notes: [
       'Visit durations and travel schedule times are planning estimates. Check live directions before leaving.',
       prefs.transport === 'transit'
         ? 'Transit has a 30-minute scheduling buffer per leg, not a transit-time prediction. Open transit directions for actual service.'
         : 'Open a day to load a Geoapify walking or driving route when available.',
-      'Only simple opening-hour rules are checked when a trip date is set. Confirm complex hours and holiday closures with each venue.'
+      'Only simple opening-hour rules are checked when a trip date is set. Confirm complex hours and holiday closures with each venue.',
+      ...(overCapacity ? ['All selected places are included. Some days exceed the requested hours; adjust expectations before setting out.'] : [])
     ]
   };
 }

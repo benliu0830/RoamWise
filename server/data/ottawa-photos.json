@@ -1,0 +1,2816 @@
+{
+  "version": 2,
+  "generatedAt": "2026-11-12T01:21:04.081Z",
+  "photos": [
+    {
+      "place": {
+        "id": "5121110995eeec52c059ad889ae8f3b54640f00103f9012036da3c0000000092031542616e6b206f662043616e616461204d757365756d",
+        "name": "Bank of Canada Museum",
+        "lat": 45.421506,
+        "lon": -75.7020619,
+        "category": "museums",
+        "categories": [
+          "entertainment",
+          "entertainment.museum",
+          "no_fee",
+          "no_fee.no",
+          "wheelchair",
+          "wheelchair.yes"
+        ],
+        "setting": "indoor",
+        "address": "30 Bank Street, Ottawa, ON K1A 0G9, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": "Bank Street",
+        "houseNumber": "30",
+        "description": null,
+        "businessDomain": "bankofcanadamuseum.ca",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": "Bank of Canada",
+        "heritage": null,
+        "wikidata": "Q4306227",
+        "features": {
+          "wheelchair": "yes",
+          "tourism": "museum"
+        },
+        "hours": "Mo-Su 10:00-17:00",
+        "image": null,
+        "wikipedia": "en:The Bank of Canada Museum",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 379.45310474083936
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Bank_of_Canada_Museum_Mus%C3%A9e_de_la_Banque_du_Canada_%2852306156820%29.jpg/1280px-Bank_of_Canada_Museum_Mus%C3%A9e_de_la_Banque_du_Canada_%2852306156820%29.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bank_of_Canada_Museum_Mus%C3%A9e_de_la_Banque_du_Canada_(52306156820).jpg",
+        "title": "Bank of Canada Museum Musée de la Banque du Canada (52306156820).jpg",
+        "creator": "Bank of Canada - Banque du Canada from Canada",
+        "credit": "Bank of Canada Museum / Musée de la Banque du Canada",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "links": [
+          {
+            "label": "Bank of Canada - Banque du Canada",
+            "url": "https://www.flickr.com/people/26314600@N05"
+          },
+          {
+            "label": "Bank of Canada Museum / Musée de la Banque du Canada",
+            "url": "https://www.flickr.com/photos/bankofcanada/52306156820/"
+          }
+        ],
+        "width": 1280,
+        "height": 854,
+        "entityId": "Q4306227",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:21:04.084Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51de49a99e17ec52c0595338d459d1b44640f00102f9017ec64b0d0000000092031943616e616469616e204d757365756d206f66204e6174757265",
+        "name": "Canadian Museum of Nature",
+        "lat": 45.4127151,
+        "lon": -75.688753,
+        "category": "museums",
+        "categories": [
+          "entertainment",
+          "entertainment.museum",
+          "fee"
+        ],
+        "setting": "indoor",
+        "address": "Catherine Street, Ottawa, ON K2P 1B5, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": "Catherine Street",
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": "nature.ca",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q1032232",
+        "features": {
+          "tourism": "museum"
+        },
+        "hours": "Mo-We,Fr-Su 09:00-18:00; Th 09:00-20:00",
+        "image": null,
+        "wikipedia": "en:Canadian Museum of Nature",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 1178.5138782014803
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/CanadianMuseumofNature2010-05-19.JPG/1280px-CanadianMuseumofNature2010-05-19.JPG",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:CanadianMuseumofNature2010-05-19.JPG",
+        "title": "CanadianMuseumofNature2010-05-19.JPG",
+        "creator": "RealGrouchy",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:CanadianMuseumofNature2010-05-19.JPG#Licensing",
+        "links": [
+          {
+            "label": "RealGrouchy",
+            "url": "https://commons.wikimedia.org/wiki/User:RealGrouchy"
+          }
+        ],
+        "width": 1280,
+        "height": 759,
+        "entityId": "Q1032232",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:21:04.085Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51efc19a33e5ed52c059e36379d662b54640f00102f90141582a060000000092031343616e616469616e20576172204d757365756d",
+        "name": "Canadian War Museum",
+        "lat": 45.4170512,
+        "lon": -75.7169484,
+        "category": "museums",
+        "categories": [
+          "building",
+          "building.tourism",
+          "entertainment",
+          "entertainment.museum",
+          "fee",
+          "internet_access",
+          "wheelchair",
+          "wheelchair.yes"
+        ],
+        "setting": "indoor",
+        "address": "1 Vimy Place, Ottawa, ON K1A 0M8, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": "Vimy Place",
+        "houseNumber": "1",
+        "description": null,
+        "businessDomain": "warmuseum.ca",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q1032442",
+        "features": {
+          "wheelchair": "yes",
+          "internet_access": "wlan",
+          "tourism": "museum"
+        },
+        "hours": "May-Jun: Fr-We 09:00-17:00; Jul-Aug: Fr-We 09:00-18:00; May-Aug: Th 09:00-20:00; Sep-Apr: Fr-We 09:30-17:00; Sep-Apr: Th 09:30-20:00",
+        "image": null,
+        "wikipedia": "en:Canadian War Museum",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 1618.7845100529007
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Canadian_War_Museum_01.jpg/1280px-Canadian_War_Museum_01.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canadian_War_Museum_01.jpg",
+        "title": "Canadian War Museum 01.jpg",
+        "creator": "Gail Leenstra",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "links": [
+          {
+            "label": "Gail Leenstra",
+            "url": "https://commons.wikimedia.org/w/index.php?title=User:GailLeenstra&action=edit&redlink=1"
+          }
+        ],
+        "width": 1280,
+        "height": 720,
+        "entityId": "Q1032442",
+        "match": "verified entity Commons category",
+        "checkedAt": "2026-11-12T01:21:05.320Z"
+      }
+    },
+    {
+      "place": {
+        "id": "510d631c6d66ed52c059d382bcc392b14640f00103f9011f8de03c0000000092032243616e616461204167726963756c7475726520616e6420466f6f64204d757365756d",
+        "name": "Canada Agriculture and Food Museum",
+        "lat": 45.3872914,
+        "lon": -75.7093766,
+        "category": "museums",
+        "categories": [
+          "entertainment",
+          "entertainment.museum",
+          "fee"
+        ],
+        "setting": "indoor",
+        "address": "901 Prince Of Wales Drive, Ottawa, ON K2C 3K1, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": "Prince Of Wales Drive",
+        "houseNumber": "901",
+        "description": null,
+        "businessDomain": "ingeniumcanada.org",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": "Ingenium",
+        "heritage": null,
+        "wikidata": "Q4212098",
+        "features": {
+          "tourism": "museum"
+        },
+        "hours": "Mar-Oct 09:00-17:00; Nov-Feb We-Su 09:00-17:00",
+        "image": null,
+        "wikipedia": "en:Canada Agriculture and Food Museum",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 3920.8104403930915
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/CEF_Agricultural_Museum.jpg/1280px-CEF_Agricultural_Museum.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:CEF_Agricultural_Museum.jpg",
+        "title": "CEF Agricultural Museum.jpg",
+        "creator": "P199",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:CEF_Agricultural_Museum.jpg#Licensing",
+        "links": [],
+        "width": 1280,
+        "height": 960,
+        "entityId": "Q4212098",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:21:05.321Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51516095079de752c05987e564a1a7b34640f00102f90191a517040000000092032943616e616469616e204d757365756d206f6620536369656e636520616e6420546563686e6f6c6f6779",
+        "name": "Canadian Museum of Science and Technology",
+        "lat": 45.4034995,
+        "lon": -75.6189074,
+        "category": "museums",
+        "categories": [
+          "building",
+          "building.public_and_civil",
+          "building.tourism",
+          "entertainment",
+          "entertainment.museum",
+          "fee",
+          "wheelchair",
+          "wheelchair.yes"
+        ],
+        "setting": "indoor",
+        "address": "1867 St-Laurent Boulevard, Ottawa, ON K1G 4L5, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": "St-Laurent Boulevard",
+        "houseNumber": "1867",
+        "description": null,
+        "businessDomain": "ingeniumcanada.org",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q1163464",
+        "features": {
+          "wheelchair": "yes",
+          "tourism": "museum"
+        },
+        "hours": "Tu-Su 09:00-17:00; May-Aug Mo 09:00-17:00; Dec 25 off; PH \"open\"; Dec 24 \"Closes at 14:00\"",
+        "image": null,
+        "wikipedia": "en:Canada Science and Technology Museum",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 6430.830436106662
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Canada_Science_and_Technology_Museum.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Canada_Science_and_Technology_Museum.jpg",
+        "title": "Canada Science and Technology Museum.jpg",
+        "creator": "Ajadams94",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "links": [
+          {
+            "label": "Ajadams94",
+            "url": "https://commons.wikimedia.org/w/index.php?title=User:Ajadams94&action=edit&redlink=1"
+          }
+        ],
+        "width": 1280,
+        "height": 854,
+        "entityId": "Q1163464",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:21:05.322Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51a2ec686f80ec52c05927563eea29b64640f00102f901e0f0bf0f0000000092031043656e7472616c204368616d62657273",
+        "name": "Central Chambers",
+        "lat": 45.4231819,
+        "lon": -75.6953572,
+        "category": "landmarks",
+        "categories": [
+          "building",
+          "building.commercial",
+          "building.historic",
+          "building.office",
+          "heritage",
+          "tourism",
+          "tourism.sights",
+          "tourism.sights.building"
+        ],
+        "setting": "unknown",
+        "address": "40 Elgin Street, Ottawa, ON K1P 5C4, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": "Elgin Street",
+        "houseNumber": "40",
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q5060536",
+        "features": {
+          "historic": "building"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": "en:Central Chambers (Ottawa)",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 235.92493464299352
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Chambers_Building_Ottawa.jpg/1280px-Chambers_Building_Ottawa.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chambers_Building_Ottawa.jpg",
+        "title": "Chambers Building Ottawa.jpg",
+        "creator": "Ian Muttoo from Mississauga, Canada",
+        "credit": "Central Chambers, Ottawa Uploaded by Skeezix1000",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "links": [
+          {
+            "label": "Ian Muttoo",
+            "url": "https://www.flickr.com/people/20741443@N00"
+          },
+          {
+            "label": "Central Chambers, Ottawa",
+            "url": "https://www.flickr.com/photos/20741443@N00/1404196795/"
+          },
+          {
+            "label": "Skeezix1000",
+            "url": "https://commons.wikimedia.org/wiki/User:Skeezix1000"
+          }
+        ],
+        "width": 1280,
+        "height": 960,
+        "entityId": "Q5060536",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:21:05.325Z"
+      }
+    },
+    {
+      "place": {
+        "id": "510064d7ac69ec52c05928999cda19b64640f00103f9017b8dd68d0000000092030e4f73636172205065746572736f6e",
+        "name": "Oscar Peterson",
+        "lat": 45.422664,
+        "lon": -75.6939499,
+        "category": "history",
+        "categories": [
+          "tourism",
+          "tourism.sights",
+          "tourism.sights.memorial"
+        ],
+        "setting": "unknown",
+        "address": "Wood Terrace, Ottawa, ON K1P 5W1, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": "Wood Terrace",
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": "canada.ca",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q21161143",
+        "features": {
+          "historic": "memorial"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": "en:Statue of Oscar Peterson",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 284.7688404010655
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Statue_of_Oscar_Peterson_1.jpg/1280px-Statue_of_Oscar_Peterson_1.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Statue_of_Oscar_Peterson_1.jpg",
+        "title": "Statue of Oscar Peterson 1.jpg",
+        "creator": "Skeezix1000",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "links": [
+          {
+            "label": "Skeezix1000",
+            "url": "https://commons.wikimedia.org/wiki/User:Skeezix1000"
+          }
+        ],
+        "width": 1280,
+        "height": 960,
+        "entityId": "Q21161143",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:21:05.325Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51db2049ff81ec52c059c0266bd443b64640f00103f9013d6fe8630000000092031b546f6d62206f662074686520556e6b6e6f776e20536f6c64696572",
+        "name": "Tomb of the Unknown Soldier",
+        "lat": 45.423945,
+        "lon": -75.6954344,
+        "category": "history",
+        "categories": [
+          "tourism",
+          "tourism.sights",
+          "tourism.sights.memorial",
+          "wheelchair",
+          "wheelchair.yes"
+        ],
+        "setting": "unknown",
+        "address": "Elgin Street, Ottawa, ON K1P 5K6, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": "Elgin Street",
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q3531126",
+        "features": {
+          "wheelchair": "yes",
+          "historic": "memorial"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": "en:Canadian Tomb of the Unknown Soldier",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 304.79781005730354
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Tomb_of_the_unknown_soldier%2C_Ottawa.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tomb_of_the_unknown_soldier,_Ottawa.jpg",
+        "title": "Tomb of the unknown soldier, Ottawa.jpg",
+        "creator": "Photobal",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "links": [
+          {
+            "label": "Photobal",
+            "url": "https://commons.wikimedia.org/w/index.php?title=User:Photobal&action=edit&redlink=1"
+          }
+        ],
+        "width": 1280,
+        "height": 1925,
+        "entityId": "Q3531126",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:21:05.325Z"
+      }
+    },
+    {
+      "place": {
+        "id": "512556846e83ec52c0595fd6b32f47b64640f00102f9019b318438000000009203154e6174696f6e616c20576172204d656d6f7269616c",
+        "name": "National War Memorial",
+        "lat": 45.4240313,
+        "lon": -75.6955098,
+        "category": "history",
+        "categories": [
+          "building",
+          "building.historic",
+          "building.tourism",
+          "tourism",
+          "tourism.attraction",
+          "tourism.sights",
+          "tourism.sights.memorial",
+          "tourism.sights.memorial.monument",
+          "wheelchair",
+          "wheelchair.yes"
+        ],
+        "setting": "unknown",
+        "address": "Wellington Street, Ottawa, ON K1A 0A2, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": "Wellington Street",
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q2091081",
+        "features": {
+          "wheelchair": "yes",
+          "historic": "monument",
+          "tourism": "attraction"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": "en:National War Memorial (Canada)",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 310.8448022180796
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Monument_commemoratif_de_guerre_du_Canada_-_01.jpg/1280px-Monument_commemoratif_de_guerre_du_Canada_-_01.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monument_commemoratif_de_guerre_du_Canada_-_01.jpg",
+        "title": "Monument commemoratif de guerre du Canada - 01.jpg",
+        "creator": "Jeangagnon",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "links": [],
+        "width": 1280,
+        "height": 1707,
+        "entityId": "Q2091081",
+        "match": "verified entity Commons category",
+        "checkedAt": "2026-11-12T01:21:06.532Z"
+      }
+    },
+    {
+      "place": {
+        "id": "515763e37ca6ec52c05944ff12d981b64640f00102f901ff4ba3070000000092030d4279746f776e204d757365756d",
+        "name": "Bytown Museum",
+        "lat": 45.4258389,
+        "lon": -75.6976637,
+        "category": "museums",
+        "categories": [
+          "building",
+          "building.historic",
+          "building.tourism",
+          "entertainment",
+          "entertainment.museum",
+          "no_fee",
+          "no_fee.no",
+          "tourism",
+          "tourism.sights",
+          "wheelchair",
+          "wheelchair.limited"
+        ],
+        "setting": "indoor",
+        "address": "1 Canal Lane, Ottawa, ON K1A 0A2, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": "Canal Lane",
+        "houseNumber": "1",
+        "description": null,
+        "businessDomain": "bytownmuseum.com",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q5004646",
+        "features": {
+          "wheelchair": "limited",
+          "historic": "yes",
+          "tourism": "museum"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": "en:Bytown Museum",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 483.8189799387403
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Bytown_Museum%2C_2011.jpg/1280px-Bytown_Museum%2C_2011.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bytown_Museum,_2011.jpg",
+        "title": "Bytown Museum, 2011.jpg",
+        "creator": "D. Gordon E. Robertson",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "links": [
+          {
+            "label": "D. Gordon E. Robertson",
+            "url": "https://commons.wikimedia.org/wiki/User:Dger"
+          }
+        ],
+        "width": 1280,
+        "height": 962,
+        "entityId": "Q5004646",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:21:06.532Z"
+      }
+    },
+    {
+      "place": {
+        "id": "519857097140ec52c0597b8670ccb2b54640f00103f901bf6623210100000092032043616e616469616e205472696275746520746f2048756d616e20526967687473",
+        "name": "Canadian Tribute to Human Rights",
+        "lat": 45.419519,
+        "lon": -75.6914332,
+        "category": "history",
+        "categories": [
+          "tourism",
+          "tourism.sights",
+          "tourism.sights.memorial",
+          "tourism.sights.memorial.monument"
+        ],
+        "setting": "unknown",
+        "address": "Elgin Street, Ottawa, ON K2P 1L5, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": "Elgin Street",
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q5030632",
+        "features": {
+          "historic": "monument"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": "en:Canadian Tribute to Human Rights",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 501.0967762720535
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Monumentoemottawacanada.jpg/1280px-Monumentoemottawacanada.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monumentoemottawacanada.jpg",
+        "title": "Monumentoemottawacanada.jpg",
+        "creator": "Andrevruas",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "links": [
+          {
+            "label": "Andrevruas",
+            "url": "https://commons.wikimedia.org/wiki/User:Andrevruas"
+          }
+        ],
+        "width": 1280,
+        "height": 1707,
+        "entityId": "Q5030632",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:21:06.532Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51192af52d95ec52c059bdb49428e3b64640f00102f9011e35d20b0000000092031550656163656b656570696e67204d6f6e756d656e74",
+        "name": "Peacekeeping Monument",
+        "lat": 45.4288598,
+        "lon": -75.6966753,
+        "category": "history",
+        "categories": [
+          "tourism",
+          "tourism.sights",
+          "tourism.sights.memorial",
+          "wheelchair",
+          "wheelchair.yes"
+        ],
+        "setting": "unknown",
+        "address": "424 Sussex Drive, Ottawa, ON K1N 9M6, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": "Sussex Drive",
+        "houseNumber": "424",
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q3323261",
+        "features": {
+          "wheelchair": "yes",
+          "historic": "memorial"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": "en:Peacekeeping Monument",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 819.3962227986975
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/Peacekeeping_monument.jpg/1280px-Peacekeeping_monument.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peacekeeping_monument.jpg",
+        "title": "Peacekeeping monument.jpg",
+        "creator": "Creator listed on source page",
+        "credit": "",
+        "copyright": "",
+        "attribution": "",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Peacekeeping_monument.jpg#Licensing",
+        "links": [],
+        "width": 1280,
+        "height": 900,
+        "entityId": "Q3323261",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:21:06.534Z"
+      }
+    },
+    {
+      "place": {
+        "id": "512558c1140aeb52c0592cfb647be3b14640f00103f901e1ad0c930000000092031642696c6c696e677320457374617465204d757365756d",
+        "name": "Billings Estate Museum",
+        "lat": 45.3897547,
+        "lon": -75.6724903,
+        "category": "museums",
+        "categories": [
+          "entertainment",
+          "entertainment.museum",
+          "fee"
+        ],
+        "setting": "indoor",
+        "address": "2100 Cabot Street, Ottawa, ON K1H 6K3, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": "Cabot Street",
+        "houseNumber": "2100",
+        "description": null,
+        "businessDomain": "ottawa.ca",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q4911946",
+        "features": {
+          "tourism": "museum"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": "en:Billings Estate Museum",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 4022.6234727376377
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Billings_Estate_%2820170819_100953%29.jpg/1280px-Billings_Estate_%2820170819_100953%29.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Billings_Estate_(20170819_100953).jpg",
+        "title": "Billings Estate (20170819 100953).jpg",
+        "creator": "MB-one",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "links": [
+          {
+            "label": "MB-one",
+            "url": "https://commons.wikimedia.org/wiki/User:MB-one"
+          }
+        ],
+        "width": 1280,
+        "height": 960,
+        "entityId": "Q4911946",
+        "match": "verified entity Commons category",
+        "checkedAt": "2026-11-12T01:26:17.423Z"
+      }
+    },
+    {
+      "place": {
+        "id": "5194b9d61dd8ec52c059d5269ffcfab64640f00102f90109c95c020000000092030e4bc3ac77656bc3ac20506f696e74",
+        "name": "Kìwekì Point",
+        "lat": 45.4295146,
+        "lon": -75.7009236,
+        "category": "nature",
+        "categories": [
+          "leisure",
+          "leisure.park",
+          "wheelchair",
+          "wheelchair.yes"
+        ],
+        "setting": "outdoor",
+        "address": "Lowertown, Ottawa, ON, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": null,
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": "ncc-ccn.gc.ca",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": "National Capital Commission",
+        "heritage": null,
+        "wikidata": "Q6994604",
+        "features": {
+          "wheelchair": "yes",
+          "leisure": "park"
+        },
+        "hours": "Apr 1-Oct 15 sunrise-23:00; Oct 16-Mar 31 07:00-19:00",
+        "image": null,
+        "wikipedia": "en:Kìwekì Point",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 937.3636385101078
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Nepean_Point.JPG/1280px-Nepean_Point.JPG",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nepean_Point.JPG",
+        "title": "Nepean Point.JPG",
+        "creator": "You may select the license of your choice.",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "I, Padraic Ryan",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "links": [
+          {
+            "label": "Padraic Ryan",
+            "url": "https://commons.wikimedia.org/wiki/User:Padraic"
+          }
+        ],
+        "width": 1280,
+        "height": 960,
+        "entityId": "Q6994604",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:21:07.685Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51f7d71b4982ec52c0599018a9fc44b64640f00102f901cb536c0200000000920314436f6e66656465726174696f6e20537175617265",
+        "name": "Confederation Square",
+        "lat": 45.4239774,
+        "lon": -75.6956495,
+        "category": "nature",
+        "categories": [
+          "heritage",
+          "leisure",
+          "leisure.park",
+          "tourism",
+          "tourism.sights"
+        ],
+        "setting": "outdoor",
+        "address": "Centretown, Ottawa, ON, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": null,
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q4365607",
+        "features": {
+          "historic": "yes",
+          "leisure": "park"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": "en:Confederation Square",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 300.88038356361676
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Confederation_Square_Ottawa.JPG/1280px-Confederation_Square_Ottawa.JPG",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Confederation_Square_Ottawa.JPG",
+        "title": "Confederation Square Ottawa.JPG",
+        "creator": "Skeezix1000",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "links": [
+          {
+            "label": "Skeezix1000",
+            "url": "https://commons.wikimedia.org/wiki/User:Skeezix1000"
+          }
+        ],
+        "width": 1280,
+        "height": 960,
+        "entityId": "Q4365607",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:21:10.094Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51edc094dcbcec52c059f812cf7e49b64640f00103f9018c846c110000000092030f5061726c69616d656e742048696c6c",
+        "name": "Parliament Hill",
+        "lat": 45.4241179,
+        "lon": -75.6990272,
+        "category": "hidden",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "wheelchair",
+          "wheelchair.yes"
+        ],
+        "setting": "unknown",
+        "address": "Parliament Road, Ottawa, ON K1P 5A1, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": "Parliament Road",
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q1589289",
+        "features": {
+          "wheelchair": "yes",
+          "tourism": "attraction"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": "en:Parliament Hill",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 324.14978296809943
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Parliament_Hill%2C_Ottawa.jpg/1280px-Parliament_Hill%2C_Ottawa.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parliament_Hill,_Ottawa.jpg",
+        "title": "Parliament Hill, Ottawa.jpg",
+        "creator": "David Samuel, User:Hellodavey1902",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "links": [
+          {
+            "label": "User:Hellodavey1902",
+            "url": "https://commons.wikimedia.org/w/index.php?title=User:Hellodavey1902&action=edit&redlink=1"
+          }
+        ],
+        "width": 1280,
+        "height": 808,
+        "entityId": "Q1589289",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:21:10.094Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51281b830745ec52c059ef0d81af0eb64640f00102f901d152d90700000000920312436f6e66656465726174696f6e205061726b",
+        "name": "Confederation Park",
+        "lat": 45.4223729,
+        "lon": -75.6916009,
+        "category": "nature",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "setting": "outdoor",
+        "address": "Centretown, Ottawa, ON, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": null,
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q4345230",
+        "features": {
+          "leisure": "park"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": "en:Confederation Park",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 447.6346015135324
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Confederation_Park_Monument_in_the_evening._Dedicated_to_those_who_went_and_came_home..jpg/1280px-Confederation_Park_Monument_in_the_evening._Dedicated_to_those_who_went_and_came_home..jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Confederation_Park_Monument_in_the_evening._Dedicated_to_those_who_went_and_came_home..jpg",
+        "title": "Confederation Park Monument in the evening. Dedicated to those who went and came home..jpg",
+        "creator": "Ron Crough",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "links": [
+          {
+            "label": "Ron Crough",
+            "url": "https://commons.wikimedia.org/wiki/User:Croron"
+          }
+        ],
+        "width": 1280,
+        "height": 960,
+        "entityId": "Q4345230",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:21:10.094Z"
+      }
+    },
+    {
+      "place": {
+        "id": "512f713349a1ec52c059361f65d2b5b64640f00102f9017c771a26000000009203114d616a6f7227732048696c6c205061726b",
+        "name": "Major's Hill Park",
+        "lat": 45.427215,
+        "lon": -75.6970898,
+        "category": "nature",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "setting": "outdoor",
+        "address": "Lowertown, Ottawa, ON, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": null,
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q3363862",
+        "features": {
+          "leisure": "park"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": "en:Major's Hill Park",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 635.537198809407
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Major%27s_Hill_Park_%28344893928%29.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Major%27s_Hill_Park_(344893928).jpg",
+        "title": "Major's Hill Park (344893928).jpg",
+        "creator": "Vince Alongi from Delta, B.C., Canada",
+        "credit": "Major's Hill Park",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "links": [
+          {
+            "label": "Vince Alongi",
+            "url": "https://www.flickr.com/people/90963248@N00"
+          },
+          {
+            "label": "Major's Hill Park",
+            "url": "https://www.flickr.com/photos/vincealongi/344893928/"
+          }
+        ],
+        "width": 1280,
+        "height": 960,
+        "entityId": "Q3363862",
+        "match": "verified entity Commons category",
+        "checkedAt": "2026-11-12T01:21:11.245Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51d427208a4ced52c059ed42e90999b54640f00102f90152096a060000000092032747617264656e206f66207468652050726f76696e63657320616e64205465727269746f72696573",
+        "name": "Garden of the Provinces and Territories",
+        "lat": 45.4187302,
+        "lon": -75.7076662,
+        "category": "nature",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "setting": "outdoor",
+        "address": "Centretown, Ottawa, ON, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": null,
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": "Government of Canada",
+        "heritage": null,
+        "wikidata": "Q5522410",
+        "features": {
+          "leisure": "park"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": "en:Garden of the Provinces and Territories",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 872.9990943155947
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Garden_of_the_Provinces_and_Territories_2007.jpg/1280px-Garden_of_the_Provinces_and_Territories_2007.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Garden_of_the_Provinces_and_Territories_2007.jpg",
+        "title": "Garden of the Provinces and Territories 2007.jpg",
+        "creator": "Quantumshanti at English Wikipedia",
+        "credit": "Transferred from en.wikipedia to Commons by Skeezix1000 using CommonsHelper .",
+        "copyright": "",
+        "attribution": "",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Garden_of_the_Provinces_and_Territories_2007.jpg#Licensing",
+        "links": [
+          {
+            "label": "Quantumshanti",
+            "url": "https://en.wikipedia.org/wiki/User:Quantumshanti"
+          },
+          {
+            "label": "English Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/"
+          },
+          {
+            "label": "en.wikipedia",
+            "url": "https://en.wikipedia.org/"
+          },
+          {
+            "label": "Skeezix1000",
+            "url": "https://commons.wikimedia.org/wiki/User:Skeezix1000"
+          },
+          {
+            "label": "CommonsHelper",
+            "url": "https://iw.toolforge.org/commonshelper/"
+          }
+        ],
+        "width": 1280,
+        "height": 960,
+        "entityId": "Q5522410",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:21:11.251Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51d20ac2cbc2eb52c059d663117981b24640f00103f901028dc7820100000092030f4d6179666169722054686561747265",
+        "name": "Mayfair Theatre",
+        "lat": 45.3945762,
+        "lon": -75.6837644,
+        "category": "entertainment",
+        "categories": [
+          "entertainment",
+          "entertainment.cinema"
+        ],
+        "setting": "unknown",
+        "address": "1074 Bank Street, Ottawa, ON K1S 3X3, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": "Bank Street",
+        "houseNumber": "1074",
+        "description": null,
+        "businessDomain": "mayfairtheatre.ca",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q6797138",
+        "features": {},
+        "hours": null,
+        "image": null,
+        "wikipedia": "en:Mayfair Theatre",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 3172.2007762354065
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Mayfair_Theatre-thumb.jpg/1280px-Mayfair_Theatre-thumb.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mayfair_Theatre-thumb.jpg",
+        "title": "Mayfair Theatre-thumb.jpg",
+        "creator": "Ejk81 at en.wikipedia",
+        "credit": "Transferred from en.wikipedia to Commons by User:Dmitri Lytov using CommonsHelper .",
+        "copyright": "",
+        "attribution": "",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Mayfair_Theatre-thumb.jpg#Licensing",
+        "links": [
+          {
+            "label": "Ejk81",
+            "url": "https://en.wikipedia.org/wiki/User:Ejk81"
+          },
+          {
+            "label": "en.wikipedia",
+            "url": "https://en.wikipedia.org/"
+          },
+          {
+            "label": "en.wikipedia",
+            "url": "https://en.wikipedia.org/"
+          },
+          {
+            "label": "User:Dmitri Lytov",
+            "url": "https://commons.wikimedia.org/wiki/User:Dmitri_Lytov"
+          }
+        ],
+        "width": 1280,
+        "height": 960,
+        "entityId": "Q6797138",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:21:13.600Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51619aefb912ec52c0590ab03e94d4b44640f00102f9013043480d00000000920321566963746f726961204d656d6f7269616c204d757365756d204275696c64696e67",
+        "name": "Victoria Memorial Museum Building",
+        "lat": 45.4127562,
+        "lon": -75.688635,
+        "category": "landmarks",
+        "categories": [
+          "building",
+          "building.historic",
+          "building.public_and_civil",
+          "heritage",
+          "tourism",
+          "tourism.sights",
+          "tourism.sights.building"
+        ],
+        "setting": "unknown",
+        "address": "240 McLeod Street, Ottawa, ON K2P 2M2, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": "McLeod Street",
+        "houseNumber": "240",
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q112736065",
+        "features": {
+          "historic": "building"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 1179.9222412954296
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/CanadianMuseumofNature2010-05-19.JPG/1280px-CanadianMuseumofNature2010-05-19.JPG",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:CanadianMuseumofNature2010-05-19.JPG",
+        "title": "CanadianMuseumofNature2010-05-19.JPG",
+        "creator": "RealGrouchy",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:CanadianMuseumofNature2010-05-19.JPG#Licensing",
+        "links": [
+          {
+            "label": "RealGrouchy",
+            "url": "https://commons.wikimedia.org/wiki/User:RealGrouchy"
+          }
+        ],
+        "width": 1280,
+        "height": 759,
+        "entityId": "Q112736065",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:21:13.602Z"
+      }
+    },
+    {
+      "place": {
+        "id": "516a90ddc403ed52c0597f0c51c71fb64640f00102f90118c95c020000000092030f5061726c69616d656e742048696c6c",
+        "name": "Parliament Hill",
+        "lat": 45.422839,
+        "lon": -75.7030627,
+        "category": "nature",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "setting": "outdoor",
+        "address": "Centretown, Ottawa, ON, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": null,
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q1589289",
+        "features": {
+          "leisure": "park"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 481.17091029456236
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Parliament_Hill%2C_Ottawa.jpg/1280px-Parliament_Hill%2C_Ottawa.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parliament_Hill,_Ottawa.jpg",
+        "title": "Parliament Hill, Ottawa.jpg",
+        "creator": "David Samuel, User:Hellodavey1902",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "links": [
+          {
+            "label": "User:Hellodavey1902",
+            "url": "https://commons.wikimedia.org/w/index.php?title=User:Hellodavey1902&action=edit&redlink=1"
+          }
+        ],
+        "width": 1280,
+        "height": 808,
+        "entityId": "Q1589289",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:21:17.424Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51544014e709ec52c059acf2c16c59b54640f00102f9018e9316040000000092030a4d696e746f205061726b",
+        "name": "Minto Park",
+        "lat": 45.4167974,
+        "lon": -75.6880915,
+        "category": "nature",
+        "categories": [
+          "dogs",
+          "dogs.yes",
+          "leisure",
+          "leisure.park"
+        ],
+        "setting": "outdoor",
+        "address": "315, Ottawa, ON, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": null,
+        "houseNumber": "315",
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": "City of Ottawa",
+        "heritage": null,
+        "wikidata": "Q6869668",
+        "features": {
+          "leisure": "park"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 882.5117842907632
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/MintoPark.JPG/1280px-MintoPark.JPG",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:MintoPark.JPG",
+        "title": "MintoPark.JPG",
+        "creator": "You may select the license of your choice.",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "I, Padraic Ryan",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "links": [
+          {
+            "label": "Padraic Ryan",
+            "url": "https://commons.wikimedia.org/wiki/User:Padraic"
+          }
+        ],
+        "width": 1280,
+        "height": 842,
+        "entityId": "Q6869668",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:21:17.425Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51bab61ddddeec52c059fb3a1461dbb44640f00102f9019589e8070000000092030e44756e646f6e616c64205061726b",
+        "name": "Dundonald Park",
+        "lat": 45.4129443,
+        "lon": -75.7010926,
+        "category": "nature",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "setting": "outdoor",
+        "address": "516, Ottawa, ON, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": null,
+        "houseNumber": "516",
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": "City of Ottawa",
+        "heritage": null,
+        "wikidata": "Q5314897",
+        "features": {
+          "leisure": "park"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 998.6879091147548
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Dundonald_Park%2C_Centretown%2C_Ottawa%2C_Canada_%2850489678047%29.jpg/1280px-Dundonald_Park%2C_Centretown%2C_Ottawa%2C_Canada_%2850489678047%29.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dundonald_Park,_Centretown,_Ottawa,_Canada_(50489678047).jpg",
+        "title": "Dundonald Park, Centretown, Ottawa, Canada (50489678047).jpg",
+        "creator": "Ross Dunn",
+        "credit": "Dundonald Park, Centretown, Ottawa, Canada",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "links": [
+          {
+            "label": "Ross Dunn",
+            "url": "https://www.flickr.com/people/81556146@N00"
+          },
+          {
+            "label": "Dundonald Park, Centretown, Ottawa, Canada",
+            "url": "https://www.flickr.com/photos/rdb466/50489678047/"
+          }
+        ],
+        "width": 1280,
+        "height": 1707,
+        "entityId": "Q5314897",
+        "match": "verified entity Commons category",
+        "checkedAt": "2026-11-12T01:21:18.551Z"
+      }
+    },
+    {
+      "place": {
+        "id": "5162afc10c57ec52c0597dc1b865d1b54640f00103f90177c107d70000000092030b4772616e7420486f757365",
+        "name": "Grant House",
+        "lat": 45.4204528,
+        "lon": -75.6928131,
+        "category": "landmarks",
+        "categories": [
+          "tourism",
+          "tourism.sights",
+          "tourism.sights.building"
+        ],
+        "setting": "unknown",
+        "address": "150 Elgin Street, Ottawa, ON K2P 2C4, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": "Elgin Street",
+        "houseNumber": "150",
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": null,
+        "features": {
+          "historic": "building"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 361.64307302598075
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/150_Elgin.jpg/1280px-150_Elgin.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:150_Elgin.jpg",
+        "title": "150 Elgin.jpg",
+        "creator": "Jeangagnon",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "links": [
+          {
+            "label": "Jeangagnon",
+            "url": "https://commons.wikimedia.org/wiki/User:Jeangagnon"
+          }
+        ],
+        "width": 1280,
+        "height": 960,
+        "entityId": "Q49026107",
+        "match": "unique name and coordinates",
+        "checkedAt": "2026-11-12T01:21:25.787Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51e7c41edac7ec52c0595053cbd6fab54640f00103f90187644efd0000000092030a42696572204d61726b74",
+        "name": "Bier Markt",
+        "lat": 45.4217175,
+        "lon": -75.699698,
+        "category": "food",
+        "categories": [
+          "catering",
+          "catering.restaurant"
+        ],
+        "setting": "indoor",
+        "address": "156 Sparks Street, Ottawa, ON K1P 5C1, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": "Sparks Street",
+        "houseNumber": "156",
+        "description": null,
+        "businessDomain": "thebiermarkt.com",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": null,
+        "features": {
+          "outdoor_seating": "yes"
+        },
+        "hours": "Su-We 11:00-00:00; Th-Sa 11:00-02:00",
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 196.45324390712148
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Bier_Markt_Ottawa.jpg/1280px-Bier_Markt_Ottawa.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bier_Markt_Ottawa.jpg",
+        "title": "Bier Markt Ottawa.jpg",
+        "creator": "Jeangagnon",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "links": [
+          {
+            "label": "Jeangagnon",
+            "url": "https://commons.wikimedia.org/wiki/User:Jeangagnon"
+          }
+        ],
+        "width": 1280,
+        "height": 960,
+        "entityId": null,
+        "match": "Commons name, numbered address and coordinates",
+        "checkedAt": "2026-11-12T01:22:11.072Z"
+      }
+    },
+    {
+      "place": {
+        "id": "514e621058b9ec52c059cda2c1b7fab64640f00102f901d8a5530200000000c0020192031a4e6174696f6e616c2047616c6c657279206f662043616e616461",
+        "name": "National Gallery of Canada",
+        "lat": 45.4295263,
+        "lon": -75.6988125,
+        "category": "entertainment",
+        "categories": [
+          "entertainment.culture.gallery"
+        ],
+        "setting": "unknown",
+        "address": "380 Sussex Drive, Ottawa, ON K1N 9N4, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": "Sussex Drive",
+        "houseNumber": "380",
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": "America/Toronto",
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": null,
+        "features": {},
+        "hours": null,
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": null
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/National_Gallery_of_Canada%2C_Ottawa.JPG/1280px-National_Gallery_of_Canada%2C_Ottawa.JPG",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:National_Gallery_of_Canada,_Ottawa.JPG",
+        "title": "National Gallery of Canada, Ottawa.JPG",
+        "creator": "Tullia",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "links": [
+          {
+            "label": "Tullia",
+            "url": "https://commons.wikimedia.org/w/index.php?title=User:Tullia&action=edit&redlink=1"
+          }
+        ],
+        "width": 1280,
+        "height": 721,
+        "entityId": "Q1068063",
+        "match": "unique name and coordinates",
+        "checkedAt": "2026-11-12T01:22:33.647Z"
+      }
+    },
+    {
+      "place": {
+        "id": "517efc4a8c0aec52c0591179814875b64640f00103f901d9e319b801000000c002019203124f7474617761204172742047616c6c657279",
+        "name": "Ottawa Art Gallery",
+        "lat": 45.4254542,
+        "lon": -75.6881438,
+        "category": "entertainment",
+        "categories": [
+          "entertainment.culture.gallery"
+        ],
+        "setting": "unknown",
+        "address": "50 Mackenzie King Bridge, Ottawa, ON K1N 0C5, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": "Mackenzie King Bridge",
+        "houseNumber": "50",
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": "America/Toronto",
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": null,
+        "features": {},
+        "hours": null,
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": null
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Ottawa_Art_Gallery_-_Le_Germain_Hotel_-_04.jpg/1280px-Ottawa_Art_Gallery_-_Le_Germain_Hotel_-_04.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ottawa_Art_Gallery_-_Le_Germain_Hotel_-_04.jpg",
+        "title": "Ottawa Art Gallery - Le Germain Hotel - 04.jpg",
+        "creator": "Jeangagnon",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "links": [
+          {
+            "label": "Jeangagnon",
+            "url": "https://commons.wikimedia.org/wiki/User:Jeangagnon"
+          }
+        ],
+        "width": 1280,
+        "height": 960,
+        "entityId": "Q47038408",
+        "match": "unique name and coordinates",
+        "checkedAt": "2026-11-12T01:22:37.169Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51b6a569abedeb52c05981971936cab84640f00102f90123466b0c00000000c0020192030b5269646561752048616c6c",
+        "name": "Rideau Hall",
+        "lat": 45.443671,
+        "lon": -75.6863812,
+        "category": "nature",
+        "categories": [
+          "leisure.park"
+        ],
+        "setting": "outdoor",
+        "address": "Rockcliffe Park, Ottawa, ON, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": null,
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": "America/Toronto",
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": null,
+        "features": {},
+        "hours": null,
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": null
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Rideau_Hall04.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rideau_Hall04.jpg",
+        "title": "Rideau Hall04.jpg",
+        "creator": "Peregrine981",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Rideau_Hall04.jpg#Licensing",
+        "links": [
+          {
+            "label": "Peregrine981",
+            "url": "https://commons.wikimedia.org/wiki/User:Peregrine981"
+          }
+        ],
+        "width": 1280,
+        "height": 845,
+        "entityId": "Q2151874",
+        "match": "unique name and coordinates",
+        "checkedAt": "2026-11-12T01:22:43.186Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51151a8865b3eb52c059231ba3d00d9d4640f00102f9016af8031c00000000c0020192030d576174736f6e2773204d696c6c",
+        "name": "Watson's Mill",
+        "lat": 45.2269841,
+        "lon": -75.6828245,
+        "category": "museums",
+        "categories": [
+          "entertainment.museum"
+        ],
+        "setting": "indoor",
+        "address": "5525 Dickinson Street, Ottawa, ON K4M 0H8, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": "Dickinson Street",
+        "houseNumber": "5525",
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": "America/Toronto",
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": null,
+        "features": {},
+        "hours": null,
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": null
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Watsons_Mill_Manotick_Ontario_Canada.jpg/1280px-Watsons_Mill_Manotick_Ontario_Canada.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Watsons_Mill_Manotick_Ontario_Canada.jpg",
+        "title": "Watsons Mill Manotick Ontario Canada.jpg",
+        "creator": "Doug Kerr from Albany, New York, United States",
+        "credit": "Manotick, Ontario Uploaded by Skeezix1000",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "links": [
+          {
+            "label": "Doug Kerr",
+            "url": "https://www.flickr.com/people/7327243@N05"
+          },
+          {
+            "label": "Manotick, Ontario",
+            "url": "https://www.flickr.com/photos/dougtone/5802140481/"
+          },
+          {
+            "label": "Skeezix1000",
+            "url": "https://commons.wikimedia.org/wiki/User:Skeezix1000"
+          }
+        ],
+        "width": 1280,
+        "height": 960,
+        "entityId": "Q7974783",
+        "match": "unique name and coordinates",
+        "checkedAt": "2026-11-12T01:22:46.715Z"
+      }
+    },
+    {
+      "place": {
+        "id": "519b1837da16ed52c059f22e72aa10b24640f00102f90157d34f0000000000c00201920312446f6d696e696f6e204172626f726574756d",
+        "name": "Dominion Arboretum",
+        "lat": 45.3911336,
+        "lon": -75.7045198,
+        "category": "nature",
+        "categories": [
+          "leisure.park"
+        ],
+        "setting": "outdoor",
+        "address": "Ottawa, ON, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": null,
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": "America/Toronto",
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": null,
+        "features": {},
+        "hours": null,
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": null
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Dominion_Arboretum_2025.JPG/1280px-Dominion_Arboretum_2025.JPG",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dominion_Arboretum_2025.JPG",
+        "title": "Dominion Arboretum 2025.JPG",
+        "creator": "Canmenwalker",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "links": [
+          {
+            "label": "Canmenwalker",
+            "url": "https://commons.wikimedia.org/w/index.php?title=User:Canmenwalker&action=edit&redlink=1"
+          }
+        ],
+        "width": 1280,
+        "height": 960,
+        "entityId": "Q5291030",
+        "match": "verified entity Commons category",
+        "checkedAt": "2026-11-12T01:22:59.641Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51f4db7cc880ec52c059bb3c4272d7af4640f00102f901cb50690200000000c0020192030f486f672773204261636b205061726b",
+        "name": "Hog's Back Park",
+        "lat": 45.3737624,
+        "lon": -75.6953603,
+        "category": "nature",
+        "categories": [
+          "leisure.park"
+        ],
+        "setting": "outdoor",
+        "address": "Ottawa, ON, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": null,
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": "America/Toronto",
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": null,
+        "features": {},
+        "hours": null,
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": null
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Hog%27s_Back_Falls%2C_lower_falls.jpg/1280px-Hog%27s_Back_Falls%2C_lower_falls.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hog%27s_Back_Falls,_lower_falls.jpg",
+        "title": "Hog's Back Falls, lower falls.jpg",
+        "creator": "D. Gordon E. Robertson",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "links": [
+          {
+            "label": "D. Gordon E. Robertson",
+            "url": "https://commons.wikimedia.org/wiki/User:Dger"
+          }
+        ],
+        "width": 1280,
+        "height": 960,
+        "entityId": "Q22631665",
+        "match": "unique name and coordinates",
+        "checkedAt": "2026-11-12T01:23:03.131Z"
+      }
+    },
+    {
+      "place": {
+        "id": "5136cd3b4e51ec52c059062b4eb516af4640f00102f901aff3530200000000c002019203114d6f6f6e6579277320426179205061726b",
+        "name": "Mooney's Bay Park",
+        "lat": 45.3678805,
+        "lon": -75.6924625,
+        "category": "nature",
+        "categories": [
+          "leisure.park"
+        ],
+        "setting": "outdoor",
+        "address": "2960, Ottawa, ON, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": null,
+        "houseNumber": "2960",
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": "America/Toronto",
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": null,
+        "features": {},
+        "hours": null,
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": null
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Mooneys-bay-beach.jpg/1280px-Mooneys-bay-beach.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mooneys-bay-beach.jpg",
+        "title": "Mooneys-bay-beach.jpg",
+        "creator": "MichelCastagne at English Wikipedia",
+        "credit": "Transferred from en.wikipedia to Commons.",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "links": [
+          {
+            "label": "MichelCastagne",
+            "url": "https://en.wikipedia.org/wiki/User:MichelCastagne"
+          },
+          {
+            "label": "English Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/"
+          },
+          {
+            "label": "en.wikipedia",
+            "url": "https://en.wikipedia.org/"
+          }
+        ],
+        "width": 1280,
+        "height": 960,
+        "entityId": "Q6907736",
+        "match": "unique name and coordinates",
+        "checkedAt": "2026-11-12T01:23:06.652Z"
+      }
+    },
+    {
+      "place": {
+        "id": "514fdee99f34e952c05926d89cccc1ba4640f00102f901f98b16040000000092032043616e616461204176696174696f6e20616e64205370616365204d757365756d",
+        "name": "Canada Aviation and Space Museum",
+        "lat": 45.4589625,
+        "lon": -75.6438381,
+        "category": "museums",
+        "categories": [
+          "building",
+          "building.tourism",
+          "entertainment",
+          "entertainment.museum",
+          "wheelchair",
+          "wheelchair.yes"
+        ],
+        "setting": "indoor",
+        "address": "11 Aviation Parkway, Ottawa, ON K1K 4Y5, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": "Aviation Parkway",
+        "houseNumber": "11",
+        "description": null,
+        "businessDomain": "ingeniumcanada.org",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": "Ingenium",
+        "heritage": null,
+        "wikidata": "Q1031932",
+        "features": {
+          "wheelchair": "yes",
+          "tourism": "museum"
+        },
+        "hours": "Th-Mo 09:00-17:00",
+        "image": null,
+        "wikipedia": "en:Canada Aviation and Space Museum",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 5889.455883321499
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/CanadaAviationMuseum05June2005.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:CanadaAviationMuseum05June2005.jpg",
+        "title": "CanadaAviationMuseum05June2005.jpg",
+        "creator": "Ahunt at English Wikipedia",
+        "credit": "Transferred from en.wikipedia to Commons.",
+        "copyright": "",
+        "attribution": "",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:CanadaAviationMuseum05June2005.jpg#Licensing",
+        "links": [
+          {
+            "label": "Ahunt",
+            "url": "https://en.wikipedia.org/wiki/User:Ahunt"
+          },
+          {
+            "label": "English Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/"
+          },
+          {
+            "label": "en.wikipedia",
+            "url": "https://en.wikipedia.org/"
+          }
+        ],
+        "width": 1280,
+        "height": 833,
+        "entityId": "Q1031932",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:21:05.322Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51cbdb6c077eec52c059a1246e5f51b64640f00103f9018653e4640100000092031156616c69616e7473204d656d6f7269616c",
+        "name": "Valiants Memorial",
+        "lat": 45.4243583,
+        "lon": -75.6951922,
+        "category": "history",
+        "categories": [
+          "tourism",
+          "tourism.sights",
+          "tourism.sights.memorial"
+        ],
+        "setting": "unknown",
+        "address": "Sappers Staircase, Ottawa, ON K1A 0A2, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": "Sappers Staircase",
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q1750466",
+        "features": {
+          "historic": "memorial"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": "en:Valiants Memorial",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 354.3570280493868
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Valiants_memorial_west.jpg/1280px-Valiants_memorial_west.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Valiants_memorial_west.jpg",
+        "title": "Valiants memorial west.jpg",
+        "creator": "Canadiana",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "links": [
+          {
+            "label": "Canadiana",
+            "url": "https://commons.wikimedia.org/wiki/User:Canadiana"
+          }
+        ],
+        "width": 1280,
+        "height": 853,
+        "entityId": "Q1750466",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:21:06.532Z"
+      }
+    },
+    {
+      "place": {
+        "id": "5185a5e07c36f152c0599afe5e08c1af4640f00102f901bb5efc070000000092031b4361726c696e67776f6f642053686f7070696e672043656e747265",
+        "name": "Carlingwood Shopping Centre",
+        "lat": 45.3731365,
+        "lon": -75.7688077,
+        "category": "shopping",
+        "categories": [
+          "building",
+          "building.commercial",
+          "commercial",
+          "commercial.shopping_mall"
+        ],
+        "setting": "indoor",
+        "address": "2121 Carling Avenue, Ottawa, ON K2A 1H2, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": "Carling Avenue",
+        "houseNumber": "2121",
+        "description": null,
+        "businessDomain": "carlingwood.com",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q5041328",
+        "features": {},
+        "hours": "Mo-Fr 09:00-21:00; Sa 09:30-19:00; Su 10:00-18:00; Nov 11 12:30-18:00",
+        "image": null,
+        "wikipedia": "en:Carlingwood Mall",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 7757.631029236869
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Carlingwood_1.JPG/1280px-Carlingwood_1.JPG",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carlingwood_1.JPG",
+        "title": "Carlingwood 1.JPG",
+        "creator": "P199",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Carlingwood_1.JPG#Licensing",
+        "links": [
+          {
+            "label": "P199",
+            "url": "https://commons.wikimedia.org/wiki/User:P199"
+          }
+        ],
+        "width": 1280,
+        "height": 408,
+        "entityId": "Q5041328",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:21:10.093Z"
+      }
+    },
+    {
+      "place": {
+        "id": "515a170e21a8ec52c059cc47e21ef2b54640f00102f901a3f5bf0f00000000920314576f726c642045786368616e676520506c617a61",
+        "name": "World Exchange Plaza",
+        "lat": 45.4214475,
+        "lon": -75.6977662,
+        "category": "shopping",
+        "categories": [
+          "access",
+          "access.yes",
+          "building",
+          "building.commercial",
+          "building.office",
+          "building.parking",
+          "commercial",
+          "commercial.shopping_mall",
+          "fee",
+          "parking",
+          "parking.underground"
+        ],
+        "setting": "indoor",
+        "address": "45 O'Connor Street, Ottawa, ON K1P 6L2, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": "O'Connor Street",
+        "houseNumber": "45",
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q8035690",
+        "features": {},
+        "hours": null,
+        "image": null,
+        "wikipedia": "en:World Exchange Plaza",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 44.5736783912274
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/World_Exchange_Plaza%2C_Ottawa_%2840411882584%29.jpg/1280px-World_Exchange_Plaza%2C_Ottawa_%2840411882584%29.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:World_Exchange_Plaza,_Ottawa_(40411882584).jpg",
+        "title": "World Exchange Plaza, Ottawa (40411882584).jpg",
+        "creator": "Michel Rathwell from Cornwall, Canada",
+        "credit": "World Exchange Plaza, Ottawa",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "links": [
+          {
+            "label": "Michel Rathwell",
+            "url": "https://www.flickr.com/people/93922433@N02"
+          },
+          {
+            "label": "World Exchange Plaza, Ottawa",
+            "url": "https://www.flickr.com/photos/digimages1/40411882584/"
+          }
+        ],
+        "width": 1280,
+        "height": 1921,
+        "entityId": "Q8035690",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:21:10.094Z"
+      }
+    },
+    {
+      "place": {
+        "id": "5117c99261e8e852c05946a9e83907b64640f00102f901f1b217040000000092031b53742e204c617572656e742053686f7070696e672043656e747265",
+        "name": "St. Laurent Shopping Centre",
+        "lat": 45.4220297,
+        "lon": -75.6393799,
+        "category": "shopping",
+        "categories": [
+          "building",
+          "building.commercial",
+          "commercial",
+          "commercial.shopping_mall",
+          "internet_access",
+          "wheelchair",
+          "wheelchair.limited"
+        ],
+        "setting": "indoor",
+        "address": "1200 St-Laurent Boulevard, Ottawa, ON K1K 3B9, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": "St-Laurent Boulevard",
+        "houseNumber": "1200",
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q2944886",
+        "features": {
+          "wheelchair": "limited",
+          "internet_access": "wlan"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": "en:St. Laurent Centre",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 4512.998849888269
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/St._Laurent_Shopping_Centre_Atrium_2025.JPG/1280px-St._Laurent_Shopping_Centre_Atrium_2025.JPG",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:St._Laurent_Shopping_Centre_Atrium_2025.JPG",
+        "title": "St. Laurent Shopping Centre Atrium 2025.JPG",
+        "creator": "Canmenwalker",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+        "links": [
+          {
+            "label": "Canmenwalker",
+            "url": "https://commons.wikimedia.org/w/index.php?title=User:Canmenwalker&action=edit&redlink=1"
+          }
+        ],
+        "width": 1280,
+        "height": 960,
+        "entityId": "Q2944886",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:21:13.600Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51087c01a39bf352c059186d476672ac4640f00102f901bf9116040000000092031842617973686f72652053686f7070696e672043656e747265",
+        "name": "Bayshore Shopping Centre",
+        "lat": 45.347392,
+        "lon": -75.8062569,
+        "category": "shopping",
+        "categories": [
+          "building",
+          "building.commercial",
+          "commercial",
+          "commercial.shopping_mall",
+          "wheelchair",
+          "wheelchair.yes"
+        ],
+        "setting": "indoor",
+        "address": "100 Bayshore Drive, Ottawa, ON K2B 8C1, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": "Bayshore Drive",
+        "houseNumber": "100",
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q4874808",
+        "features": {
+          "wheelchair": "yes"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": "en:Bayshore Shopping Centre",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 11850.945670530251
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Bayshore_Shopping_Ctr.jpg/1280px-Bayshore_Shopping_Ctr.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bayshore_Shopping_Ctr.jpg",
+        "title": "Bayshore Shopping Ctr.jpg",
+        "creator": "User:P199",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "links": [
+          {
+            "label": "User:P199",
+            "url": "https://commons.wikimedia.org/wiki/User:P199"
+          }
+        ],
+        "width": 1280,
+        "height": 853,
+        "entityId": "Q4874808",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:21:13.601Z"
+      }
+    },
+    {
+      "place": {
+        "id": "518a8adde371ec52c0594f0a4ed859b64640f00102f9010085721200000000920312576f6d656e2041726520506572736f6e7321",
+        "name": "Women Are Persons!",
+        "lat": 45.4246169,
+        "lon": -75.6944513,
+        "category": "history",
+        "categories": [
+          "tourism",
+          "tourism.sights",
+          "tourism.sights.memorial",
+          "wheelchair",
+          "wheelchair.yes"
+        ],
+        "setting": "unknown",
+        "address": "Elgin Street, Ottawa, ON K1N 6A4, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": "Elgin Street",
+        "houseNumber": null,
+        "description": "Public art sculpture depicting five prominent Canadian suffragists known as The Famous Five.",
+        "businessDomain": "canada.ca",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q139820411",
+        "features": {
+          "wheelchair": "yes",
+          "historic": "memorial"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 407.6011767360813
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Women_are_Persons-three.jpg/1280px-Women_are_Persons-three.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Women_are_Persons-three.jpg",
+        "title": "Women are Persons-three.jpg",
+        "creator": "D. Gordon E. Robertson",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "links": [
+          {
+            "label": "D. Gordon E. Robertson",
+            "url": "https://commons.wikimedia.org/wiki/User:Dger"
+          }
+        ],
+        "width": 1280,
+        "height": 743,
+        "entityId": "Q139820411",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:21:13.601Z"
+      }
+    },
+    {
+      "place": {
+        "id": "515c561f5566ec52c05903d499cb9bb64640f00102f90191f1fd0900000000920322466f726d65722047656f6c6f676963616c20537572766579206f662043616e616461",
+        "name": "Former Geological Survey of Canada",
+        "lat": 45.4266435,
+        "lon": -75.6936859,
+        "category": "landmarks",
+        "categories": [
+          "building",
+          "building.commercial",
+          "building.historic",
+          "heritage",
+          "tourism",
+          "tourism.sights",
+          "tourism.sights.building"
+        ],
+        "setting": "unknown",
+        "address": "541 Sussex Drive, Ottawa, ON K1N 6Z6, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": "Sussex Drive",
+        "houseNumber": "541",
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q15218037",
+        "features": {
+          "historic": "building"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 634.2853871921782
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Former_Geological_Survey_of_Canada_Building.JPG/1280px-Former_Geological_Survey_of_Canada_Building.JPG",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Former_Geological_Survey_of_Canada_Building.JPG",
+        "title": "Former Geological Survey of Canada Building.JPG",
+        "creator": "Skeezix1000",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "links": [
+          {
+            "label": "Skeezix1000",
+            "url": "https://commons.wikimedia.org/wiki/User:Skeezix1000"
+          }
+        ],
+        "width": 1280,
+        "height": 960,
+        "entityId": "Q15218037",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:21:13.602Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51f2cea10c55ec52c0592a41da5abab64640f00103f901a54ef1380000000092030d427977617264204d61726b6574",
+        "name": "Byward Market",
+        "lat": 45.4275621,
+        "lon": -75.692691,
+        "category": "shopping",
+        "categories": [
+          "commercial.marketplace",
+          "tourism",
+          "tourism.attraction",
+          "wheelchair",
+          "wheelchair.yes"
+        ],
+        "setting": "indoor",
+        "address": "ByWard Market Square, Ottawa, ON K1N 7A2, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": "ByWard Market Square",
+        "houseNumber": null,
+        "description": "farmers market",
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q32920997",
+        "features": {
+          "wheelchair": "yes",
+          "tourism": "attraction"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 760.3973814924848
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Market_Byward.JPG",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Market_Byward.JPG",
+        "title": "Market Byward.JPG",
+        "creator": "(WT-en) Jpatokal at English Wikivoyage",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "(WT-en) Jpatokal at English Wikivoyage",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "links": [
+          {
+            "label": "(WT-en) Jpatokal",
+            "url": "https://en.wikivoyage.org/wiki/User:(WT-en)_Jpatokal"
+          },
+          {
+            "label": "English Wikivoyage",
+            "url": "https://en.wikivoyage.org/wiki/"
+          },
+          {
+            "label": "(WT-en) Jpatokal",
+            "url": "https://en.wikivoyage.org/wiki/User:(WT-en)_Jpatokal"
+          },
+          {
+            "label": "English Wikivoyage",
+            "url": "https://en.wikivoyage.org/wiki/"
+          }
+        ],
+        "width": 1280,
+        "height": 851,
+        "entityId": "Q32920997",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:21:13.602Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51f53e26bc3aec52c05956a2dd1570b64640f00102f901889316040000000092030d5269646561752043656e747265",
+        "name": "Rideau Centre",
+        "lat": 45.4253532,
+        "lon": -75.6917681,
+        "category": "shopping",
+        "categories": [
+          "building",
+          "building.commercial",
+          "commercial",
+          "commercial.shopping_mall",
+          "wheelchair",
+          "wheelchair.yes"
+        ],
+        "setting": "indoor",
+        "address": "50 Rideau Street, Ottawa, ON K1N 9L8, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": "Rideau Street",
+        "houseNumber": "50",
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": "Cadillac Fairview",
+        "heritage": null,
+        "wikidata": "Q2944877",
+        "features": {
+          "wheelchair": "yes"
+        },
+        "hours": "Mo-Sa 10:00-21:00; Su 11:00-18:00",
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 602.7326663341964
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Rideau_CentreXmas_%282%29.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rideau_CentreXmas_(2).jpg",
+        "title": "Rideau CentreXmas (2).jpg",
+        "creator": "Wilder Mendez",
+        "credit": "Own work ( Original text: I created this work entirely by myself. ) Transferred from en.wikipedia to Commons by User:Skeezix1000 using CommonsHelper .",
+        "copyright": "",
+        "attribution": "",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Rideau_CentreXmas_(2).jpg#Licensing",
+        "links": [
+          {
+            "label": "en.wikipedia",
+            "url": "https://en.wikipedia.org/"
+          },
+          {
+            "label": "User:Skeezix1000",
+            "url": "https://commons.wikimedia.org/wiki/User:Skeezix1000"
+          }
+        ],
+        "width": 1280,
+        "height": 1707,
+        "entityId": "Q2944877",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:21:13.603Z"
+      }
+    },
+    {
+      "place": {
+        "id": "518beda4749feb52c059c82e07301bb34640f00102f901f7f75a1500000000c0020192030e4c616e73646f776e65205061726b",
+        "name": "Lansdowne Park",
+        "lat": 45.3992672,
+        "lon": -75.6816074,
+        "category": "nature",
+        "categories": [
+          "leisure.park"
+        ],
+        "setting": "outdoor",
+        "address": "450, Ottawa, ON, Canada",
+        "city": "Ottawa",
+        "country": "Canada",
+        "state": "Ontario",
+        "countryCode": "ca",
+        "street": null,
+        "houseNumber": "450",
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": "America/Toronto",
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": null,
+        "features": {},
+        "hours": null,
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": null
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Lansdowne_Park_farmers_market.png/1280px-Lansdowne_Park_farmers_market.png",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lansdowne_Park_farmers_market.png",
+        "title": "Lansdowne Park farmers market.png",
+        "creator": "Itooksomepics",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "links": [
+          {
+            "label": "Itooksomepics",
+            "url": "https://commons.wikimedia.org/wiki/User:Itooksomepics"
+          }
+        ],
+        "width": 1280,
+        "height": 881,
+        "entityId": "Q3363854",
+        "match": "verified entity Commons category",
+        "checkedAt": "2026-11-12T01:25:48.073Z"
+      }
+    }
+  ]
+}

@@ -1,3 +1,4 @@
+import { locationLabel } from './location-label.js';
 import { api } from './api.js';
 import { icon } from './icons.js';
 
@@ -59,6 +60,14 @@ export function attachDestinationSearch(form, onSelect, { submit = false } = {})
     open();
   }
   function show(items, title) {
+    items = items.map((city) => ({
+      ...city,
+      label: locationLabel(city.label),
+      region: locationLabel(`${city.name}, ${city.region || city.country || city.label}`).replace(
+        `${city.name}, `,
+        ''
+      )
+    }));
     choices = items;
     active = -1;
     input.removeAttribute('aria-activedescendant');
@@ -130,7 +139,7 @@ export function attachDestinationSearch(form, onSelect, { submit = false } = {})
   async function choose(city) {
     if (!city) return;
     cancel();
-    input.value = city.label || `${city.name}, ${city.country}`;
+    input.value = locationLabel(city.label || `${city.name}, ${city.country}`);
     clear.hidden = false;
     input.dispatchEvent(new InputEvent('input', { bubbles: true }));
     cancel();

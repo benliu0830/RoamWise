@@ -20,9 +20,9 @@ The essential application is implemented and runs locally. Live Paris and Ottawa
 3. Server code normalizes provider records and preserves unavailable hours as unknown.
 4. Gemini receives a bounded set of real place identifiers and structured preferences. Server validation rejects unknown identifiers and invalid output.
 5. A deterministic geographic planner groups nearby stops and orders them while respecting time limits; it also works without Gemini.
-6. The browser renders recommendations, details, maps, and plans. Favorites and saved itineraries persist in localStorage.
+6. The browser renders recommendations, details, maps, and plans. Explicit stop selection, custom day schedules, confirmations, and visited progress persist in localStorage; discovery results remain in sessionStorage.
 
-Open-Meteo provides forecasts within its available date range. Routing uses supported walking/driving data; public transportation uses external directions rather than invented schedules. Place-specific photos will require reliable source metadata; generic category photography must be labeled accordingly.
+Open-Meteo provides forecasts within its available date range. The planner receives only the traveler’s selected places and schedules every distinct place once across the requested days; tight time windows never silently remove a selection. Routing uses supported walking/driving data; users can request an individual routed leg on demand. Public transportation uses external directions rather than invented schedules. Generated timelines are read-only, with visit progress as the only itinerary state users can change. Place-specific photos will require reliable source metadata; generic category photography must be labeled accordingly.
 
 ## Delivery phases
 
@@ -34,6 +34,7 @@ Open-Meteo provides forecasts within its available date range. Routing uses supp
 Each phase must leave the application runnable. Publishing requires the user's approval.
 
 ## Discovery and details
+
 `server/ranking.js` orders retrieved records using name relevance, documented source links, detail completeness, proximity, and editorial landmark retrieval. Category-balanced sampling keeps the 80-place pool diverse. Explicit name queries retrieve independently of this pool.
 
 `public/js/place-utils.js` groups commercial branches using brand identity or exact name/domain evidence and computes Haversine distances. `public/js/hours.js` shares a conservative weekly-hours parser between UI and planner. Unknown time zones, holidays, seasonal clauses, or unsupported rules never produce an open/closed claim.

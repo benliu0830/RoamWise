@@ -1,3 +1,4 @@
+import { locationLabel } from '../public/js/location-label.js';
 import { fetchJson, ApiError } from './http.js';
 import { requireApiKey } from './config.js';
 import { signPlace } from './security.js';
@@ -66,6 +67,15 @@ export function normalize(feature) {
   return signPlace({
     id: p.place_id,
     name: text(p.name, 200),
+    names: [
+      ...new Set(
+        [raw.name, raw['name:fr'], raw['name:en'], raw.official_name, raw.alt_name]
+          .filter((value) => typeof value === 'string')
+          .flatMap((value) => value.split(';'))
+          .map((value) => value.slice(0, 200))
+      )
+    ].slice(0, 10),
+    photoNeedsDetails: !p.datasource?.raw,
     lat: Number(p.lat),
     lon: Number(p.lon),
     category: group,
@@ -73,6 +83,11 @@ export function normalize(feature) {
     setting: indoor,
     address: text(p.address_line2 || p.formatted),
     city: text(p.city || p.town || p.village, 120),
+    country: text(p.country, 120),
+    state: text(p.state, 120),
+    countryCode: text(p.country_code, 3),
+    street: text(p.street || raw['addr:street'], 200),
+    houseNumber: text(p.housenumber || raw['addr:housenumber'], 30),
     description: text(raw.description || raw['description:en']),
     businessDomain: businessDomain(p.website || raw.website || raw['contact:website']),
     brand: text(p.brand?.name || p.brand || raw.brand, 120),
@@ -131,12 +146,14 @@ export async function geocode(query, { autocomplete = false, origin = false } = 
     .filter((p) => Number.isFinite(p.lat) && Number.isFinite(p.lon))
     .map((p) => ({
       name: p.city || p.name || p.formatted,
-      label: p.formatted,
+      label: locationLabel(p.formatted),
       lat: p.lat,
       lon: p.lon,
       placeId: p.place_id || null,
       country: p.country,
-      region: [p.state, p.country].filter(Boolean).join(', '),
+      region: locationLabel(
+        `${p.city || p.name}, ${[p.state, p.country].filter(Boolean).join(', ')}`
+      ).replace(`${p.city || p.name}, `, ''),
       timezone: p.timezone?.name || null
     }));
   if (!results.length)

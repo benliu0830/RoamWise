@@ -1,0 +1,4147 @@
+{
+  "version": 2,
+  "generatedAt": "2026-11-12T01:41:02.145Z",
+  "photos": [
+    {
+      "place": {
+        "id": "510523e5dd47b4024059f44421133a6e4840f00101f90122ad720000000000c0020192030d4c6f75767265204d757365756d",
+        "name": "Louvre Museum",
+        "lat": 48.8611473,
+        "lon": 2.3380277,
+        "category": "museums",
+        "categories": [
+          "entertainment.museum"
+        ],
+        "setting": "indoor",
+        "address": "Rue de Rohan, 75001 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Rue de Rohan",
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": "Europe/Paris",
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": null,
+        "features": {},
+        "hours": null,
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 1153.5278188709847,
+        "editorial": true
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Cour_Napol%C3%A9on_at_night_-_Louvre.jpg/1280px-Cour_Napol%C3%A9on_at_night_-_Louvre.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cour_Napol%C3%A9on_at_night_-_Louvre.jpg",
+        "title": "Cour Napoléon at night - Louvre.jpg",
+        "creator": "Benh LIEU SONG",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "links": [
+          {
+            "label": "Benh LIEU SONG",
+            "url": "https://commons.wikimedia.org/wiki/User:Benh"
+          }
+        ],
+        "width": 1280,
+        "height": 508,
+        "entityId": "Q19675",
+        "match": "unique name and coordinates",
+        "checkedAt": "2026-11-12T01:35:06.657Z"
+      }
+    },
+    {
+      "place": {
+        "id": "5112386d21235b024059effbdc75db6d4840f00102f901747f4c0000000000c0020192030c45696666656c20546f776572",
+        "name": "Eiffel Tower",
+        "lat": 48.8582599,
+        "lon": 2.2945006,
+        "category": "landmarks",
+        "categories": [],
+        "setting": "unknown",
+        "address": "5 Avenue Anatole France, 75007 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Avenue Anatole France",
+        "houseNumber": "5",
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": "Europe/Paris",
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": null,
+        "features": {},
+        "hours": null,
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 4225.265232010667,
+        "editorial": true
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg/1280px-Tour_Eiffel_Wikimedia_Commons.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tour_Eiffel_Wikimedia_Commons.jpg",
+        "title": "Tour Eiffel Wikimedia Commons.jpg",
+        "creator": "Benh LIEU SONG",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Tour_Eiffel_Wikimedia_Commons.jpg#Licensing",
+        "links": [
+          {
+            "label": "Benh LIEU SONG",
+            "url": "https://commons.wikimedia.org/wiki/User:Benh"
+          }
+        ],
+        "width": 1280,
+        "height": 2369,
+        "entityId": "Q243",
+        "match": "unique name and coordinates",
+        "checkedAt": "2026-11-12T01:35:10.367Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51c9d3a8763c5c024059d33659fed76f4840f00102f901c4cb7e0d00000000c0020192030f417263206465205472696f6d706865",
+        "name": "Arc de Triomphe",
+        "lat": 48.8737791,
+        "lon": 2.2950372,
+        "category": "landmarks",
+        "categories": [
+          "tourism.sights.memorial.monument"
+        ],
+        "setting": "unknown",
+        "address": "Tunnel de l'Étoile, 8th Arrondissement of Paris, 75008 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Tunnel de l'Étoile",
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": "Europe/Paris",
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": null,
+        "features": {},
+        "hours": null,
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 4597.006070986393,
+        "editorial": true
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Arc_de_Triomphe_-_Ao%C3%BBt_2026.jpg/1280px-Arc_de_Triomphe_-_Ao%C3%BBt_2026.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Arc_de_Triomphe_-_Ao%C3%BBt_2026.jpg",
+        "title": "Arc de Triomphe - Août 2026.jpg",
+        "creator": "ZeusUpsistos",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "links": [
+          {
+            "label": "ZeusUpsistos",
+            "url": "https://commons.wikimedia.org/wiki/User:ZeusUpsistos"
+          }
+        ],
+        "width": 1280,
+        "height": 854,
+        "entityId": "Q64436",
+        "match": "unique name and coordinates",
+        "checkedAt": "2026-11-12T01:35:13.972Z"
+      }
+    },
+    {
+      "place": {
+        "id": "5159ebf0c8cfbf0240591ea70aa0e06c4840f00102f901a34260030000000092030f4d7573c3a96520646520436c756e79",
+        "name": "Musée de Cluny",
+        "lat": 48.8506495,
+        "lon": 2.3435643,
+        "category": "museums",
+        "categories": [
+          "entertainment",
+          "entertainment.museum",
+          "fee",
+          "wheelchair",
+          "wheelchair.yes"
+        ],
+        "setting": "indoor",
+        "address": "6 Place Paul Painlevé, 75005 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Place Paul Painlevé",
+        "houseNumber": "6",
+        "description": "Gothic mansion that houses only medieval arts, crafts and tapestries. It is not a classical Middle Ages museum one would expect.",
+        "businessDomain": "musee-moyenage.fr",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q1124095",
+        "features": {
+          "wheelchair": "yes",
+          "tourism": "museum"
+        },
+        "hours": "Jan 1 off; May 1 off; Dec 25 off; Tu-Su 09:30-18:15",
+        "image": null,
+        "wikipedia": "fr:Musée de Cluny",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 914.8808882346282
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/H%C3%B4tel_de_Cluny%2C_Paris_24_April_2012.jpg/1280px-H%C3%B4tel_de_Cluny%2C_Paris_24_April_2012.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_de_Cluny,_Paris_24_April_2012.jpg",
+        "title": "Hôtel de Cluny, Paris 24 April 2012.jpg",
+        "creator": "ctj71081",
+        "credit": "Flickr : P1050264",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "links": [
+          {
+            "label": "ctj71081",
+            "url": "https://www.flickr.com/people/55267995@N04"
+          },
+          {
+            "label": "Flickr",
+            "url": "https://commons.wikimedia.org/wiki/Flickr"
+          },
+          {
+            "label": "P1050264",
+            "url": "https://www.flickr.com/photos/55267995@N04/7215000408"
+          }
+        ],
+        "width": 1280,
+        "height": 855,
+        "entityId": "Q1124095",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:35:13.973Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51923e6eb81cbe0240594bb8cecf706e4840f00102f90152fd2e0100000000920312426f7572736520646520436f6d6d65726365",
+        "name": "Bourse de Commerce",
+        "lat": 48.8628174,
+        "lon": 2.3428364,
+        "category": "museums",
+        "categories": [
+          "building",
+          "building.tourism",
+          "entertainment",
+          "entertainment.museum",
+          "fee",
+          "wheelchair",
+          "wheelchair.yes"
+        ],
+        "setting": "indoor",
+        "address": "2 Rue de Viarmes, 75001 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Rue de Viarmes",
+        "houseNumber": "2",
+        "description": null,
+        "businessDomain": "boursedecommerce.fr",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": "Pinault Collection",
+        "heritage": null,
+        "wikidata": "Q691375",
+        "features": {
+          "wheelchair": "yes",
+          "tourism": "museum"
+        },
+        "hours": "11:00-19:00; Tu off; Fr 11:00-21:00; May 01 off",
+        "image": "https://photos.app.goo.gl/ftfaiypJcgfcvm997",
+        "wikipedia": "fr:Bourse de commerce de Paris",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 973.2325319299913
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Bourse_Commerce_-_Paris_I_%28FR75%29_-_2021-06-05_-_1.jpg/1280px-Bourse_Commerce_-_Paris_I_%28FR75%29_-_2021-06-05_-_1.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bourse_Commerce_-_Paris_I_(FR75)_-_2021-06-05_-_1.jpg",
+        "title": "Bourse Commerce - Paris I (FR75) - 2021-06-05 - 1.jpg",
+        "creator": "Chabe01",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "links": [
+          {
+            "label": "Chabe01",
+            "url": "https://commons.wikimedia.org/wiki/User:Chabe01"
+          }
+        ],
+        "width": 1280,
+        "height": 948,
+        "entityId": "Q691375",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:35:13.973Z"
+      }
+    },
+    {
+      "place": {
+        "id": "517472d06fa9c4024059c8844ebe8f6d4840f00103f901d07543360000000092030c436f6e636965726765726965",
+        "name": "Conciergerie",
+        "lat": 48.8559492,
+        "lon": 2.3460263,
+        "category": "museums",
+        "categories": [
+          "entertainment",
+          "entertainment.museum",
+          "fee",
+          "tourism",
+          "tourism.sights",
+          "tourism.sights.castle"
+        ],
+        "setting": "indoor",
+        "address": "2 Boulevard du Palais, 75001 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Boulevard du Palais",
+        "houseNumber": "2",
+        "description": null,
+        "businessDomain": "paris-conciergerie.fr",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": "Centre des monuments nationaux",
+        "heritage": null,
+        "wikidata": "Q138101",
+        "features": {
+          "historic": "castle",
+          "tourism": "museum"
+        },
+        "hours": "Mo-Su 09:30-18:00",
+        "image": null,
+        "wikipedia": "fr:Conciergerie de Paris",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 457.43269829918495
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Paris_Conciergerie_265.jpg/1280px-Paris_Conciergerie_265.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_Conciergerie_265.jpg",
+        "title": "Paris Conciergerie 265.jpg",
+        "creator": "xandru",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "links": [
+          {
+            "label": "xandru",
+            "url": "https://commons.wikimedia.org/w/index.php?title=User:Xandru&action=edit&redlink=1"
+          }
+        ],
+        "width": 1280,
+        "height": 640,
+        "entityId": "Q138101",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:35:13.974Z"
+      }
+    },
+    {
+      "place": {
+        "id": "514d929d6d24df024059d0d1aa96746d4840f00103f901e9804e13000000009203254d6169736f6e206575726f70c3a9656e6e65206465206c612050686f746f67726170686965",
+        "name": "Maison européenne de la Photographie",
+        "lat": 48.8551205,
+        "lon": 2.3589562,
+        "category": "museums",
+        "categories": [
+          "entertainment",
+          "entertainment.culture",
+          "entertainment.culture.arts_centre",
+          "entertainment.museum",
+          "fee",
+          "wheelchair",
+          "wheelchair.limited"
+        ],
+        "setting": "indoor",
+        "address": "5-7 Rue de Fourcy, 75004 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Rue de Fourcy",
+        "houseNumber": "5-7",
+        "description": null,
+        "businessDomain": "mep-fr.org",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q3100297",
+        "features": {
+          "wheelchair": "limited",
+          "tourism": "museum"
+        },
+        "hours": "We-Su 11:00-20:00",
+        "image": null,
+        "wikipedia": "fr:Maison européenne de la photographie",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 520.9506664774242
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/P1170441_Paris_IV_rue_de_Fourcy_MEP_rwk.jpg/1280px-P1170441_Paris_IV_rue_de_Fourcy_MEP_rwk.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:P1170441_Paris_IV_rue_de_Fourcy_MEP_rwk.jpg",
+        "title": "P1170441 Paris IV rue de Fourcy MEP rwk.jpg",
+        "creator": "Mbzt",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "links": [
+          {
+            "label": "Mbzt",
+            "url": "https://commons.wikimedia.org/wiki/User:Mbzt"
+          }
+        ],
+        "width": 1280,
+        "height": 982,
+        "entityId": "Q3100297",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:35:13.974Z"
+      }
+    },
+    {
+      "place": {
+        "id": "513ad23b6ee0d00240594fa2bc78426e4840f00102f90127ea4e03000000009203104174656c696572204272616e63757369",
+        "name": "Atelier Brancusi",
+        "lat": 48.8613894,
+        "lon": 2.3519821,
+        "category": "museums",
+        "categories": [
+          "building",
+          "building.tourism",
+          "entertainment",
+          "entertainment.museum",
+          "fee",
+          "wheelchair",
+          "wheelchair.limited"
+        ],
+        "setting": "indoor",
+        "address": "Place Georges Pompidou, 75004 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Place Georges Pompidou",
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q60058273",
+        "features": {
+          "wheelchair": "limited",
+          "tourism": "museum"
+        },
+        "hours": "Mo,We,Th,Fr,Sa,Su 14:00-18:00",
+        "image": null,
+        "wikipedia": "fr:Atelier Brancusi",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 532.7955044425316
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/P1380705_Paris_IV_Place_Pompidou_rwk.jpg/1280px-P1380705_Paris_IV_Place_Pompidou_rwk.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:P1380705_Paris_IV_Place_Pompidou_rwk.jpg",
+        "title": "P1380705 Paris IV Place Pompidou rwk.jpg",
+        "creator": "Mbzt",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "links": [
+          {
+            "label": "Mbzt",
+            "url": "https://commons.wikimedia.org/wiki/User:Mbzt"
+          }
+        ],
+        "width": 1280,
+        "height": 949,
+        "entityId": "Q60058273",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:35:13.974Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51272de5b1e2d7024059033ca06d3e6e4840f00102f901a7fc6003000000009203274d7573c3a965206427417274206574206427486973746f697265206475204a756461c3af736d65",
+        "name": "Musée d'Art et d'Histoire du Judaïsme",
+        "lat": 48.8612664,
+        "lon": 2.3554416,
+        "category": "museums",
+        "categories": [
+          "entertainment",
+          "entertainment.museum"
+        ],
+        "setting": "indoor",
+        "address": "Rue du Temple, 75003 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Rue du Temple",
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": "mahj.org",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q977732",
+        "features": {
+          "tourism": "museum"
+        },
+        "hours": "Tu-Fr 11:00-18:00; Sa-Su 10:00-18:00",
+        "image": null,
+        "wikipedia": "fr:Musée d'Art et d'Histoire du judaïsme",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 570.503548886119
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Paris_-_H%C3%B4tel_de_Saint-Aignan_-_Muse%C3%A9_du_Juda%C3%AFsme.jpg/1280px-Paris_-_H%C3%B4tel_de_Saint-Aignan_-_Muse%C3%A9_du_Juda%C3%AFsme.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_-_H%C3%B4tel_de_Saint-Aignan_-_Muse%C3%A9_du_Juda%C3%AFsme.jpg",
+        "title": "Paris - Hôtel de Saint-Aignan - Museé du Judaïsme.jpg",
+        "creator": "Ecelan",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "links": [
+          {
+            "label": "Ecelan",
+            "url": "https://commons.wikimedia.org/wiki/User:Ecelan"
+          }
+        ],
+        "width": 1280,
+        "height": 1059,
+        "entityId": "Q977732",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:35:13.975Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51fee027f0cbde02405914bcf7953d6e4840f00102f9013d395b09000000009203234d7573c3a965206465206c6120636861737365206574206465206c61206e6174757265",
+        "name": "Musée de la chasse et de la nature",
+        "lat": 48.8612556,
+        "lon": 2.3587826,
+        "category": "museums",
+        "categories": [
+          "entertainment",
+          "entertainment.museum",
+          "fee"
+        ],
+        "setting": "indoor",
+        "address": "62 Rue des Archives, 75003 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Rue des Archives",
+        "houseNumber": "62",
+        "description": null,
+        "businessDomain": "chassenature.org",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q1128657",
+        "features": {
+          "tourism": "museum"
+        },
+        "hours": "Tu,Th-Su 11:00-18:00, We 11:00-21:30",
+        "image": null,
+        "wikipedia": "fr:Musée de la chasse et de la nature",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 707.0316930115189
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/P1000961_Paris_III_Rue_des_Archives_Mus%C3%A9e_de_la_chasse_reductwk.JPG/1280px-P1000961_Paris_III_Rue_des_Archives_Mus%C3%A9e_de_la_chasse_reductwk.JPG",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:P1000961_Paris_III_Rue_des_Archives_Mus%C3%A9e_de_la_chasse_reductwk.JPG",
+        "title": "P1000961 Paris III Rue des Archives Musée de la chasse reductwk.JPG",
+        "creator": "Mbzt",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "links": [
+          {
+            "label": "Mbzt",
+            "url": "https://commons.wikimedia.org/wiki/User:Mbzt"
+          }
+        ],
+        "width": 1280,
+        "height": 951,
+        "entityId": "Q1128657",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:35:13.975Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51b2b4fcec0bd3024059d7876d2c6a6d4840f00102f901dd9c8c010000000092031d4a617264696e20466564657269636f2d47617263c3ad612d4c6f726361",
+        "name": "Jardin Federico-García-Lorca",
+        "lat": 48.8547188,
+        "lon": 2.3532394,
+        "category": "nature",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "setting": "outdoor",
+        "address": "75004 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": null,
+        "houseNumber": null,
+        "description": "This park is mostly unknown,and as surch is a great picnic spot during Paris Plage",
+        "businessDomain": "paris.fr",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q3495077",
+        "features": {
+          "leisure": "park"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": "fr:Jardin Federico-García-Lorca",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 222.57346388336558
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Quai_de_l%27H%C3%B4tel-de-Ville_Paris_001.JPG/1280px-Quai_de_l%27H%C3%B4tel-de-Ville_Paris_001.JPG",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Quai_de_l%27H%C3%B4tel-de-Ville_Paris_001.JPG",
+        "title": "Quai de l'Hôtel-de-Ville Paris 001.JPG",
+        "creator": "Moonik",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "links": [
+          {
+            "label": "Moonik",
+            "url": "https://commons.wikimedia.org/wiki/User:Moonik"
+          }
+        ],
+        "width": 1280,
+        "height": 850,
+        "entityId": "Q3495077",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:35:13.978Z"
+      }
+    },
+    {
+      "place": {
+        "id": "5138ad2e63decf024059dbb0dd56036e4840f00101f90127f6130000000000920315506c6163652049676f72205374726176696e736b79",
+        "name": "Place Igor Stravinsky",
+        "lat": 48.8594813,
+        "lon": 2.3516877,
+        "category": "landmarks",
+        "categories": [
+          "highway",
+          "highway.pedestrian",
+          "tourism",
+          "tourism.sights",
+          "tourism.sights.square"
+        ],
+        "setting": "unknown",
+        "address": "75004 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Place Igor Stravinsky",
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q1771898",
+        "features": {},
+        "hours": null,
+        "image": null,
+        "wikipedia": "fr:Place Igor-Stravinsky",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 322.57064474953785
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Place_Igor-Stravinsky%2C_Paris_14_August_2013.jpg/1280px-Place_Igor-Stravinsky%2C_Paris_14_August_2013.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Place_Igor-Stravinsky,_Paris_14_August_2013.jpg",
+        "title": "Place Igor-Stravinsky, Paris 14 August 2013.jpg",
+        "creator": "Shadowgate from Novara, ITALY",
+        "credit": "Centre Pompidou",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "links": [
+          {
+            "label": "Shadowgate",
+            "url": "https://www.flickr.com/people/79586279@N00"
+          },
+          {
+            "label": "Centre Pompidou",
+            "url": "https://www.flickr.com/photos/shadowgate/12523481235/"
+          }
+        ],
+        "width": 1280,
+        "height": 853,
+        "entityId": "Q1771898",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:35:13.979Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51bcc4599d61db0240595936028b826d4840f00102f90169b250030000000092031148c3b474656c2064274f75727363616d70",
+        "name": "Hôtel d'Ourscamp",
+        "lat": 48.8555541,
+        "lon": 2.3571271,
+        "category": "landmarks",
+        "categories": [
+          "building",
+          "building.historic",
+          "building.residential",
+          "tourism",
+          "tourism.sights",
+          "tourism.sights.building"
+        ],
+        "setting": "unknown",
+        "address": "Rue François Miron, 75004 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Rue François Miron",
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q3279210",
+        "features": {
+          "historic": "building"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": "fr:Hôtel d'Ourscamp",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 378.76796847884464
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/P1260314_Paris_IV_rue_Francois-Miron_n44-46_rwk.jpg/1280px-P1260314_Paris_IV_rue_Francois-Miron_n44-46_rwk.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:P1260314_Paris_IV_rue_Francois-Miron_n44-46_rwk.jpg",
+        "title": "P1260314 Paris IV rue Francois-Miron n44-46 rwk.jpg",
+        "creator": "Mbzt",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "links": [
+          {
+            "label": "Mbzt",
+            "url": "https://commons.wikimedia.org/wiki/User:Mbzt"
+          }
+        ],
+        "width": 1280,
+        "height": 1603,
+        "entityId": "Q3279210",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:35:13.979Z"
+      }
+    },
+    {
+      "place": {
+        "id": "519a7f2cb51cd80240597479af39266d4840f00101f9013a7b08000000000092031148c3b474656c206465204a617373617564",
+        "name": "Hôtel de Jassaud",
+        "lat": 48.8527163,
+        "lon": 2.3551816,
+        "category": "landmarks",
+        "categories": [
+          "building",
+          "building.historic",
+          "building.residential",
+          "heritage",
+          "tourism",
+          "tourism.sights",
+          "tourism.sights.manor"
+        ],
+        "setting": "unknown",
+        "address": "Rue le Regrattier, 75004 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Rue le Regrattier",
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q3145863",
+        "features": {
+          "historic": "manor"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": "fr:Hôtel de Jassaud",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 483.81696201209587
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8e/H%C3%B4tel_de_Jassaud.jpg/1280px-H%C3%B4tel_de_Jassaud.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_de_Jassaud.jpg",
+        "title": "Hôtel de Jassaud.jpg",
+        "creator": "Moonik",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "links": [
+          {
+            "label": "Moonik",
+            "url": "https://commons.wikimedia.org/wiki/User:Moonik"
+          }
+        ],
+        "width": 1280,
+        "height": 1927,
+        "entityId": "Q3145863",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:35:13.980Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51620d2525cfdd0240593543f9c9616d4840f00101f9019d8308000000000092030f48c3b474656c20642741756d6f6e74",
+        "name": "Hôtel d'Aumont",
+        "lat": 48.8545495,
+        "lon": 2.3580372,
+        "category": "landmarks",
+        "categories": [
+          "building",
+          "building.historic",
+          "tourism",
+          "tourism.sights",
+          "tourism.sights.manor"
+        ],
+        "setting": "unknown",
+        "address": "Rue des Nonnains d'Hyères, 75004 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Rue des Nonnains d'Hyères",
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q3145716",
+        "features": {
+          "wheelchair": "no",
+          "historic": "manor"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": "fr:Hôtel d'Aumont",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 484.1140001747059
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/H%C3%B4tel_d%27Aumont%2C_Paris_11_September_2019.jpg/1280px-H%C3%B4tel_d%27Aumont%2C_Paris_11_September_2019.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_d%27Aumont,_Paris_11_September_2019.jpg",
+        "title": "Hôtel d'Aumont, Paris 11 September 2019.jpg",
+        "creator": "Ricardalovesmonuments",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "links": [
+          {
+            "label": "Ricardalovesmonuments",
+            "url": "https://commons.wikimedia.org/wiki/User:Ricardalovesmonuments"
+          }
+        ],
+        "width": 1280,
+        "height": 720,
+        "entityId": "Q3145716",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:35:13.980Z"
+      }
+    },
+    {
+      "place": {
+        "id": "511a5d844e32d90240593671e7c71d6d4840f00101f9013f7b08000000000092031148c3b474656c204c652043686172726f6e",
+        "name": "Hôtel Le Charron",
+        "lat": 48.8524491,
+        "lon": 2.3559543,
+        "category": "landmarks",
+        "categories": [
+          "building",
+          "building.historic",
+          "building.residential",
+          "heritage",
+          "tourism",
+          "tourism.sights",
+          "tourism.sights.manor"
+        ],
+        "setting": "unknown",
+        "address": "Quai de Bourbon, 75004 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Quai de Bourbon",
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q3145550",
+        "features": {
+          "historic": "manor"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": "fr:Hôtel Le Charron",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 537.1071772182108
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Porte_Hotel_Charron.jpg/1280px-Porte_Hotel_Charron.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Porte_Hotel_Charron.jpg",
+        "title": "Porte Hotel Charron.jpg",
+        "creator": "Tangopaso",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Porte_Hotel_Charron.jpg#Licensing",
+        "links": [
+          {
+            "label": "Tangopaso",
+            "url": "https://commons.wikimedia.org/wiki/User:Tangopaso"
+          }
+        ],
+        "width": 1280,
+        "height": 1707,
+        "entityId": "Q3145550",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:35:13.981Z"
+      }
+    },
+    {
+      "place": {
+        "id": "515dcb240387dd024059c71e8e95016e4840f00101f901ed6908000000000092031248c3b474656c206465204a6175636f757274",
+        "name": "Hôtel de Jaucourt",
+        "lat": 48.8594229,
+        "lon": 2.358347,
+        "category": "landmarks",
+        "categories": [
+          "building",
+          "building.historic",
+          "tourism",
+          "tourism.sights",
+          "tourism.sights.manor"
+        ],
+        "setting": "unknown",
+        "address": "Rue des Francs Bourgeois, 75004 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Rue des Francs Bourgeois",
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q108808104",
+        "features": {
+          "historic": "manor"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": "fr:Hôtel de Jaucourt",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 548.4171478138414
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Rue_des_Francs-Bourgeois_54_H%C3%B4tel_de_Jaucourt.jpg/1280px-Rue_des_Francs-Bourgeois_54_H%C3%B4tel_de_Jaucourt.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rue_des_Francs-Bourgeois_54_H%C3%B4tel_de_Jaucourt.jpg",
+        "title": "Rue des Francs-Bourgeois 54 Hôtel de Jaucourt.jpg",
+        "creator": "VVVCFFrance",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "links": [
+          {
+            "label": "VVVCFFrance",
+            "url": "https://commons.wikimedia.org/wiki/User:VVVCFFrance"
+          }
+        ],
+        "width": 1280,
+        "height": 912,
+        "entityId": "Q108808104",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:35:13.983Z"
+      }
+    },
+    {
+      "place": {
+        "id": "511b787d0303df024059b07307c53e6d4840f00102f901827d4f030000000092030e48c3b474656c2064652053656e73",
+        "name": "Hôtel de Sens",
+        "lat": 48.8535251,
+        "lon": 2.3587512,
+        "category": "history",
+        "categories": [
+          "building",
+          "building.historic",
+          "heritage",
+          "tourism",
+          "tourism.sights",
+          "tourism.sights.castle"
+        ],
+        "setting": "unknown",
+        "address": "Rue du Figuier, 75004 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Rue du Figuier",
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q1374604",
+        "features": {
+          "historic": "castle"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": "fr:Hôtel des archevêques de Sens",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 588.7573266642335
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/H%C3%B4tel_de_Sens_1.jpg/1280px-H%C3%B4tel_de_Sens_1.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_de_Sens_1.jpg",
+        "title": "Hôtel de Sens 1.jpg",
+        "creator": "Camlamb",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "links": [
+          {
+            "label": "Camlamb",
+            "url": "https://commons.wikimedia.org/w/index.php?title=User:Camlamb&action=edit&redlink=1"
+          }
+        ],
+        "width": 1280,
+        "height": 1019,
+        "entityId": "Q1374604",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:35:13.984Z"
+      }
+    },
+    {
+      "place": {
+        "id": "517ef2c17cc3be024059c7574cb6cb6c4840f00103f9012b592113000000009203094c65204368616d706f",
+        "name": "Le Champo",
+        "lat": 48.8499668,
+        "lon": 2.3431463,
+        "category": "entertainment",
+        "categories": [
+          "entertainment",
+          "entertainment.cinema",
+          "heritage"
+        ],
+        "setting": "unknown",
+        "address": "Rue Champollion, 75005 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Rue Champollion",
+        "houseNumber": null,
+        "description": "Cinéma indépendant - Art et Essai",
+        "businessDomain": "cinema-lechampo.com",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q3220985",
+        "features": {
+          "wheelchair": "no"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": "fr:Le Champo - Espace Jacques-Tati",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 991.3702132611386
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Le_Champollion.JPG/1280px-Le_Champollion.JPG",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_Champollion.JPG",
+        "title": "Le Champollion.JPG",
+        "creator": "LPLT",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "links": [
+          {
+            "label": "LPLT",
+            "url": "https://commons.wikimedia.org/wiki/User:LPLT"
+          }
+        ],
+        "width": 1280,
+        "height": 960,
+        "entityId": "Q3220985",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:35:13.985Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51d46938c027d102405956551e937b6c4840f00103f901f9141b550000000092030f4c65204772616e6420416374696f6e",
+        "name": "Le Grand Action",
+        "lat": 48.8475212,
+        "lon": 2.3521266,
+        "category": "entertainment",
+        "categories": [
+          "entertainment",
+          "entertainment.cinema"
+        ],
+        "setting": "unknown",
+        "address": "5 Rue des Écoles, 75005 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Rue des Écoles",
+        "houseNumber": "5",
+        "description": "Art et Essai",
+        "businessDomain": "legrandaction.com",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q3113488",
+        "features": {},
+        "hours": null,
+        "image": null,
+        "wikipedia": "fr:Grand Action",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 1009.530784836244
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Cin%C3%A9ma_Grand_Action.JPG/1280px-Cin%C3%A9ma_Grand_Action.JPG",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cin%C3%A9ma_Grand_Action.JPG",
+        "title": "Cinéma Grand Action.JPG",
+        "creator": "LPLT",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "links": [
+          {
+            "label": "LPLT",
+            "url": "https://commons.wikimedia.org/wiki/User:LPLT"
+          }
+        ],
+        "width": 1280,
+        "height": 1088,
+        "entityId": "Q3113488",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:35:13.987Z"
+      }
+    },
+    {
+      "place": {
+        "id": "512e200fd830be02405982c8224dbc6c4840f00103f90182a53e1b000000009203214c612046696c6d6f7468c3a8717565206475205175617274696572206c6174696e",
+        "name": "La Filmothèque du Quartier latin",
+        "lat": 48.8494965,
+        "lon": 2.3428666,
+        "category": "entertainment",
+        "categories": [
+          "entertainment",
+          "entertainment.cinema"
+        ],
+        "setting": "unknown",
+        "address": "Rue Champollion, 75005 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Rue Champollion",
+        "houseNumber": null,
+        "description": "Cinéma indépendant - Art et Essai",
+        "businessDomain": "lafilmotheque.fr",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q3072152",
+        "features": {
+          "wheelchair": "no",
+          "internet_access": "no"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": "fr:Filmothèque du quartier latin",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 1044.1397277754572
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/La_Filmoth%C3%A8que_Quartier_Latin_fa%C3%A7ade.jpg/1280px-La_Filmoth%C3%A8que_Quartier_Latin_fa%C3%A7ade.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_Filmoth%C3%A8que_Quartier_Latin_fa%C3%A7ade.jpg",
+        "title": "La Filmothèque Quartier Latin façade.jpg",
+        "creator": "ManoSolo13241324",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "links": [
+          {
+            "label": "ManoSolo13241324",
+            "url": "https://commons.wikimedia.org/wiki/User:ManoSolo13241324"
+          }
+        ],
+        "width": 1280,
+        "height": 960,
+        "entityId": "Q3072152",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:35:13.991Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51496cae375fbd024059e3f6bcc1796c4840f00102f90140867b030000000092031443696ec3a96d612064752050616e7468c3a96f6e",
+        "name": "Cinéma du Panthéon",
+        "lat": 48.847467,
+        "lon": 2.3424636,
+        "category": "entertainment",
+        "categories": [
+          "building",
+          "building.commercial",
+          "building.entertainment",
+          "entertainment",
+          "entertainment.cinema"
+        ],
+        "setting": "unknown",
+        "address": "13 Rue Victor Cousin, 75005 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Rue Victor Cousin",
+        "houseNumber": "13",
+        "description": "Cinéma indépendant - Art et Essai",
+        "businessDomain": "whynotproductions.fr",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q2973174",
+        "features": {},
+        "hours": null,
+        "image": null,
+        "wikipedia": "fr:Cinéma du Panthéon",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 1240.490522739771
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Cin%C3%A9ma_du_Panth%C3%A9on%2C_13_rue_Victor-Cousin%2C_Paris_5e.jpg/1280px-Cin%C3%A9ma_du_Panth%C3%A9on%2C_13_rue_Victor-Cousin%2C_Paris_5e.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cin%C3%A9ma_du_Panth%C3%A9on,_13_rue_Victor-Cousin,_Paris_5e.jpg",
+        "title": "Cinéma du Panthéon, 13 rue Victor-Cousin, Paris 5e.jpg",
+        "creator": "Celette",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "links": [
+          {
+            "label": "Celette",
+            "url": "https://commons.wikimedia.org/wiki/User:Celette"
+          }
+        ],
+        "width": 1280,
+        "height": 1677,
+        "entityId": "Q2973174",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:35:13.993Z"
+      }
+    },
+    {
+      "place": {
+        "id": "5118d819958abc024059bd231928df6b4840f00103f9019e01653a0200000092031453747564696f2064657320557273756c696e6573",
+        "name": "Studio des Ursulines",
+        "lat": 48.8427477,
+        "lon": 2.3420612,
+        "category": "entertainment",
+        "categories": [
+          "entertainment",
+          "entertainment.cinema"
+        ],
+        "setting": "unknown",
+        "address": "Rue des Ursulines, 75005 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Rue des Ursulines",
+        "houseNumber": null,
+        "description": "Cinéma indépendant - Art et Essai",
+        "businessDomain": "studiodesursulines.com",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q3501027",
+        "features": {},
+        "hours": null,
+        "image": null,
+        "wikipedia": "fr:Studio des Ursulines",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 1709.648137723775
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Le_Studio_des_Ursulines.JPG/1280px-Le_Studio_des_Ursulines.JPG",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_Studio_des_Ursulines.JPG",
+        "title": "Le Studio des Ursulines.JPG",
+        "creator": "LPLT",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "links": [
+          {
+            "label": "LPLT",
+            "url": "https://commons.wikimedia.org/wiki/User:LPLT"
+          }
+        ],
+        "width": 1280,
+        "height": 1707,
+        "entityId": "Q3501027",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:35:15.715Z"
+      }
+    },
+    {
+      "place": {
+        "id": "5157f5f075fec702405924662fb57e6d4840f00102f901c4361c09000000009203254d61726368c3a92061757820666c65757273205265696e652d456c697a61626574682d4949",
+        "name": "Marché aux fleurs Reine-Elizabeth-II",
+        "lat": 48.8554644,
+        "lon": 2.3476602,
+        "category": "shopping",
+        "categories": [
+          "commercial",
+          "commercial.florist",
+          "commercial.marketplace"
+        ],
+        "setting": "indoor",
+        "address": "Place Louis Lépine, 75004 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Place Louis Lépine",
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": "paris.fr",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q3289836",
+        "features": {},
+        "hours": "Mo-Su 08:00-19:30",
+        "image": null,
+        "wikipedia": "fr:Marché aux fleurs Reine-Elizabeth-II",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 355.33027293244436
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/March%C3%A9_aux_fleurs_et_aux_oiseaux_de_Paris_2010-07-29_n1.jpg/1280px-March%C3%A9_aux_fleurs_et_aux_oiseaux_de_Paris_2010-07-29_n1.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:March%C3%A9_aux_fleurs_et_aux_oiseaux_de_Paris_2010-07-29_n1.jpg",
+        "title": "Marché aux fleurs et aux oiseaux de Paris 2010-07-29 n1.jpg",
+        "creator": "zoetnet",
+        "credit": "flower market Uploaded by paris 17",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "links": [
+          {
+            "label": "zoetnet",
+            "url": "https://www.flickr.com/people/13286453@N00"
+          },
+          {
+            "label": "flower market",
+            "url": "https://www.flickr.com/photos/zoetnet/4850569297/"
+          },
+          {
+            "label": "paris 17",
+            "url": "https://commons.wikimedia.org/wiki/User:Paris_17"
+          }
+        ],
+        "width": 1280,
+        "height": 960,
+        "entityId": "Q3289836",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:35:15.716Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51523c5db903e00240590de34206316d4840f00102f901f233070100000000920318537175617265204d61726965205472696e7469676e616e74",
+        "name": "Square Marie Trintignant",
+        "lat": 48.8530449,
+        "lon": 2.3593721,
+        "category": "nature",
+        "categories": [
+          "internet_access",
+          "internet_access.free",
+          "leisure",
+          "leisure.park"
+        ],
+        "setting": "outdoor",
+        "address": "75004 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": null,
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": "paris.fr",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q3494721",
+        "features": {
+          "internet_access": "wlan",
+          "leisure": "park"
+        },
+        "hours": "24/7",
+        "image": null,
+        "wikipedia": "fr:Square Marie-Trintignant",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 656.97192110577
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/P1030890_Paris_IV_square_Marie-Trintignant_rwk.JPG/1280px-P1030890_Paris_IV_square_Marie-Trintignant_rwk.JPG",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:P1030890_Paris_IV_square_Marie-Trintignant_rwk.JPG",
+        "title": "P1030890 Paris IV square Marie-Trintignant rwk.JPG",
+        "creator": "Mbzt",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "links": [
+          {
+            "label": "Mbzt",
+            "url": "https://commons.wikimedia.org/wiki/User:Mbzt"
+          }
+        ],
+        "width": 1280,
+        "height": 1044,
+        "entityId": "Q3494721",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:35:15.717Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51ed3c2972cee5024059e0d45d87ad6d4840f00102f901685d780a0000000092032a4a617264696e206465206c2768c3b474656c2d4c616d6f69676e6f6e202d204d61726b2d417368746f6e",
+        "name": "Jardin de l'hôtel-Lamoignon - Mark-Ashton",
+        "lat": 48.8568667,
+        "lon": 2.3622093,
+        "category": "nature",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "setting": "outdoor",
+        "address": "75004 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": null,
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q3162484",
+        "features": {
+          "leisure": "park"
+        },
+        "hours": "Mo-Fr 08:00-17:00; Sa-Su 09:00-17:00",
+        "image": null,
+        "wikipedia": "fr:Jardin de l'Hôtel-Lamoignon",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 732.8811039787961
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/P1290575_Paris_IV_jardin_de_hotel-Lamoignon_rwk.jpg/1280px-P1290575_Paris_IV_jardin_de_hotel-Lamoignon_rwk.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:P1290575_Paris_IV_jardin_de_hotel-Lamoignon_rwk.jpg",
+        "title": "P1290575 Paris IV jardin de hotel-Lamoignon rwk.jpg",
+        "creator": "Mbzt",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "links": [
+          {
+            "label": "Mbzt",
+            "url": "https://commons.wikimedia.org/wiki/User:Mbzt"
+          }
+        ],
+        "width": 1280,
+        "height": 1068,
+        "entityId": "Q3162484",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:35:15.718Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51c03e7b2653e5024059c13b47d86f6e4840f00102f9019096f901000000009203224d61726368c3a920636f75766572742064657320456e66616e747320526f75676573",
+        "name": "Marché couvert des Enfants Rouges",
+        "lat": 48.8627951,
+        "lon": 2.361973,
+        "category": "shopping",
+        "categories": [
+          "commercial.marketplace"
+        ],
+        "setting": "indoor",
+        "address": "Rue de Bretagne, 75003 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Rue de Bretagne",
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": "paris.fr",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": "EGS",
+        "heritage": null,
+        "wikidata": "Q3289922",
+        "features": {},
+        "hours": "Tu-Sa 08:30-20:30; Th 08:30-21:30; Su 08:30-17:00",
+        "image": null,
+        "wikipedia": "fr:Marché des Enfants-Rouges",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 992.8181229174402
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Paris_III-March%C3%A9_des_Enfants-Rouges.jpg/1280px-Paris_III-March%C3%A9_des_Enfants-Rouges.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_III-March%C3%A9_des_Enfants-Rouges.jpg",
+        "title": "Paris III-Marché des Enfants-Rouges.jpg",
+        "creator": "Popolon",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "links": [
+          {
+            "label": "Popolon",
+            "url": "https://commons.wikimedia.org/wiki/User:Popolon"
+          }
+        ],
+        "width": 1280,
+        "height": 848,
+        "entityId": "Q3289922",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:35:15.718Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51eea3329505b0024059982d9844116d4840f00102f90153215901000000009203154d61726368c3a9205361696e742d4765726d61696e",
+        "name": "Marché Saint-Germain",
+        "lat": 48.8520738,
+        "lon": 2.3359497,
+        "category": "shopping",
+        "categories": [
+          "building",
+          "building.commercial",
+          "commercial",
+          "commercial.shopping_mall"
+        ],
+        "setting": "indoor",
+        "address": "Rue Lobineau, 75006 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Rue Lobineau",
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": "marche-saint-germain.com",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q36698465",
+        "features": {},
+        "hours": "Mo-Sa 10:00-19:30",
+        "image": null,
+        "wikipedia": "fr:Marché Saint-Germain",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 1291.067366317036
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/P1020096_Paris_VI_March%C3%A9_Saint-Germain_reductwk.JPG/1280px-P1020096_Paris_VI_March%C3%A9_Saint-Germain_reductwk.JPG",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:P1020096_Paris_VI_March%C3%A9_Saint-Germain_reductwk.JPG",
+        "title": "P1020096 Paris VI Marché Saint-Germain reductwk.JPG",
+        "creator": "Mbzt",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "links": [
+          {
+            "label": "Mbzt",
+            "url": "https://commons.wikimedia.org/wiki/User:Mbzt"
+          }
+        ],
+        "width": 1280,
+        "height": 955,
+        "entityId": "Q36698465",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:35:15.719Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51f5e070890ee20240594d847d95316c4840f00102f9011fb04f01000000009203204dc3a96e616765726965206475204a617264696e2064657320506c616e746573",
+        "name": "Ménagerie du Jardin des Plantes",
+        "lat": 48.8455259,
+        "lon": 2.3605935,
+        "category": "entertainment",
+        "categories": [
+          "entertainment",
+          "entertainment.zoo",
+          "fee"
+        ],
+        "setting": "unknown",
+        "address": "Rue Cuvier, 75005 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Rue Cuvier",
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": "mnhn.fr",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": "Muséum National d'Histoire Naturelle",
+        "heritage": null,
+        "wikidata": "Q1957702",
+        "features": {
+          "tourism": "zoo"
+        },
+        "hours": "Mo-Su 09:00-18:00",
+        "image": null,
+        "wikipedia": "fr:Ménagerie du Jardin des plantes",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 1376.0348424403303
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Herpeto5.JPG/1280px-Herpeto5.JPG",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Herpeto5.JPG",
+        "title": "Herpeto5.JPG",
+        "creator": "Spiridon MANOLIU",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Herpeto5.JPG#Licensing",
+        "links": [
+          {
+            "label": "Spiridon MANOLIU",
+            "url": "https://commons.wikimedia.org/wiki/User:Spiridon_MANOLIU"
+          }
+        ],
+        "width": 1280,
+        "height": 960,
+        "entityId": "Q1957702",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:35:15.720Z"
+      }
+    },
+    {
+      "place": {
+        "id": "5177d333f7b6b7024059c5f12799f16e4840f00101f901e55708000000000092031047616c657269652056697669656e6e65",
+        "name": "Galerie Vivienne",
+        "lat": 48.8667277,
+        "lon": 2.339757,
+        "category": "shopping",
+        "categories": [
+          "building",
+          "building.commercial",
+          "building.historic",
+          "commercial",
+          "commercial.shopping_mall",
+          "heritage",
+          "tourism",
+          "tourism.sights"
+        ],
+        "setting": "indoor",
+        "address": "Rue des Petits Pères, 75002 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Rue des Petits Pères",
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": "galerie-vivienne.com",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q1314020",
+        "features": {
+          "historic": "yes",
+          "tourism": "yes"
+        },
+        "hours": "Mo-Sa 08:30-20:30",
+        "image": null,
+        "wikipedia": "fr:Galerie Vivienne",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 1448.015727711496
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/P1040471_Paris_II_galerie_Vivienne_rwk.JPG/1280px-P1040471_Paris_II_galerie_Vivienne_rwk.JPG",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:P1040471_Paris_II_galerie_Vivienne_rwk.JPG",
+        "title": "P1040471 Paris II galerie Vivienne rwk.JPG",
+        "creator": "Mbzt",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "links": [
+          {
+            "label": "Mbzt",
+            "url": "https://commons.wikimedia.org/wiki/User:Mbzt"
+          }
+        ],
+        "width": 1280,
+        "height": 1155,
+        "entityId": "Q1314020",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:35:15.720Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51fff047afa00503405919bc013bad6c4840f00102f901053564010000000092030f4d61726368c3a92042656175766175",
+        "name": "Marché Beauvau",
+        "lat": 48.8490432,
+        "lon": 2.3777531,
+        "category": "shopping",
+        "categories": [
+          "building",
+          "building.commercial",
+          "building.historic",
+          "commercial.marketplace",
+          "heritage"
+        ],
+        "setting": "indoor",
+        "address": "Place d'Aligre, 75012 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Place d'Aligre",
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": "paris.fr",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q3289775",
+        "features": {},
+        "hours": "Tu-Fr 08:00-13:00,16:00-19:30; Sa 08:00-19:30; Su 08:00-13:30",
+        "image": null,
+        "wikipedia": "fr:Marché Beauvau",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 2049.7600038454625
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/P1010871_Paris_XII_Place_Aligre_March%C3%A9_Beauvau_reductwk.JPG/1280px-P1010871_Paris_XII_Place_Aligre_March%C3%A9_Beauvau_reductwk.JPG",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:P1010871_Paris_XII_Place_Aligre_March%C3%A9_Beauvau_reductwk.JPG",
+        "title": "P1010871 Paris XII Place Aligre Marché Beauvau reductwk.JPG",
+        "creator": "Mbzt",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "links": [
+          {
+            "label": "Mbzt",
+            "url": "https://commons.wikimedia.org/wiki/User:Mbzt"
+          }
+        ],
+        "width": 1280,
+        "height": 786,
+        "entityId": "Q3289775",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:35:15.721Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51f59cf6064906034059affb10e6a86c4840f00102f90198638902000000009203104d61726368c3a9206427416c69677265",
+        "name": "Marché d'Aligre",
+        "lat": 48.8488749,
+        "lon": 2.3780461,
+        "category": "shopping",
+        "categories": [
+          "commercial.marketplace"
+        ],
+        "setting": "indoor",
+        "address": "Rue de Charenton, 75012 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Rue de Charenton",
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": "paris.fr",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q3289864",
+        "features": {},
+        "hours": "Tu-Fr 07:30-13:30; Sa-Su 07:30-14:30",
+        "image": null,
+        "wikipedia": "fr:Marché d'Aligre",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 2077.00453781229
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/March%C3%A9_dAligre_4.jpg/1280px-March%C3%A9_dAligre_4.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:March%C3%A9_dAligre_4.jpg",
+        "title": "Marché dAligre 4.jpg",
+        "creator": "Jesús Gorriti from Madrid, Spain",
+        "credit": "Ah, le pharmacie Uploaded by Paris 17",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "links": [
+          {
+            "label": "Jesús Gorriti",
+            "url": "https://www.flickr.com/people/91572751@N00"
+          },
+          {
+            "label": "Ah, le pharmacie",
+            "url": "https://www.flickr.com/photos/gorriti/2954858161/"
+          },
+          {
+            "label": "Paris 17",
+            "url": "https://commons.wikimedia.org/wiki/User:Paris_17"
+          }
+        ],
+        "width": 1280,
+        "height": 850,
+        "entityId": "Q3289864",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:35:15.722Z"
+      }
+    },
+    {
+      "place": {
+        "id": "513ded85190cd7024059f26c04aa3d704840f00102f901f85ec4030000000092031d4d61726368c3a920436f7576657274205361696e742d5175656e74696e",
+        "name": "Marché Couvert Saint-Quentin",
+        "lat": 48.8769416,
+        "lon": 2.3549707,
+        "category": "shopping",
+        "categories": [
+          "building",
+          "building.commercial",
+          "commercial.marketplace"
+        ],
+        "setting": "indoor",
+        "address": "Boulevard de Magenta, 75010 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Boulevard de Magenta",
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": "paris.fr",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q3289806",
+        "features": {},
+        "hours": "Tu-Sa 08:00-20:00, Su 08:00-13:30",
+        "image": null,
+        "wikipedia": "fr:Marché Saint-Quentin",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 2270.9438764325073
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/March%C3%A9_Saint-Quentin_%C3%A0_Paris_le_17_juillet_2015_-_12.jpg/1280px-March%C3%A9_Saint-Quentin_%C3%A0_Paris_le_17_juillet_2015_-_12.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:March%C3%A9_Saint-Quentin_%C3%A0_Paris_le_17_juillet_2015_-_12.jpg",
+        "title": "Marché Saint-Quentin à Paris le 17 juillet 2015 - 12.jpg",
+        "creator": "Lionel Allorge",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "links": [
+          {
+            "label": "Lionel Allorge",
+            "url": "https://commons.wikimedia.org/wiki/User:Lionel_Allorge"
+          }
+        ],
+        "width": 1280,
+        "height": 853,
+        "entityId": "Q3289806",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:35:15.722Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51fa0b4f2579d702405907a72b58446a4840f00102f901d65ead040000000092030b4974616c69652044657578",
+        "name": "Italie Deux",
+        "lat": 48.8302306,
+        "lon": 2.3552075,
+        "category": "shopping",
+        "categories": [
+          "building",
+          "building.commercial",
+          "commercial",
+          "commercial.shopping_mall",
+          "wheelchair",
+          "wheelchair.yes"
+        ],
+        "setting": "indoor",
+        "address": "30 Avenue d'Italie, 75013 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Avenue d'Italie",
+        "houseNumber": "30",
+        "description": null,
+        "businessDomain": "italiedeux.com",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q3155868",
+        "features": {
+          "wheelchair": "yes"
+        },
+        "hours": "Mo-Sa 10:00-20:00; Su 11:00-19:00",
+        "image": null,
+        "wikipedia": "fr:Italie Deux",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 2940.3918011925093
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Centre_Commercial_Italie_2%2C_Paris_5_April_2013_001.jpg/1280px-Centre_Commercial_Italie_2%2C_Paris_5_April_2013_001.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Centre_Commercial_Italie_2,_Paris_5_April_2013_001.jpg",
+        "title": "Centre Commercial Italie 2, Paris 5 April 2013 001.jpg",
+        "creator": "ErasmusOfParis",
+        "credit": "Italie 2",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "links": [
+          {
+            "label": "ErasmusOfParis",
+            "url": "https://www.flickr.com/people/89647834@N03"
+          },
+          {
+            "label": "Italie 2",
+            "url": "https://www.flickr.com/photos/erasmusofparis/8623782793/"
+          }
+        ],
+        "width": 1280,
+        "height": 720,
+        "entityId": "Q3155868",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:35:15.723Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51f4f9699a57d7024059ac2ce53b196a4840f00102f901665cad040000000092030b4974616c69652044657578",
+        "name": "Italie Deux",
+        "lat": 48.8288016,
+        "lon": 2.3553921,
+        "category": "shopping",
+        "categories": [
+          "building",
+          "building.commercial",
+          "commercial",
+          "commercial.shopping_mall",
+          "wheelchair",
+          "wheelchair.yes"
+        ],
+        "setting": "indoor",
+        "address": "30 Avenue d'Italie, 75013 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Avenue d'Italie",
+        "houseNumber": "30",
+        "description": null,
+        "businessDomain": "italiedeux.com",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q3155868",
+        "features": {
+          "wheelchair": "yes"
+        },
+        "hours": "Mo-Sa 10:00-20:00; Su 11:00-19:00",
+        "image": null,
+        "wikipedia": "fr:Italie Deux",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 3099.855408526396
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Centre_Commercial_Italie_2%2C_Paris_5_April_2013_001.jpg/1280px-Centre_Commercial_Italie_2%2C_Paris_5_April_2013_001.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Centre_Commercial_Italie_2,_Paris_5_April_2013_001.jpg",
+        "title": "Centre Commercial Italie 2, Paris 5 April 2013 001.jpg",
+        "creator": "ErasmusOfParis",
+        "credit": "Italie 2",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "links": [
+          {
+            "label": "ErasmusOfParis",
+            "url": "https://www.flickr.com/people/89647834@N03"
+          },
+          {
+            "label": "Italie 2",
+            "url": "https://www.flickr.com/photos/erasmusofparis/8623782793/"
+          }
+        ],
+        "width": 1280,
+        "height": 720,
+        "entityId": "Q3155868",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:35:15.724Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51014062d042ca0240597d2431c8cf6d4840f00102f901848af2000000000092031f537175617265206465206c6120546f7572205361696e742d4a616371756573",
+        "name": "Square de la Tour Saint-Jacques",
+        "lat": 48.8578831,
+        "lon": 2.3487609,
+        "category": "nature",
+        "categories": [
+          "internet_access",
+          "internet_access.free",
+          "leisure",
+          "leisure.park"
+        ],
+        "setting": "outdoor",
+        "address": "75004 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": null,
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": "paris.fr",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q3494976",
+        "features": {
+          "internet_access": "wlan",
+          "leisure": "park"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": "fr:Square de la tour Saint-Jacques",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 289.23965603267544
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Square_de_la_Tour-Saint-jacques.JPG/1280px-Square_de_la_Tour-Saint-jacques.JPG",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Square_de_la_Tour-Saint-jacques.JPG",
+        "title": "Square de la Tour-Saint-jacques.JPG",
+        "creator": "LPLT",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "links": [
+          {
+            "label": "LPLT",
+            "url": "https://commons.wikimedia.org/wiki/User:LPLT"
+          }
+        ],
+        "width": 1280,
+        "height": 960,
+        "entityId": "Q3494976",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:35:15.724Z"
+      }
+    },
+    {
+      "place": {
+        "id": "514fda38b3d1c802405905580b97bb6d4840f00102f9012a993103000000009203155468c3a9c3a2747265206465206c612056696c6c65",
+        "name": "Théâtre de la Ville",
+        "lat": 48.857285,
+        "lon": 2.3480696,
+        "category": "entertainment",
+        "categories": [
+          "building",
+          "building.entertainment",
+          "building.historic",
+          "entertainment",
+          "entertainment.culture",
+          "entertainment.culture.theatre",
+          "heritage",
+          "wheelchair",
+          "wheelchair.yes"
+        ],
+        "setting": "unknown",
+        "address": "Rue Adolphe Adam, 75004 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Rue Adolphe Adam",
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": "theatredelaville-paris.com",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q2352779",
+        "features": {
+          "wheelchair": "yes"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": "fr:Théâtre de la Ville",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 311.6308539890673
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Th%C3%A9%C3%A2tre_Sarah-Bernhardt_1.jpg/1280px-Th%C3%A9%C3%A2tre_Sarah-Bernhardt_1.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Th%C3%A9%C3%A2tre_Sarah-Bernhardt_1.jpg",
+        "title": "Théâtre Sarah-Bernhardt 1.jpg",
+        "creator": "ZeusUpsistos",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "links": [
+          {
+            "label": "ZeusUpsistos",
+            "url": "https://commons.wikimedia.org/wiki/User:ZeusUpsistos"
+          }
+        ],
+        "width": 1280,
+        "height": 853,
+        "entityId": "Q2352779",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:35:15.725Z"
+      }
+    },
+    {
+      "place": {
+        "id": "512c709759d7cf0240593d8d497b036e4840f00102f901335e430500000000920313466f6e7461696e65205374726176696e736b79",
+        "name": "Fontaine Stravinsky",
+        "lat": 48.8594813,
+        "lon": 2.351485,
+        "category": "nature",
+        "categories": [
+          "natural",
+          "natural.water",
+          "natural.water.inland"
+        ],
+        "setting": "outdoor",
+        "address": "France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": null,
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q281309",
+        "features": {},
+        "hours": null,
+        "image": null,
+        "wikipedia": "fr:Fontaine Stravinski",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 324.6279190620515
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Paris_75004_Place_Igor-Stravinsky_Fountain_01b.jpg/1280px-Paris_75004_Place_Igor-Stravinsky_Fountain_01b.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_75004_Place_Igor-Stravinsky_Fountain_01b.jpg",
+        "title": "Paris 75004 Place Igor-Stravinsky Fountain 01b.jpg",
+        "creator": "ChrisSampson87",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "links": [
+          {
+            "label": "ChrisSampson87",
+            "url": "https://commons.wikimedia.org/wiki/User:ChrisSampson87"
+          }
+        ],
+        "width": 1280,
+        "height": 960,
+        "entityId": "Q281309",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:35:15.726Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51327ed069ccda02405948b42e7fcf6d4840f00103f9012d401055000000009203104c6520506f696e742056697267756c65",
+        "name": "Le Point Virgule",
+        "lat": 48.8578948,
+        "lon": 2.3568352,
+        "category": "entertainment",
+        "categories": [
+          "entertainment",
+          "entertainment.culture",
+          "entertainment.culture.theatre"
+        ],
+        "setting": "unknown",
+        "address": "Rue Sainte-Croix de la Bretonnerie, 75004 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Rue Sainte-Croix de la Bretonnerie",
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": "lepointvirgule.com",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q3527813",
+        "features": {
+          "wheelchair": "no"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": "fr:Théâtre du Point-Virgule",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 368.4061193296778
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Point_virgule.jpg/1280px-Point_virgule.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Point_virgule.jpg",
+        "title": "Point virgule.jpg",
+        "creator": "The original uploader was Kuxu at French Wikipedia .",
+        "credit": "Photographie personnelle, réalisée le 1er septembre 2006 Transferred from fr.wikipedia to Commons by Padawane .",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "links": [
+          {
+            "label": "Kuxu",
+            "url": "https://en.wikipedia.org/wiki/fr:User:Kuxu"
+          },
+          {
+            "label": "French Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/fr:"
+          },
+          {
+            "label": "fr.wikipedia",
+            "url": "https://fr.wikipedia.org/"
+          },
+          {
+            "label": "Padawane",
+            "url": "https://commons.wikimedia.org/wiki/User:Padawane"
+          }
+        ],
+        "width": 1280,
+        "height": 960,
+        "entityId": "Q3527813",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:35:15.726Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51e47aa65c2ddd0240595a013fa2ea6d4840f00102f901e12f54030000000092031e53717561726520436861726c657320566963746f72204c616e676c6f6973",
+        "name": "Square Charles Victor Langlois",
+        "lat": 48.8587364,
+        "lon": 2.3580123,
+        "category": "nature",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "setting": "outdoor",
+        "address": "75004 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": null,
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": "paris.fr",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q3494529",
+        "features": {
+          "leisure": "park"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": "fr:Square Charles-Victor-Langlois",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 487.07850535985557
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Paris_square_charles-victor_langlois2.jpg/1280px-Paris_square_charles-victor_langlois2.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_square_charles-victor_langlois2.jpg",
+        "title": "Paris square charles-victor langlois2.jpg",
+        "creator": "Ralf.treinen",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "links": [
+          {
+            "label": "Ralf.treinen",
+            "url": "https://commons.wikimedia.org/wiki/User:Ralf.treinen"
+          }
+        ],
+        "width": 1280,
+        "height": 960,
+        "entityId": "Q3494529",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:35:15.727Z"
+      }
+    },
+    {
+      "place": {
+        "id": "5110e8170a53d1024059a4483dc10e6d4840f00102f90135f537010000000092031a537175617265206465206c27c38e6c652d64652d4672616e6365",
+        "name": "Square de l'Île-de-France",
+        "lat": 48.852088,
+        "lon": 2.3522269,
+        "category": "nature",
+        "categories": [
+          "leisure",
+          "leisure.park"
+        ],
+        "setting": "outdoor",
+        "address": "75004 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": null,
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": "equipement.paris.fr",
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q3389977",
+        "features": {
+          "leisure": "park"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": "fr:Square de l'Île-de-France",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 501.7153692060992
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Square_de_l%27%C3%8Ele-de-France.JPG/1280px-Square_de_l%27%C3%8Ele-de-France.JPG",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Square_de_l%27%C3%8Ele-de-France.JPG",
+        "title": "Square de l'Île-de-France.JPG",
+        "creator": "LPLT",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "links": [
+          {
+            "label": "LPLT",
+            "url": "https://commons.wikimedia.org/wiki/User:LPLT"
+          }
+        ],
+        "width": 1280,
+        "height": 960,
+        "entityId": "Q3389977",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:35:15.727Z"
+      }
+    },
+    {
+      "place": {
+        "id": "513360d24fc0c802405920412a66296e4840f00102f901e69d200300000000920316466f6e7461696e652064657320496e6e6f63656e7473",
+        "name": "Fontaine des Innocents",
+        "lat": 48.8606384,
+        "lon": 2.3480231,
+        "category": "nature",
+        "categories": [
+          "natural",
+          "natural.water",
+          "tourism",
+          "tourism.attraction.fountain",
+          "tourism.sights",
+          "tourism.sights.memorial",
+          "tourism.sights.memorial.monument"
+        ],
+        "setting": "outdoor",
+        "address": "Place Joachim du Bellay, 75001 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Place Joachim du Bellay",
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q1435791",
+        "features": {
+          "historic": "monument"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": "fr:Fontaine des Innocents",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 543.1564973776286
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Fontaine_des_Innocents%2C_2011.JPG/1280px-Fontaine_des_Innocents%2C_2011.JPG",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fontaine_des_Innocents,_2011.JPG",
+        "title": "Fontaine des Innocents, 2011.JPG",
+        "creator": "Cancre",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "links": [
+          {
+            "label": "Cancre",
+            "url": "https://commons.wikimedia.org/wiki/User:Cancre"
+          }
+        ],
+        "width": 1280,
+        "height": 1912,
+        "entityId": "Q1435791",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:35:15.728Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51960bf038a0d0024059ce0bc1bba66d4840f00103f90125558e720100000092030a4c6120536369656e6365",
+        "name": "La Science",
+        "lat": 48.8566508,
+        "lon": 2.3518681,
+        "category": "hidden",
+        "categories": [
+          "tourism",
+          "tourism.attraction",
+          "tourism.attraction.artwork",
+          "tourism.attraction.artwork.statue"
+        ],
+        "setting": "unknown",
+        "address": "City Hall Plaza, 75004 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "City Hall Plaza",
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q63341415",
+        "features": {
+          "tourism": "artwork"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 24.930245508421283
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Science_jules_blanchard.jpg/1280px-Science_jules_blanchard.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Science_jules_blanchard.jpg",
+        "title": "Science jules blanchard.jpg",
+        "creator": "NonOmnisMoriar",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "links": [
+          {
+            "label": "NonOmnisMoriar",
+            "url": "https://commons.wikimedia.org/wiki/User:NonOmnisMoriar"
+          }
+        ],
+        "width": 1280,
+        "height": 1920,
+        "entityId": "Q63341415",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:35:18.309Z"
+      }
+    },
+    {
+      "place": {
+        "id": "513e0c080841d2024059fe0461b8846d4840f00103f90111682536010000009203224a617264696e2064657320436f6d62617474616e74732d64652d6c612d4e75657665",
+        "name": "Jardin des Combattants-de-la-Nueve",
+        "lat": 48.8556128,
+        "lon": 2.3526631,
+        "category": "history",
+        "categories": [
+          "tourism",
+          "tourism.sights",
+          "tourism.sights.memorial"
+        ],
+        "setting": "unknown",
+        "address": "Quai de l'Hôtel de Ville, 75004 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Quai de l'Hôtel de Ville",
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": null,
+        "cuisine": null,
+        "operator": "Mairie de Paris",
+        "heritage": null,
+        "wikidata": null,
+        "features": {
+          "historic": "memorial"
+        },
+        "hours": null,
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": 114.88134120413903
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Quai_de_l%27Hotel%2C_Paris_June_2002.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Quai_de_l%27Hotel,_Paris_June_2002.jpg",
+        "title": "Quai de l'Hotel, Paris June 2002.jpg",
+        "creator": "Ismael Valladolid Torres from Madrid, Spain",
+        "credit": "Quai de l'Hotel",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "links": [
+          {
+            "label": "Ismael Valladolid Torres",
+            "url": "https://www.flickr.com/people/99365830@N00"
+          },
+          {
+            "label": "Quai de l'Hotel",
+            "url": "https://www.flickr.com/photos/ivalladt/151174613/"
+          }
+        ],
+        "width": 1280,
+        "height": 960,
+        "entityId": "Q19945094",
+        "match": "unique name and coordinates",
+        "checkedAt": "2026-11-12T01:35:28.889Z"
+      }
+    },
+    {
+      "place": {
+        "id": "517ff0468bd89c0240595cdf2cca116e4840f00102f9010108c40300000000c0020192030f4d757365756d206f66204f72736179",
+        "name": "Museum of Orsay",
+        "lat": 48.8599179,
+        "lon": 2.3265849,
+        "category": "museums",
+        "categories": [
+          "entertainment.museum"
+        ],
+        "setting": "indoor",
+        "address": "1 Rue de la Légion d'Honneur, 75007 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Rue de la Légion d'Honneur",
+        "houseNumber": "1",
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": "Europe/Paris",
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": null,
+        "features": {},
+        "hours": null,
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": null
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Gare_d%27Orsay_%2849570190081%29.jpg/1280px-Gare_d%27Orsay_%2849570190081%29.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gare_d%27Orsay_(49570190081).jpg",
+        "title": "Gare d'Orsay (49570190081).jpg",
+        "creator": "Cheng-en Cheng from Taichung City, Taiwan",
+        "credit": "DSC_0111",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "links": [
+          {
+            "label": "Cheng-en Cheng",
+            "url": "https://www.flickr.com/people/19092635@N00"
+          },
+          {
+            "label": "DSC_0111",
+            "url": "https://www.flickr.com/photos/rail02000/49570190081/"
+          }
+        ],
+        "width": 1280,
+        "height": 853,
+        "entityId": "Q23402",
+        "match": "unique name and coordinates",
+        "checkedAt": "2026-11-12T01:36:28.023Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51ee8046448cc2024059d85b14877d6d4840f00101f901e609330000000000c0020192030f5361696e74652d43686170656c6c65",
+        "name": "Sainte-Chapelle",
+        "lat": 48.8553933,
+        "lon": 2.3449941,
+        "category": "hidden",
+        "categories": [],
+        "setting": "unknown",
+        "address": "8 Boulevard du Palais, 75001 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Boulevard du Palais",
+        "houseNumber": "8",
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": "Europe/Paris",
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": null,
+        "features": {},
+        "hours": null,
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": null
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Szensapel.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Szensapel.jpg",
+        "title": "Szensapel.jpg",
+        "creator": "Mathae",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+        "links": [
+          {
+            "label": "Mathae",
+            "url": "https://commons.wikimedia.org/wiki/User:Mathae"
+          }
+        ],
+        "width": 1280,
+        "height": 1707,
+        "entityId": "Q193193",
+        "match": "unique name and coordinates",
+        "checkedAt": "2026-11-12T01:36:31.638Z"
+      }
+    },
+    {
+      "place": {
+        "id": "515a5139dcfdc002405954049376fe704840f00103f90195ec197701000000c0020192030c53616372c3a92d43c5937572e203236f70656e7374726565746d61703a76656e75653a6e6f64652f36323933313534393635",
+        "name": "Sacré-Cœur",
+        "lat": 48.8827656,
+        "lon": 2.3442342,
+        "category": "hidden",
+        "categories": [
+          "public_transport.bus"
+        ],
+        "setting": "unknown",
+        "address": "Boulevard Marguerite de Rochechouart, 75009 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Boulevard Marguerite de Rochechouart",
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": "Europe/Paris",
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": null,
+        "features": {},
+        "hours": null,
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": null
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Le_sacre_coeur.jpg/1280px-Le_sacre_coeur.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_sacre_coeur.jpg",
+        "title": "Le sacre coeur.jpg",
+        "creator": "Tonchino",
+        "credit": "File:Le sacre coeur (paris - france).jpg",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "links": [
+          {
+            "label": "Tonchino",
+            "url": "https://commons.wikimedia.org/wiki/User:Tonchino"
+          },
+          {
+            "label": "File:Le sacre coeur (paris - france).jpg",
+            "url": "https://commons.wikimedia.org/wiki/File:Le_sacre_coeur_(paris_-_france).jpg"
+          }
+        ],
+        "width": 1280,
+        "height": 1443,
+        "entityId": "Q28785",
+        "match": "unique name and coordinates",
+        "checkedAt": "2026-11-12T01:36:37.779Z"
+      }
+    },
+    {
+      "place": {
+        "id": "519f0e1ab09a9d0240592b775556896e4840f00102f901243c350300000000c002019203105475696c65726965732047617264656e",
+        "name": "Tuileries Garden",
+        "lat": 48.8635662,
+        "lon": 2.3269552,
+        "category": "nature",
+        "categories": [
+          "leisure.park"
+        ],
+        "setting": "outdoor",
+        "address": "113, 75001 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": null,
+        "houseNumber": "113",
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": "Europe/Paris",
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": null,
+        "features": {},
+        "hours": null,
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": null
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Grande_Roue_de_Paris_-_Louvre_et_Jardins_des_Tuileries.jpg/1280px-Grande_Roue_de_Paris_-_Louvre_et_Jardins_des_Tuileries.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Grande_Roue_de_Paris_-_Louvre_et_Jardins_des_Tuileries.jpg",
+        "title": "Grande Roue de Paris - Louvre et Jardins des Tuileries.jpg",
+        "creator": "Tangopaso",
+        "credit": "Self-photographed",
+        "copyright": "",
+        "attribution": "",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/File:Grande_Roue_de_Paris_-_Louvre_et_Jardins_des_Tuileries.jpg#Licensing",
+        "links": [
+          {
+            "label": "Tangopaso",
+            "url": "https://commons.wikimedia.org/wiki/User:Tangopaso"
+          }
+        ],
+        "width": 1280,
+        "height": 853,
+        "entityId": "Q818517",
+        "match": "unique name and coordinates",
+        "checkedAt": "2026-11-12T01:36:43.942Z"
+      }
+    },
+    {
+      "place": {
+        "id": "517d3ac379dda70240590653831f8b6f4840f00103f901fa845bce00000000c0020192030e50616c616973204761726e696572",
+        "name": "Palais Garnier",
+        "lat": 48.8714332,
+        "lon": 2.3319654,
+        "category": "hidden",
+        "categories": [
+          "tourism.attraction.viewpoint"
+        ],
+        "setting": "unknown",
+        "address": "Place de l'Opéra, 75009 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Place de l'Opéra",
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": "Europe/Paris",
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": null,
+        "features": {},
+        "hours": null,
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": null
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Paris_Palais_Garnier_2010-04-06_16.55.07.jpg/1280px-Paris_Palais_Garnier_2010-04-06_16.55.07.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris_Palais_Garnier_2010-04-06_16.55.07.jpg",
+        "title": "Paris Palais Garnier 2010-04-06 16.55.07.jpg",
+        "creator": "Alexander Hoernigk",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+        "links": [
+          {
+            "label": "Alexander Hoernigk",
+            "url": "https://commons.wikimedia.org/wiki/User:Alexander_Hoernigk"
+          }
+        ],
+        "width": 1280,
+        "height": 724,
+        "entityId": "Q187840",
+        "match": "unique name and coordinates",
+        "checkedAt": "2026-11-12T01:36:47.558Z"
+      }
+    },
+    {
+      "place": {
+        "id": "513210ba3ab6c40240593646a11b506c4840f00102f901a95bfa0000000000c0020192030850616e7468656f6e",
+        "name": "Pantheon",
+        "lat": 48.8461947,
+        "lon": 2.3460507,
+        "category": "hidden",
+        "categories": [
+          "building.place_of_worship"
+        ],
+        "setting": "unknown",
+        "address": "Place du Panthéon, 75005 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Place du Panthéon",
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": "Europe/Paris",
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": null,
+        "features": {},
+        "hours": null,
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": null
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Panth%C3%A9on%2C_Paris_25_March_2012.jpg/1280px-Panth%C3%A9on%2C_Paris_25_March_2012.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Panth%C3%A9on,_Paris_25_March_2012.jpg",
+        "title": "Panthéon, Paris 25 March 2012.jpg",
+        "creator": "Camille Gévaudan",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "links": [
+          {
+            "label": "Camille Gévaudan",
+            "url": "https://commons.wikimedia.org/wiki/User:K%27m"
+          }
+        ],
+        "width": 1280,
+        "height": 869,
+        "entityId": "Q188856",
+        "match": "unique name and coordinates",
+        "checkedAt": "2026-11-12T01:36:51.126Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51066bf706ba81024059f2310ee48f6d4840f00101f901f254160000000000c0020192031448c3b474656c2064657320496e76616c69646573",
+        "name": "Hôtel des Invalides",
+        "lat": 48.8559537,
+        "lon": 2.3133431,
+        "category": "hidden",
+        "categories": [],
+        "setting": "unknown",
+        "address": "129 Rue de Grenelle, 75007 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Rue de Grenelle",
+        "houseNumber": "129",
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": "Europe/Paris",
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": null,
+        "features": {},
+        "hours": null,
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": null
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Paris%2C_H%C3%B4tel_des_Invalides_--_2014_--_00789-793.jpg/1280px-Paris%2C_H%C3%B4tel_des_Invalides_--_2014_--_00789-793.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Paris,_H%C3%B4tel_des_Invalides_--_2014_--_00789-793.jpg",
+        "title": "Paris, Hôtel des Invalides -- 2014 -- 00789-793.jpg",
+        "creator": "Dietmar Rabich",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "Dietmar Rabich",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "links": [
+          {
+            "label": "Dietmar Rabich",
+            "url": "https://www.wikidata.org/wiki/Q34788025"
+          },
+          {
+            "label": "Dietmar Rabich",
+            "url": "https://commons.wikimedia.org/wiki/User:XRay"
+          }
+        ],
+        "width": 1280,
+        "height": 325,
+        "entityId": "Q188977",
+        "match": "unique name and coordinates",
+        "checkedAt": "2026-11-12T01:36:58.679Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51c6151747e58602405912ec095c686d4840f00102f9013b95241c00000000c0020192030c526f64696e204d757365756d",
+        "name": "Rodin Museum",
+        "lat": 48.8547473,
+        "lon": 2.315867,
+        "category": "museums",
+        "categories": [
+          "entertainment.museum"
+        ],
+        "setting": "indoor",
+        "address": "77 Rue de Varenne, 75007 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Rue de Varenne",
+        "houseNumber": "77",
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": "Europe/Paris",
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": null,
+        "features": {},
+        "hours": null,
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": null
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/L%27h%C3%B4tel_Biron_%28mus%C3%A9e_Rodin%29_%C3%A0_Paris%2C_13_juin_2021_01.jpg/1280px-L%27h%C3%B4tel_Biron_%28mus%C3%A9e_Rodin%29_%C3%A0_Paris%2C_13_juin_2021_01.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:L%27h%C3%B4tel_Biron_(mus%C3%A9e_Rodin)_%C3%A0_Paris,_13_juin_2021_01.jpg",
+        "title": "L'hôtel Biron (musée Rodin) à Paris, 13 juin 2021 01.jpg",
+        "creator": "Jean-Pierre Dalbéra",
+        "credit": "L'hôtel Biron (musée Rodin) à Paris",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "links": [
+          {
+            "label": "Jean-Pierre Dalbéra",
+            "url": "https://www.flickr.com/people/72746018@N00"
+          },
+          {
+            "label": "L'hôtel Biron (musée Rodin) à Paris",
+            "url": "https://www.flickr.com/photos/dalbera/51246250661/"
+          }
+        ],
+        "width": 1280,
+        "height": 853,
+        "entityId": "Q650519",
+        "match": "unique name and coordinates",
+        "checkedAt": "2026-11-12T01:37:02.317Z"
+      }
+    },
+    {
+      "place": {
+        "id": "513dc4f5dece94024059e0f42ede8f6e4840f00102f901c4db3a0300000000c002019203104f72616e6765726965204d757365756d",
+        "name": "Orangerie Museum",
+        "lat": 48.8637655,
+        "lon": 2.3226602,
+        "category": "museums",
+        "categories": [
+          "entertainment.museum"
+        ],
+        "setting": "indoor",
+        "address": "Quai des Tuileries, 75001 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Quai des Tuileries",
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": "Europe/Paris",
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": null,
+        "features": {},
+        "hours": null,
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": null
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/2011-12-Musee_de_lorangerie.jpg/1280px-2011-12-Musee_de_lorangerie.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:2011-12-Musee_de_lorangerie.jpg",
+        "title": "2011-12-Musee de lorangerie.jpg",
+        "creator": "Traktorminze",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "links": [
+          {
+            "label": "Traktorminze",
+            "url": "https://commons.wikimedia.org/w/index.php?title=User:Traktorminze&action=edit&redlink=1"
+          }
+        ],
+        "width": 1280,
+        "height": 848,
+        "entityId": "Q726781",
+        "match": "unique name and coordinates",
+        "checkedAt": "2026-11-12T01:37:08.425Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51106ad0e16b1903405953f87d49746e4840f00103f901ca5f830e00000000c0020192030e50c3a87265204c61636861697365",
+        "name": "Père Lachaise",
+        "lat": 48.8629238,
+        "lon": 2.3874128,
+        "category": "hidden",
+        "categories": [],
+        "setting": "unknown",
+        "address": "Boulevard de Ménilmontant, 75011 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Boulevard de Ménilmontant",
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": "Europe/Paris",
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": null,
+        "features": {},
+        "hours": null,
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": null
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/ParisMetro-PereLachaise.jpg/1280px-ParisMetro-PereLachaise.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:ParisMetro-PereLachaise.jpg",
+        "title": "ParisMetro-PereLachaise.jpg",
+        "creator": "MadMaddy",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "links": [
+          {
+            "label": "MadMaddy",
+            "url": "https://commons.wikimedia.org/w/index.php?title=User:MadMaddy&action=edit&redlink=1"
+          }
+        ],
+        "width": 1280,
+        "height": 1302,
+        "entityId": "Q176582",
+        "match": "unique name and coordinates",
+        "checkedAt": "2026-11-12T01:37:12.047Z"
+      }
+    },
+    {
+      "place": {
+        "id": "512ceee478aaa8024059088b2f7f2a714840f00103f901fe00140f00000000c0020192030c4d6f756c696e20526f756765",
+        "name": "Moulin Rouge",
+        "lat": 48.8841094,
+        "lon": 2.3323564,
+        "category": "entertainment",
+        "categories": [
+          "entertainment.culture.theatre"
+        ],
+        "setting": "unknown",
+        "address": "82 Boulevard de Clichy, 75018 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Boulevard de Clichy",
+        "houseNumber": "82",
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": "Europe/Paris",
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": null,
+        "features": {},
+        "hours": null,
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": null
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Moulin_Rouge%2C_17_April_2011.jpg/1280px-Moulin_Rouge%2C_17_April_2011.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Moulin_Rouge,_17_April_2011.jpg",
+        "title": "Moulin Rouge, 17 April 2011.jpg",
+        "creator": "Juanedc from Zaragoza, España",
+        "credit": "Moulin Rouge Uploaded by juanedc",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+        "links": [
+          {
+            "label": "Juanedc",
+            "url": "https://www.flickr.com/people/39513725@N02"
+          },
+          {
+            "label": "Moulin Rouge",
+            "url": "https://www.flickr.com/photos/juanedc/8727702553/"
+          },
+          {
+            "label": "juanedc",
+            "url": "https://commons.wikimedia.org/wiki/User:Juanedc"
+          }
+        ],
+        "width": 1280,
+        "height": 853,
+        "entityId": "Q151030",
+        "match": "unique name and coordinates",
+        "checkedAt": "2026-11-12T01:37:20.737Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51dff4d3241daa02405983c30b22526d4840f00103f9013fa2000f00000000c0020192030f4c65732044657578204d61676f7473",
+        "name": "Les Deux Magots",
+        "lat": 48.854069,
+        "lon": 2.3330634,
+        "category": "cafes",
+        "categories": [
+          "catering.cafe"
+        ],
+        "setting": "indoor",
+        "address": "6 Place Saint-Germain des Prés, 75006 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Place Saint-Germain des Prés",
+        "houseNumber": "6",
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": "Europe/Paris",
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": null,
+        "features": {},
+        "hours": null,
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": null
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Les_Deux_Magots%2C_25_September_2019.jpg/1280px-Les_Deux_Magots%2C_25_September_2019.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Les_Deux_Magots,_25_September_2019.jpg",
+        "title": "Les Deux Magots, 25 September 2019.jpg",
+        "creator": "Cheng-en Cheng from Taichung City, Taiwan",
+        "credit": "File:Les Deux Magots, Paris 25 September 2019.jpg",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "links": [
+          {
+            "label": "Cheng-en Cheng",
+            "url": "https://www.flickr.com/people/19092635@N00"
+          },
+          {
+            "label": "File:Les Deux Magots, Paris 25 September 2019.jpg",
+            "url": "https://commons.wikimedia.org/wiki/File:Les_Deux_Magots,_Paris_25_September_2019.jpg"
+          }
+        ],
+        "width": 1280,
+        "height": 853,
+        "entityId": "Q1147912",
+        "match": "unique name and coordinates",
+        "checkedAt": "2026-11-12T01:37:26.808Z"
+      }
+    },
+    {
+      "place": {
+        "name": "Paris",
+        "city": "Paris",
+        "state": "Île-de-France",
+        "country": "France",
+        "countryCode": "fr",
+        "wikidata": "Q90",
+        "lat": 48.8566,
+        "lon": 2.3522,
+        "category": "landmarks",
+        "cityPhoto": true
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/1280px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques,_Paris_ao%C3%BBt_2014_(2).jpg",
+        "title": "La Tour Eiffel vue de la Tour Saint-Jacques, Paris août 2014 (2).jpg",
+        "creator": "Yann Caradec from Paris, France",
+        "credit": "La Tour Eiffel vue de la Tour Saint-Jacques",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "links": [
+          {
+            "label": "Yann Caradec",
+            "url": "https://www.flickr.com/people/10288162@N07"
+          },
+          {
+            "label": "La Tour Eiffel vue de la Tour Saint-Jacques",
+            "url": "https://www.flickr.com/photos/la_bretagne_a_paris/15014879305/"
+          }
+        ],
+        "width": 1280,
+        "height": 800,
+        "entityId": "Q90",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:37:39.943Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51801f1f3efab00240598763a769616c4840f00102f9018145a40700000000c002019203114c7578656d626f7572672047617264656e",
+        "name": "Luxembourg Garden",
+        "lat": 48.8467228,
+        "lon": 2.3364148,
+        "category": "nature",
+        "categories": [
+          "leisure.park"
+        ],
+        "setting": "outdoor",
+        "address": "Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": null,
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": "Europe/Paris",
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": null,
+        "features": {},
+        "hours": null,
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": null
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Jardin_du_Luxembourg_in_Fall_2019.jpg/1280px-Jardin_du_Luxembourg_in_Fall_2019.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jardin_du_Luxembourg_in_Fall_2019.jpg",
+        "title": "Jardin du Luxembourg in Fall 2019.jpg",
+        "creator": "Jami430",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "links": [
+          {
+            "label": "Jami430",
+            "url": "https://commons.wikimedia.org/wiki/User:Jami430"
+          }
+        ],
+        "width": 1280,
+        "height": 853,
+        "entityId": "Q309458",
+        "match": "unique name and coordinates",
+        "checkedAt": "2026-11-12T01:38:33.901Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51c4865dcaaff5024059f5e681d94e6d4840f00103f901fd559b1f00000000c002019203114d616a65737469632042617374696c6c65",
+        "name": "Majestic Bastille",
+        "lat": 48.8539688,
+        "lon": 2.3699642,
+        "category": "entertainment",
+        "categories": [
+          "entertainment.cinema"
+        ],
+        "setting": "unknown",
+        "address": "4 Boulevard Richard-Lenoir, 75011 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Boulevard Richard-Lenoir",
+        "houseNumber": "4",
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": "Europe/Paris",
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": null,
+        "features": {},
+        "hours": null,
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": null
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Majestic_Bastille.JPG/1280px-Majestic_Bastille.JPG",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Majestic_Bastille.JPG",
+        "title": "Majestic Bastille.JPG",
+        "creator": "LPLT",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "links": [
+          {
+            "label": "LPLT",
+            "url": "https://commons.wikimedia.org/wiki/User:LPLT"
+          }
+        ],
+        "width": 1280,
+        "height": 960,
+        "entityId": "Q3280482",
+        "match": "unique name and coordinates",
+        "checkedAt": "2026-11-12T01:38:59.249Z"
+      }
+    },
+    {
+      "place": {
+        "id": "510ee324839278024059f279c5538f704840f00101f901b5222b0000000000c0020192030c50617263204d6f6e63656175",
+        "name": "Parc Monceau",
+        "lat": 48.879374,
+        "lon": 2.3088732,
+        "category": "nature",
+        "categories": [
+          "leisure.park"
+        ],
+        "setting": "outdoor",
+        "address": "Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": null,
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": "Europe/Paris",
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": null,
+        "features": {},
+        "hours": null,
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": null
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Parc_Monceau_20060812_35.jpg/1280px-Parc_Monceau_20060812_35.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parc_Monceau_20060812_35.jpg",
+        "title": "Parc Monceau 20060812 35.jpg",
+        "creator": "Guillaume Jacquet",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "links": [],
+        "width": 1280,
+        "height": 853,
+        "entityId": "Q1414059",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:40:58.214Z"
+      }
+    },
+    {
+      "place": {
+        "id": "510ee324839278024059f279c5538f704840f00101f901b5222b0000000000c0020192030c50617263204d6f6e63656175",
+        "name": "Parc Monceau",
+        "lat": 48.879374,
+        "lon": 2.3088732,
+        "category": "nature",
+        "categories": [
+          "leisure",
+          "leisure.park",
+          "no_fee",
+          "no_fee.no"
+        ],
+        "setting": "outdoor",
+        "address": "Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": null,
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": "Europe/Paris",
+        "cuisine": null,
+        "operator": "Ville de Paris",
+        "heritage": null,
+        "wikidata": "Q1414059",
+        "features": {
+          "leisure": "park"
+        },
+        "hours": "Oct-Apr 07:00-20:00; May-Aug 07:00-22:00; Sep 07:00-21:00",
+        "image": null,
+        "wikipedia": "fr:Parc Monceau",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": null,
+        "names": [
+          "Parc Monceau"
+        ],
+        "photoNeedsDetails": false
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Parc_Monceau_20060812_35.jpg/1280px-Parc_Monceau_20060812_35.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parc_Monceau_20060812_35.jpg",
+        "title": "Parc Monceau 20060812 35.jpg",
+        "creator": "Guillaume Jacquet",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "links": [],
+        "width": 1280,
+        "height": 853,
+        "entityId": "Q1414059",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:40:58.214Z"
+      }
+    },
+    {
+      "place": {
+        "id": "513de24680890e034059d7c3f24295704840f00102f901ece3520a00000000c0020192031850617263206465732042757474657320436861756d6f6e74",
+        "name": "Parc des Buttes Chaumont",
+        "lat": 48.8795551,
+        "lon": 2.3820982,
+        "category": "nature",
+        "categories": [
+          "leisure.park"
+        ],
+        "setting": "outdoor",
+        "address": "Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": null,
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": "Europe/Paris",
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": null,
+        "features": {},
+        "hours": null,
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": null
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/070922_Parce_des_Buttes_Chaumont_005.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:070922_Parce_des_Buttes_Chaumont_005.jpg",
+        "title": "070922 Parce des Buttes Chaumont 005.jpg",
+        "creator": "Jean-Louis Vandevivère",
+        "credit": "originally posted to Flickr as Banc public",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "links": [
+          {
+            "label": "Jean-Louis Vandevivère",
+            "url": "https://www.flickr.com/photos/49932238@N00"
+          },
+          {
+            "label": "Flickr",
+            "url": "https://commons.wikimedia.org/wiki/Flickr"
+          },
+          {
+            "label": "Banc public",
+            "url": "https://www.flickr.com/photos/49932238@N00/1442516004"
+          }
+        ],
+        "width": 1280,
+        "height": 858,
+        "entityId": "Q532113",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:40:58.216Z"
+      }
+    },
+    {
+      "place": {
+        "id": "513de24680890e034059d7c3f24295704840f00102f901ece3520a00000000c0020192031850617263206465732042757474657320436861756d6f6e74",
+        "name": "Parc des Buttes-Chaumont",
+        "lat": 48.8795551,
+        "lon": 2.3820982,
+        "category": "nature",
+        "categories": [
+          "internet_access",
+          "internet_access.free",
+          "leisure",
+          "leisure.park"
+        ],
+        "setting": "outdoor",
+        "address": "Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": null,
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": "paris.fr",
+        "brand": null,
+        "brandId": null,
+        "timezone": "Europe/Paris",
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q532113",
+        "features": {
+          "internet_access": "wlan",
+          "leisure": "park"
+        },
+        "hours": "Apr,Sep 07:00-21:00; Oct-Mar 07:00-20:00; May-Aug 07:00-22:00",
+        "image": null,
+        "wikipedia": "fr:Parc des Buttes-Chaumont",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": null,
+        "names": [
+          "Parc des Buttes-Chaumont",
+          "Parc des Buttes Chaumont"
+        ],
+        "photoNeedsDetails": false
+      },
+      "photo": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/070922_Parce_des_Buttes_Chaumont_005.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:070922_Parce_des_Buttes_Chaumont_005.jpg",
+        "title": "070922 Parce des Buttes Chaumont 005.jpg",
+        "creator": "Jean-Louis Vandevivère",
+        "credit": "originally posted to Flickr as Banc public",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+        "links": [
+          {
+            "label": "Jean-Louis Vandevivère",
+            "url": "https://www.flickr.com/photos/49932238@N00"
+          },
+          {
+            "label": "Flickr",
+            "url": "https://commons.wikimedia.org/wiki/Flickr"
+          },
+          {
+            "label": "Banc public",
+            "url": "https://www.flickr.com/photos/49932238@N00/1442516004"
+          }
+        ],
+        "width": 1280,
+        "height": 858,
+        "entityId": "Q532113",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:40:58.216Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51025c357458e6024059110d41c4bc6d4840f00101f90143b6240000000000c002019203114361726e6176616c6574204d757365756d",
+        "name": "Carnavalet Museum",
+        "lat": 48.8573232,
+        "lon": 2.3624734,
+        "category": "museums",
+        "categories": [
+          "entertainment.museum"
+        ],
+        "setting": "indoor",
+        "address": "Rue Madame de Sévigné, 75003 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Rue Madame de Sévigné",
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": "Europe/Paris",
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": null,
+        "features": {},
+        "hours": null,
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": null
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Carnavalet_Par%C3%ADs_10.JPG/1280px-Carnavalet_Par%C3%ADs_10.JPG",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carnavalet_Par%C3%ADs_10.JPG",
+        "title": "Carnavalet París 10.JPG",
+        "creator": "Miguel Hermoso Cuesta",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "links": [
+          {
+            "label": "Miguel Hermoso Cuesta",
+            "url": "https://commons.wikimedia.org/wiki/User:MiguelHermoso"
+          }
+        ],
+        "width": 1280,
+        "height": 853,
+        "entityId": "Q640447",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:40:58.217Z"
+      }
+    },
+    {
+      "place": {
+        "id": "51025c357458e6024059110d41c4bc6d4840f00101f90143b6240000000000c002019203114361726e6176616c6574204d757365756d",
+        "name": "Musée Carnavalet",
+        "lat": 48.8573232,
+        "lon": 2.3624734,
+        "category": "museums",
+        "categories": [
+          "access",
+          "access.yes",
+          "entertainment",
+          "entertainment.museum",
+          "internet_access",
+          "internet_access.free",
+          "no_fee",
+          "no_fee.no",
+          "wheelchair",
+          "wheelchair.yes"
+        ],
+        "setting": "indoor",
+        "address": "Rue Madame de Sévigné, 75003 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Rue Madame de Sévigné",
+        "houseNumber": null,
+        "description": null,
+        "businessDomain": "carnavalet.paris.fr",
+        "brand": null,
+        "brandId": null,
+        "timezone": "Europe/Paris",
+        "cuisine": null,
+        "operator": "Ville de Paris",
+        "heritage": null,
+        "wikidata": "Q640447",
+        "features": {
+          "wheelchair": "yes",
+          "internet_access": "wlan",
+          "tourism": "museum"
+        },
+        "hours": "Tu-Su 10:00-18:00 \"Final admission 17:15\"",
+        "image": null,
+        "wikipedia": "fr:Musée Carnavalet",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": null,
+        "names": [
+          "Musée Carnavalet",
+          "Carnavalet Museum",
+          "Musée Carnavalet – histoire de Paris"
+        ],
+        "photoNeedsDetails": false
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Carnavalet_Par%C3%ADs_10.JPG/1280px-Carnavalet_Par%C3%ADs_10.JPG",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carnavalet_Par%C3%ADs_10.JPG",
+        "title": "Carnavalet París 10.JPG",
+        "creator": "Miguel Hermoso Cuesta",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "links": [
+          {
+            "label": "Miguel Hermoso Cuesta",
+            "url": "https://commons.wikimedia.org/wiki/User:MiguelHermoso"
+          }
+        ],
+        "width": 1280,
+        "height": 853,
+        "entityId": "Q640447",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:40:58.217Z"
+      }
+    },
+    {
+      "place": {
+        "id": "5136b11b11e7cc024059c505fb0a2d6d4840f00102f901fd57040c00000000c0020192031743617468656472616c206f66204e6f7472652044616d65",
+        "name": "Cathédrale Notre-Dame de Paris",
+        "lat": 48.8529371,
+        "lon": 2.3500501,
+        "category": "landmarks",
+        "categories": [
+          "building",
+          "building.historic",
+          "building.place_of_worship",
+          "building.tourism",
+          "heritage",
+          "religion",
+          "religion.place_of_worship",
+          "religion.place_of_worship.christianity",
+          "tourism",
+          "tourism.attraction",
+          "tourism.sights",
+          "tourism.sights.place_of_worship"
+        ],
+        "setting": "unknown",
+        "address": "6 Parvis Notre-Dame - Place Jean-Paul II, 75004 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Parvis Notre-Dame - Place Jean-Paul II",
+        "houseNumber": "6",
+        "description": null,
+        "businessDomain": "notredamedeparis.fr",
+        "brand": null,
+        "brandId": null,
+        "timezone": "Europe/Paris",
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": "Q2981",
+        "features": {
+          "wheelchair": "limited",
+          "historic": "church",
+          "tourism": "attraction"
+        },
+        "hours": "Mo,Tu,We,Fr 07:50-19:00; Th 07:50-22:00; Sa,Su 08:15-19:30",
+        "image": null,
+        "wikipedia": "fr:Cathédrale Notre-Dame de Paris",
+        "source": "Geoapify / OpenStreetMap",
+        "distance": null
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Notre-Dame_de_Paris_2013-07-24.jpg/1280px-Notre-Dame_de_Paris_2013-07-24.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Notre-Dame_de_Paris_2013-07-24.jpg",
+        "title": "Notre-Dame de Paris 2013-07-24.jpg",
+        "creator": "P e z i",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "Peter Haas",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "links": [
+          {
+            "label": "P e z i",
+            "url": "https://commons.wikimedia.org/wiki/User:P_e_z_i"
+          }
+        ],
+        "width": 1280,
+        "height": 1728,
+        "entityId": "Q2981",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:42:05.938Z"
+      }
+    },
+    {
+      "place": {
+        "id": "5136b11b11e7cc024059c505fb0a2d6d4840f00102f901fd57040c00000000c0020192031743617468656472616c206f66204e6f7472652044616d65",
+        "name": "Cathedral of Notre Dame",
+        "lat": 48.8529371,
+        "lon": 2.3500501,
+        "category": "hidden",
+        "categories": [],
+        "setting": "unknown",
+        "address": "6 Parvis Notre-Dame - Place Jean-Paul II, 75004 Paris, France",
+        "city": "Paris",
+        "country": "France",
+        "state": "Ile-de-France",
+        "countryCode": "fr",
+        "street": "Parvis Notre-Dame - Place Jean-Paul II",
+        "houseNumber": "6",
+        "description": null,
+        "businessDomain": null,
+        "brand": null,
+        "brandId": null,
+        "timezone": "Europe/Paris",
+        "cuisine": null,
+        "operator": null,
+        "heritage": null,
+        "wikidata": null,
+        "features": {},
+        "hours": null,
+        "image": null,
+        "wikipedia": null,
+        "source": "Geoapify / OpenStreetMap",
+        "distance": null
+      },
+      "photo": {
+        "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Notre-Dame_de_Paris_2013-07-24.jpg/1280px-Notre-Dame_de_Paris_2013-07-24.jpg",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Notre-Dame_de_Paris_2013-07-24.jpg",
+        "title": "Notre-Dame de Paris 2013-07-24.jpg",
+        "creator": "P e z i",
+        "credit": "Own work",
+        "copyright": "",
+        "attribution": "Peter Haas",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "links": [
+          {
+            "label": "P e z i",
+            "url": "https://commons.wikimedia.org/wiki/User:P_e_z_i"
+          }
+        ],
+        "width": 1280,
+        "height": 1728,
+        "entityId": "Q2981",
+        "match": "provider identity and coordinates",
+        "checkedAt": "2026-11-12T01:42:05.938Z"
+      }
+    }
+  ]
+}

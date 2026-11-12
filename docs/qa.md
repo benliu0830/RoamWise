@@ -1,10 +1,13 @@
-# Current discovery QA - November 9, 2026
+# Current homepage and itinerary QA - November 11, 2026
 
-This section supersedes the historical records below. No deployment or commit was performed.
+This section supersedes the historical records below. No live API quota was used for this itinerary pass, and no deployment or commit was performed.
 
-- All 18 automated tests pass. Coverage includes city autocomplete/keyboard/debounce, branch identity and distance sorting, local-time/DST/overnight hours, named provider search, alias/translated result names, source-only AI descriptions, legacy saved-plan migration, HMAC integrity, filters/maps, navigation, favorites, and multi-day plans.
-- JavaScript syntax checks, Leaflet asset build, and git diff whitespace checks pass.
-- Isolated installed Chrome checked actual rendered home, results, branch collection, place details, and itinerary pages at 1440x960, 820x1180, and 390x844. All functional browser assertions pass with zero page JavaScript errors or horizontal overflow. Reduced-motion mode was enabled for stable captures.
+- All 19 automated tests pass. Existing coverage includes provider validation, local-time opening hours, filters/maps, navigation, favorites, and multi-day plans; the DOM flow covers explicit selection, empty-selection protection, direct map/timeline generation, read-only itinerary controls, visit/undo progression, and active-plan persistence. Planner tests confirm exact coverage even when selected places are closed or the schedule exceeds the requested hours.
+- `npm.cmd run check` passes.
+- Isolated Chrome ran `npm.cmd run test:itinerary-browser` with mocked place, geocoding, search, and route responses, no Gemini/Geoapify requests. It checked popular and typed-city search, Tourist/Nearby entry, denied-location manual fallback, popular destination cards, saved-place selection, day and transport controls, exact one- and two-day itinerary coverage, back-to-selection, visited progression, and granted/denied live directions. Desktop, tablet, mobile, and narrow-mobile layouts had no horizontal overflow or page JavaScript errors.
+- Current captures are `.impeccable/review/homepage-desktop.png`, `homepage-mobile.png`, `itinerary-builder.png`, `itinerary-settings.png`, `itinerary-desktop.png`, and `itinerary-mobile.png`.
+- The existing live-provider browser suite was not rerun, so this pass does not claim real Geoapify route-segment integration or current venue-hour verification. The route UI used test geometry. Historical provider integration findings below remain historical.
+- The planner preserves every distinct selected destination exactly once. Opening-hour gaps and overfull days are labeled; no additional stops are suggested.
 - Live Ottawa search found 32 Starbucks branches grouped into one result and 30 restaurants in a food search. Branch counts are provider observations, not complete directory counts. All branch markers, individual branch details, manual origin, transit directions, favorites, itinerary generation, and saved plans passed the browser flow.
 - Isolated browser geolocation with explicit synthetic test coordinates correctly ordered the nearest branch first. Alphabetical address ordering and simulated denied-permission fallback passed. No user's actual location or saved browser data was used.
 - Paris recommendations put Louvre Museum, Eiffel Tower, and Arc de Triomphe in the first results. A real two-day plan respected daily time limits. Live Tor autocomplete included Toronto. Live Atelier Brancusi named search retained the provider's translated Brancusi's Studio result.
@@ -13,7 +16,7 @@ This section supersedes the historical records below. No deployment or commit wa
 - Category badge text meets at least 4.5:1 calculated contrast against its tint; the coral shade received a small contrast adjustment.
 - The mechanical design detector ran once: 214 advisory-only metadata differences, no non-advisory findings. New approved category tokens and patterns were documented. Unrelated pre-existing metadata drift was retained.
 
-Screenshots are in .impeccable/review/. The optional browser test is node scripts/test-browser.mjs. Its tooling is installed outside the app: npm.cmd install --prefix "$env:TEMP/roamwise-browser-qa" --no-package-lock --no-save playwright pngjs. Chrome must be installed. Very tall screenshots use genuine viewport stitching to avoid Chromium's texture limit.
+Screenshots are in `.impeccable/review/`. The provider-backed optional browser test is `node scripts/test-browser.mjs`. The quota-free itinerary browser test is `npm.cmd run test:itinerary-browser`; its Playwright tooling is installed outside the app at `%TEMP%\roamwise-browser-qa`. Chrome must be installed.
 
 Remaining checks: physical phones/tablets, screen readers, actual OS permission prompts, and current venue/holiday confirmation. Unknown or complex hours remain unverified; sparse sources produce shorter descriptions. Discovery is capped at 80 records; explicit name searches retrieve separately. No visitor ratings or popularity scores are fabricated. Paris landmark retrieval uses editorial search seeds; other cities rely on source relevance and completeness.
 

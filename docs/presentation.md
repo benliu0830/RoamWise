@@ -34,13 +34,13 @@ Each place has coordinates and a suggested activity duration. The planner works 
 3. Estimate travel time and add the suggested visit duration.
 4. Check the day's time limit and supported opening hours when a date is set.
 5. Choose a suitable nearby place, remove it from the remaining candidates, and repeat.
-6. Continue with the next day. Leave places unscheduled when they do not fit.
+6. Spread every selected place across the requested days. Flag when a day runs beyond the requested hours.
 
 This nearest-neighbor heuristic gives a practical route without checking every possible ordering. It does not guarantee the mathematically shortest route. The separate Geoapify map route follows actual paths between selected stops. Schedule times remain estimates. Transit uses actual external directions and a labeled planning buffer, never invented schedules.
 
 ## Geolocation
 
-Local Mode requests browser geolocation only after the visitor presses the location button. If permission is denied, the app explains what happened and accepts a manual city search. Geolocation needs HTTPS or localhost.
+Choosing Explore Nearby requests browser geolocation after the visitor makes that explicit choice. The Personal Mode location button can also request it later. If permission is denied, the app explains what happened and accepts a manual city search. Geolocation needs HTTPS or localhost.
 
 ## Data structures
 
